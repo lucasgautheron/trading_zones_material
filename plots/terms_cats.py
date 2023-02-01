@@ -55,7 +55,7 @@ for term in terms:
     probs = cats[cats["term"] == term][labels].iloc[0]
 
     if n == 0:
-        ax.set_ylabel("Share of abstracts containing the term that belong to each category")
+        ax.set_ylabel("Share of abstracts that belong to each category")
     
     ax.bar(human_friendly_labels, probs, color = ['#377eb8', '#ff7f00', '#4daf4a'])
     ax.set_title(f"``{term}''")

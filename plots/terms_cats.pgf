@@ -24,7 +24,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.616775in}{4.947834in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.616775in}{4.715222in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -37,8 +37,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{5.616775in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{5.616775in}{4.947834in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{4.947834in}}%
+\pgfpathlineto{\pgfqpoint{5.616775in}{4.715222in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{4.715222in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
@@ -400,7 +400,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.226528in,y=2.784222in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Share of abstracts containing the term that belong to each category}%
+\pgftext[x=0.226528in,y=2.784222in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Share of abstracts that belong to each category}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetrectcap%

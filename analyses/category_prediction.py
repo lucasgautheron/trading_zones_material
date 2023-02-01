@@ -309,7 +309,7 @@ if __name__ == '__main__':
             label="table:specific_pheno_vocabulary"
         )
 
-    with open(opj(args.location, "specific_vocabulary.tex"), "w+") as fp:
+    with open("tables/specific_vocabulary.tex", "w+") as fp:
         fp.write(latex)
 
     table = []
@@ -348,5 +348,5 @@ if __name__ == '__main__':
             label="table:specific_pheno_vocabulary_th_ph"
         )
 
-    with open(opj(args.location, "specific_vocabulary_th_ph.tex"), "w+") as fp:
+    with open("tables/specific_vocabulary_th_ph.tex", "w+") as fp:
         fp.write(latex)

@@ -6,6 +6,10 @@
 %% Make sure the required packages are loaded in your preamble
 %%   \usepackage{pgf}
 %%
+%% Also ensure that all the required font packages are loaded; for instance,
+%% the lmodern package is sometimes necessary when using math font.
+%%   \usepackage{lmodern}
+%%
 %% Figures using additional raster images can only be included by \input if
 %% they are in the same directory as the main LaTeX file. For loading figures
 %% from other directories you can use the `import` package
@@ -35,6 +39,7 @@
 \pgfpathlineto{\pgfqpoint{6.400000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{6.400000in}{4.800000in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{4.800000in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -52,6 +57,7 @@
 \pgfpathlineto{\pgfqpoint{4.768000in}{0.528000in}}%
 \pgfpathlineto{\pgfqpoint{4.768000in}{4.224000in}}%
 \pgfpathlineto{\pgfqpoint{0.800000in}{4.224000in}}%
+\pgfpathlineto{\pgfqpoint{0.800000in}{0.528000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -240,7 +246,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=1.461333in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Expérience}%
+\pgftext[x=1.461333in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Experiment}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -265,7 +271,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=2.784000in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phénoménologie}%
+\pgftext[x=2.784000in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phenomenology}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -290,13 +296,13 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.106667in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Théorie}%
+\pgftext[x=4.106667in,y=0.430778in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Theory}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=2.784000in,y=0.249667in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Catégorie de l'article cité}%
+\pgftext[x=2.784000in,y=0.250223in,,top]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Cited article's category}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -321,7 +327,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.675833in, y=3.275014in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Expérience}%
+\pgftext[x=0.675833in, y=3.253764in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Experiment}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -346,7 +352,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.674167in, y=1.885028in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phénoménologie}%
+\pgftext[x=0.674167in, y=1.898500in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phenomenology}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -371,13 +377,13 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.675833in, y=0.912333in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Théorie}%
+\pgftext[x=0.674306in, y=0.925806in, left, base,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Theory}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.521667in,y=2.376000in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Catégorie de l'article citant}%
+\pgftext[x=0.522222in,y=2.376000in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Citing article's category}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
@@ -447,6 +453,7 @@
 \pgfpathlineto{\pgfqpoint{5.200800in}{0.528000in}}%
 \pgfpathlineto{\pgfqpoint{5.200800in}{4.224000in}}%
 \pgfpathlineto{\pgfqpoint{5.016000in}{4.224000in}}%
+\pgfpathlineto{\pgfqpoint{5.016000in}{0.528000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -461,21 +468,11 @@
 \definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{5.016000in}{0.528000in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{0.542438in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{4.209562in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{4.224000in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{4.224000in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{4.209562in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{0.542438in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{0.528000in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{0.528000in}}%
-\pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsys@transformshift{5.020000in}{0.530000in}%
-\pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.180000in,height=3.690000in]{figures/analyses/cited_matrix-img0.png}}%
+\pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.180000in,height=3.690000in]{cited_matrix-img0.png}}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -635,13 +632,12 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.016000in}{0.528000in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{0.542438in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{4.209562in}}%
-\pgfpathlineto{\pgfqpoint{5.016000in}{4.224000in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{4.224000in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{4.209562in}}%
-\pgfpathlineto{\pgfqpoint{5.200800in}{0.542438in}}%
+\pgfpathlineto{\pgfqpoint{5.108400in}{0.528000in}}%
 \pgfpathlineto{\pgfqpoint{5.200800in}{0.528000in}}%
+\pgfpathlineto{\pgfqpoint{5.200800in}{4.224000in}}%
+\pgfpathlineto{\pgfqpoint{5.108400in}{4.224000in}}%
+\pgfpathlineto{\pgfqpoint{5.016000in}{4.224000in}}%
+\pgfpathlineto{\pgfqpoint{5.016000in}{0.528000in}}%
 \pgfpathclose%
 \pgfusepath{}%
 \end{pgfscope}%

@@ -20,8 +20,8 @@ plt.rcParams["text.latex.preamble"].join([
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--cited", choices=["0","1","2"], help="Cited category (0: theory, 1: phenomenology, 2: experiment)")
-parser.add_argument("--cites", choices=["0","1","2"], help="Citing category (0: theory, 1: phenomenology, 2: experiment)")
+parser.add_argument("--cited", choices=["0","1","2"], help="Cited category (0: theory, 1: phenomenology, 2: experiment)", required=True)
+parser.add_argument("--cites", choices=["0","1","2"], help="Citing category (0: theory, 1: phenomenology, 2: experiment)", required=True)
 args = parser.parse_args()
 
 boundary = f"{args.cited}_{args.cites}"

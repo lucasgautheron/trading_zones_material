@@ -1,0 +1,9 @@
+networkx
+numpy
+pandas
+nltk
+tomotopy
+pyLDAvis
+seaborn
+matplotlib
+.

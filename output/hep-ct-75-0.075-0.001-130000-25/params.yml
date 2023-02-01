@@ -1,0 +1,28 @@
+!!python/object:argparse.Namespace
+add_title: true
+adjectives: true
+alpha: 0.05
+compute_best_params: false
+constant_sampling: 0
+eta: 0.002
+filter: categories
+lemmatize: true
+limit_redundancy: false
+location: output/hep-ct-75-0.075-0.001-130000-25
+min_df: 30
+min_token_length: 0
+nouns: true
+reload_model: false
+remove_latex: false
+reuse_articles: false
+reuse_best_params: false
+reuse_stored_vocabulary: false
+samples: 130000
+threads: 16
+top_unithood: 40000
+topics: 75
+values:
+- Experiment-HEP
+- Theory-HEP
+- Phenomenology-HEP
+- Lattice

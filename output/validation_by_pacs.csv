@@ -1,0 +1,1016 @@
+pacs,topic,value,description
+03.65.Fd,Lie algebra,1.3933158784234905,Algebraic methods
+03.65.Fd,Conformal Field Theory,1.3351438707339582,Algebraic methods
+03.65.Fd,Superalgebras and superfields,1.227124271882931,Algebraic methods
+03.65.Fd,Quantum Field Theory,1.0550821167541784,Algebraic methods
+03.65.Fd,Quantum Systems and Equations of motion,0.8767001121070345,Algebraic methods
+11.55.Bq,Amplitudes and Feynman Diagram,1.6610247217783891,Analytic properties of S matrix
+11.55.Bq,Supersymmetric gauge theories,0.7525734481834567,Analytic properties of S matrix
+11.55.Bq,Meson phenomenology,0.7038050114880617,Analytic properties of S matrix
+11.55.Bq,Gauge Theory,0.7013248216215823,Analytic properties of S matrix
+11.55.Bq,Amplitude of processes in colliders,0.6716201541691098,Analytic properties of S matrix
+12.15.Ji,Lepton/Meson decay,0.9529543789089804,Applications of electroweak models to specific processes
+12.15.Ji,Experimental investigation of the leptonic sector,0.9207928581582164,Applications of electroweak models to specific processes
+12.15.Ji,Events in colliders (kinematics),0.8937429036758754,Applications of electroweak models to specific processes
+12.15.Ji,Higgs beyond the SM,0.8584426544152477,Applications of electroweak models to specific processes
+12.15.Ji,Events in colliders (signatures),0.8390237401988737,Applications of electroweak models to specific processes
+14.80.Va,Cosmology and gravity,1.2968911452820184,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Va,Early-universe and other cosmological data,1.2828087630150833,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Mz,Early-universe and other cosmological data,1.099544039214606,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Mz,Experiments on light,1.0878080898497822,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Va,Dark matter in the universe,0.9882733756494982,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Va,Cosmological sources,0.9169109460764256,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Mz,Cosmology and gravity,0.9155475067541656,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Va,Dark matter (particles and direct searches),0.8914034111360661,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Mz,Dark matter in the universe,0.5855934259469627,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+14.80.Mz,Search for BSM physics,0.5830600906230461,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
+98.70.Vc,Cosmological sources,1.856810063432648,Background radiations
+98.70.Vc,Inflation,1.6968998684066967,Background radiations
+98.70.Vc,Early-universe and other cosmological data,1.5667451896780566,Background radiations
+98.70.Vc,Dark matter in the universe,1.0976604673949393,Background radiations
+98.70.Vc,Dark matter (particles and direct searches),0.9682683149931904,Background radiations
+13.60.Rj,Decay measurements,1.183562167409949,Baryon production
+13.60.Rj,Spin/angular momentum/polarization,1.1386962589807663,Baryon production
+13.60.Rj,Hadronic zoo,1.1373025096161775,Baryon production
+13.60.Rj,Annihilation and scattering cross-sections,0.9876299465447044,Baryon production
+13.60.Rj,Form factors,0.98035075875802,Baryon production
+14.20.Gk,Meson phenomenology,1.2196145483201393,Baryon resonances (S=C=B=0)
+14.20.Gk,Amplitude of processes in colliders,1.1259202263870016,Baryon resonances (S=C=B=0)
+14.20.Gk,Form factors,1.0657408117111282,Baryon resonances (S=C=B=0)
+14.20.Gk,Annihilation and scattering cross-sections,0.9433058128598248,Baryon resonances (S=C=B=0)
+14.20.Gk,Hadronic zoo,0.8813367175853973,Baryon resonances (S=C=B=0)
+14.20.-c,Double-beta decay,1.2026478244041812,Baryons
+14.20.-c,Meson phenomenology,0.9791558098017726,Baryons
+14.20.-c,Symétrie chirale,0.8151283303094815,Baryons
+14.20.-c,Form factors,0.7195581346870493,Baryons
+14.20.-c,Heavy quarks and ions,0.7142083970237293,Baryons
+97.60.Lf,Black holes,2.63604060073028,Black holes
+97.60.Lf,Space-time geometry and gravity,1.087623469298172,Black holes
+97.60.Lf,Cosmological sources,0.7383559261329596,Black holes
+97.60.Lf,Field theory and gravity,0.5667646432596791,Black holes
+97.60.Lf,Gravitons and extra-dimensions,0.5448381573937222,Black holes
+14.20.Mr,QCD,1.31745353266703,Bottom baryons (|B|>0)
+14.20.Mr,Decay measurements,1.254723817132374,Bottom baryons (|B|>0)
+14.20.Mr,Lepton/Meson decay,1.1610812307862135,Bottom baryons (|B|>0)
+14.20.Mr,Heavy quarks and ions,1.0440028110313293,Bottom baryons (|B|>0)
+14.20.Mr,Double-beta decay,0.9932259019885814,Bottom baryons (|B|>0)
+14.40.Nd,Decay measurements,1.819032387858473,Bottom mesons (|B|>0)
+14.40.Nd,Lepton/Meson decay,1.8059153941460768,Bottom mesons (|B|>0)
+14.40.Nd,CP violating processes,1.342312562283055,Bottom mesons (|B|>0)
+14.40.Nd,Hadronic zoo,1.2523675518697637,Bottom mesons (|B|>0)
+14.40.Nd,Experimental investigation of the leptonic sector,1.0811012101905966,Bottom mesons (|B|>0)
+14.65.Fy,Lepton/Meson decay,0.9728720090463876,Bottom quarks
+14.65.Fy,Events in colliders (kinematics),0.9106399129411306,Bottom quarks
+14.65.Fy,Hadronic zoo,0.8724217970716918,Bottom quarks
+14.65.Fy,Events in colliders (signatures),0.8450679308861532,Bottom quarks
+14.65.Fy,Decay measurements,0.7949219322808351,Bottom quarks
+11.10.St,Meson phenomenology,1.1673791016158417,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,Symétrie chirale,0.5864792531722512,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,Form factors,0.5586385772321565,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,Amplitude of processes in colliders,0.5409018174871003,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,QCD calculation techniques,0.5255121664605458,Bound and unstable states; Bethe-Salpeter equations
+04.20.Fy,Quantum Systems and Equations of motion,1.230066311385018,"Canonical formalism, Lagrangians, and variational principles"
+04.20.Fy,Gauge Theory,1.098178429450226,"Canonical formalism, Lagrangians, and variational principles"
+04.20.Fy,Space-time geometry and gravity,1.0887315400283508,"Canonical formalism, Lagrangians, and variational principles"
+04.20.Fy,Chern–Simons,0.9739457443456796,"Canonical formalism, Lagrangians, and variational principles"
+04.20.Fy,Quantum Field Theory,0.8453729669800403,"Canonical formalism, Lagrangians, and variational principles"
+04.60.Ds,Gauge Theory,1.0034596502238715,Canonical quantization
+04.60.Ds,Quantum Systems and Equations of motion,0.9988251903027352,Canonical quantization
+04.60.Ds,Quantum Field Theory,0.9719055117460996,Canonical quantization
+04.60.Ds,Field theory and gravity,0.9413890614740096,Canonical quantization
+04.60.Ds,Conformal Field Theory,0.9158772264256684,Canonical quantization
+11.30.Er,CP violating processes,1.3021031977879325,"Charge conjugation, parity, time reversal, and other discrete symmetries"
+11.30.Er,Flavor mixing,1.276527468988952,"Charge conjugation, parity, time reversal, and other discrete symmetries"
+11.30.Er,Decay measurements,1.2546421917019164,"Charge conjugation, parity, time reversal, and other discrete symmetries"
+11.30.Er,Lepton/Meson decay,1.20711911237963,"Charge conjugation, parity, time reversal, and other discrete symmetries"
+11.30.Er,Experimental investigation of the leptonic sector,0.705016264786552,"Charge conjugation, parity, time reversal, and other discrete symmetries"
+14.20.Lq,Decay measurements,1.308260704270671,"Charmed baryons (|C|>0, B=0)"
+14.20.Lq,QCD,1.2552286221403297,"Charmed baryons (|C|>0, B=0)"
+14.20.Lq,Hadronic zoo,1.243619904946728,"Charmed baryons (|C|>0, B=0)"
+14.20.Lq,Lepton/Meson decay,1.158390224583175,"Charmed baryons (|C|>0, B=0)"
+14.20.Lq,Heavy quarks and ions,1.1083665784331869,"Charmed baryons (|C|>0, B=0)"
+14.40.Lb,Decay measurements,1.5869831535102796,"Charmed mesons (|C|>0, B=0)"
+14.40.Lb,Hadronic zoo,1.5047408825910231,"Charmed mesons (|C|>0, B=0)"
+14.40.Lb,Lepton/Meson decay,1.4241755446544764,"Charmed mesons (|C|>0, B=0)"
+14.40.Lb,Meson phenomenology,1.1196759942698695,"Charmed mesons (|C|>0, B=0)"
+14.40.Lb,Heavy quarks and ions,0.7058276431987778,"Charmed mesons (|C|>0, B=0)"
+12.39.Fe,Symétrie chirale,1.5529918458843923,Chiral Lagrangians
+12.39.Fe,Meson phenomenology,0.939793840090171,Chiral Lagrangians
+12.39.Fe,Form factors,0.5768452456944594,Chiral Lagrangians
+12.39.Fe,Amplitude of processes in colliders,0.4726252910699208,Chiral Lagrangians
+12.39.Fe,Yang-Mills models of matter,0.422567086428154,Chiral Lagrangians
+11.30.Rd,Symétrie chirale,1.5404550514590976,Chiral symmetries
+11.30.Rd,Thermodynamics,1.0039101204542538,Chiral symmetries
+11.30.Rd,Yang-Mills models of matter,0.8315271367164317,Chiral symmetries
+11.30.Rd,States of matter,0.6562761317409582,Chiral symmetries
+11.30.Rd,Lattice calculation techniques,0.5946960162268559,Chiral symmetries
+11.15.Kc,String theory,0.9279042961919732,Classical and semiclassical techniques
+11.15.Kc,Chern–Simons,0.8230560810482712,Classical and semiclassical techniques
+11.15.Kc,Quantum Field Theory,0.7783933664723788,Classical and semiclassical techniques
+11.15.Kc,Gauge Theory,0.6598252737966005,Classical and semiclassical techniques
+11.15.Kc,Effective Field Theory,0.6305319295144883,Classical and semiclassical techniques
+04.70.Bw,Black holes,2.54770354342997,Classical black holes
+04.70.Bw,Space-time geometry and gravity,1.5107208625319943,Classical black holes
+04.70.Bw,Field theory and gravity,1.0159690866489026,Classical black holes
+04.70.Bw,Gravitons and extra-dimensions,0.7965567396563304,Classical black holes
+04.70.Bw,Holographic Principle and dualities,0.6237157272396064,Classical black holes
+04.20.-q,Space-time geometry and gravity,1.5748029980113294,Classical general relativity
+04.20.-q,Black holes,1.5036718553100992,Classical general relativity
+04.20.-q,Field theory and gravity,1.1008862548545093,Classical general relativity
+04.20.-q,Gravitons and extra-dimensions,0.90347215556866,Classical general relativity
+04.20.-q,Inflation,0.7069068706106015,Classical general relativity
+25.75.Ld,Astrophysics,1.9093825168966707,Collective flow
+25.75.Ld,Heavy quarks and ions,1.3805197457000664,Collective flow
+25.75.Ld,Electromagnetism,1.310039635151118,Collective flow
+25.75.Ld,Cross-sections in colliders,1.1462343411454432,Collective flow
+25.75.Ld,Events in colliders (kinematics),1.0076198949796054,Collective flow
+11.25.Mj,Supergravity,1.5060950419778754,Compactification and four-dimensional models
+11.25.Mj,Topology,1.4035172883888152,Compactification and four-dimensional models
+11.25.Mj,String theory,1.2343003175658522,Compactification and four-dimensional models
+11.25.Mj,M-theory and theories of everything,1.2167882616381356,Compactification and four-dimensional models
+11.25.Mj,Supersymmetric gauge theories,0.9116291681435164,Compactification and four-dimensional models
+12.60.Rc,Higgs beyond the SM,1.0224487204970316,Composite models
+12.60.Rc,Events in colliders (signatures),0.9648489356225272,Composite models
+12.60.Rc,Events in colliders (kinematics),0.9645406489112256,Composite models
+12.60.Rc,Yang-Mills models of matter,0.9416865695842408,Composite models
+12.60.Rc,Higgs boson,0.8944754007269999,Composite models
+11.25.Hf,Conformal Field Theory,1.7185425416934934,"Conformal field theory, algebraic structures"
+11.25.Hf,Holographic Principle and dualities,1.4276200390307323,"Conformal field theory, algebraic structures"
+11.25.Hf,Superalgebras and superfields,0.992678013879963,"Conformal field theory, algebraic structures"
+11.25.Hf,Lie algebra,0.9365194574645392,"Conformal field theory, algebraic structures"
+11.25.Hf,Supergravity,0.8519600591240114,"Conformal field theory, algebraic structures"
+98.80.-k,Inflation,1.5954111677141494,Cosmology
+98.80.-k,Dark matter in the universe,1.2725923665438932,Cosmology
+98.80.-k,Cosmological sources,1.208755090841819,Cosmology
+98.80.-k,Cosmology and gravity,1.0946333389327854,Cosmology
+98.80.-k,Gravitons and extra-dimensions,0.9161103714217472,Cosmology
+11.25.Uv,String theory,1.8582261122620325,D branes
+11.25.Uv,Supergravity,1.2773266014576126,D branes
+11.25.Uv,M-theory and theories of everything,1.134240413968882,D branes
+11.25.Uv,Supersymmetric gauge theories,0.996360522358619,D branes
+11.25.Uv,Holographic Principle and dualities,0.9294487266359462,D branes
+95.36.+x,Dark matter in the universe,1.6934461500782534,Dark energy
+95.36.+x,Inflation,1.5319349862467315,Dark energy
+95.36.+x,Cosmological sources,1.2876897812191213,Dark energy
+95.36.+x,Cosmology and gravity,1.2779551590518126,Dark energy
+95.36.+x,Gravitons and extra-dimensions,0.9313646779854708,Dark energy
+95.35.+d,Dark matter (particles and direct searches),2.363251726202808,Dark matter
+95.35.+d,Dark matter in the universe,1.8587046573252757,Dark matter
+95.35.+d,Early-universe and other cosmological data,1.381734781729401,Dark matter
+95.35.+d,Cosmological sources,0.6719115703115428,Dark matter
+95.35.+d,Susy phenomenology and superpartners,0.6638173430672157,Dark matter
+13.25.Gv,Hadronic zoo,1.919029057345869,"Decays of J/ψ, Υ, and other quarkonia"
+13.25.Gv,Decay measurements,1.819932415224754,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Gd,Hadronic zoo,1.6545397367449808,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Gd,Decay measurements,1.6300948181340305,"Decays of J/ψ, Υ, and other quarkonia"
+13.25.Gv,Lepton/Meson decay,1.2638530338360985,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Gd,Experimental investigation of the leptonic sector,1.2576910839475746,"Decays of J/ψ, Υ, and other quarkonia"
+13.25.Gv,Experimental investigation of the leptonic sector,1.1877634860765045,"Decays of J/ψ, Υ, and other quarkonia"
+13.25.Gv,Meson phenomenology,1.1496048004819457,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Gd,Lepton/Meson decay,1.1305418883788385,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Gd,Meson phenomenology,1.0929759058772457,"Decays of J/ψ, Υ, and other quarkonia"
+13.20.Eb,Lepton/Meson decay,1.473151895046222,Decays of K mesons
+13.20.Eb,Decay measurements,1.0970379847364942,Decays of K mesons
+13.20.Eb,Search for BSM physics,1.0901696103534992,Decays of K mesons
+13.20.Eb,CP violating processes,1.0684964021609993,Decays of K mesons
+13.20.Eb,Experimental investigation of the leptonic sector,0.9606234976382212,Decays of K mesons
+13.25.Hw,Decay measurements,1.912576933470972,Decays of bottom mesons
+13.25.Hw,Lepton/Meson decay,1.887387107329633,Decays of bottom mesons
+13.20.He,Lepton/Meson decay,1.775859032894458,Decays of bottom mesons
+13.25.Hw,CP violating processes,1.5332749790697475,Decays of bottom mesons
+13.20.He,Decay measurements,1.4698776139077263,Decays of bottom mesons
+13.25.Hw,Hadronic zoo,1.2171386367191408,Decays of bottom mesons
+13.20.He,CP violating processes,1.1873961112246283,Decays of bottom mesons
+13.25.Hw,Experimental investigation of the leptonic sector,1.103030198493413,Decays of bottom mesons
+13.20.He,Experimental investigation of the leptonic sector,0.9815416865173892,Decays of bottom mesons
+13.20.He,Search for BSM physics,0.9567984673115048,Decays of bottom mesons
+13.20.Fc,Lepton/Meson decay,1.944844242720392,Decays of charmed mesons
+13.25.Ft,Decay measurements,1.9318084141616696,Decays of charmed mesons
+13.25.Ft,Lepton/Meson decay,1.861418772837312,Decays of charmed mesons
+13.20.Fc,Decay measurements,1.596005734632118,Decays of charmed mesons
+13.25.Ft,Hadronic zoo,1.3942329300215464,Decays of charmed mesons
+13.25.Ft,Meson phenomenology,1.1518882388304426,Decays of charmed mesons
+13.20.Fc,Experimental investigation of the leptonic sector,1.0128616345906751,Decays of charmed mesons
+13.20.Fc,Hadronic zoo,1.0111593803999313,Decays of charmed mesons
+13.25.Ft,CP violating processes,1.0025766721981102,Decays of charmed mesons
+13.20.Fc,Form factors,0.8974288003004468,Decays of charmed mesons
+13.25.Jx,Decay measurements,1.6038311977854054,Decays of other mesons
+13.25.Jx,Meson phenomenology,1.3224814596670822,Decays of other mesons
+13.25.Jx,Hadronic zoo,1.1537165989971545,Decays of other mesons
+13.25.Jx,Lepton/Meson decay,1.0732451376909602,Decays of other mesons
+13.25.Jx,QCD,0.9548431490956276,Decays of other mesons
+13.35.Dx,Lepton/Meson decay,1.48005576233742,Decays of taus
+13.35.Dx,Decay measurements,1.1274580893677293,Decays of taus
+13.35.Dx,Experimental investigation of the leptonic sector,1.1138569587435632,Decays of taus
+13.35.Dx,Search for BSM physics,1.0881603776588953,Decays of taus
+13.35.Dx,Top quark,0.959096192214534,Decays of taus
+12.15.Hh,Lepton/Meson decay,1.9712166720926971,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
+12.15.Hh,Decay measurements,1.8266389868204151,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
+12.15.Hh,CP violating processes,1.4819631214449855,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
+12.15.Hh,Experimental investigation of the leptonic sector,1.125219878804192,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
+12.15.Hh,Flavor mixing,1.095352197759044,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
+11.55.Fv,Form factors,1.1710892684252827,Dispersion relations
+11.55.Fv,Amplitudes and Feynman Diagram,1.0362844322835558,Dispersion relations
+11.55.Fv,Amplitude of processes in colliders,0.9161402771764012,Dispersion relations
+11.55.Fv,Meson phenomenology,0.817625997288751,Dispersion relations
+11.55.Fv,Scattering of composite particles,0.6937527105283028,Dispersion relations
+04.40.Nr,Black holes,2.076114538104277,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
+04.40.Nr,Space-time geometry and gravity,1.530121540658265,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
+04.40.Nr,Field theory and gravity,1.0122995240002064,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
+04.40.Nr,Gravitons and extra-dimensions,0.8314075715134938,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
+04.40.Nr,String theory,0.6914489817280682,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
+13.60.Fz,Scattering of composite particles,1.4912044408380154,Elastic and Compton scattering
+13.60.Fz,Experiments on light,1.261930167690766,Elastic and Compton scattering
+13.60.Fz,Spin/angular momentum/polarization,1.154857068869006,Elastic and Compton scattering
+13.60.Fz,Annihilation and scattering cross-sections,1.0724365795718291,Elastic and Compton scattering
+13.60.Fz,Form factors,0.8936215553010832,Elastic and Compton scattering
+13.40.Em,Electromagnetism,1.1550490281533303,Electric and magnetic moments
+13.40.Em,Experimental investigation of the leptonic sector,0.99540512355404,Electric and magnetic moments
+13.40.Em,Scattering of composite particles,0.958740791991316,Electric and magnetic moments
+13.40.Em,Form factors,0.6715543104938541,Electric and magnetic moments
+13.40.Em,QCD,0.5960630250391195,Electric and magnetic moments
+13.40.Ks,Loops and next order expansions in Feynman Diagrams,1.3190006854290006,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Ks,Annihilation and scattering cross-sections,0.9006508562543406,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Ks,Amplitude of processes in colliders,0.7876175151509526,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Ks,Lepton/Meson decay,0.6725505763263755,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Ks,Experimental investigation of the leptonic sector,0.6262607901799986,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Hq,Hadronic zoo,1.3625250517558898,Electromagnetic decays
+13.40.Hq,Decay measurements,1.3188945916353645,Electromagnetic decays
+13.40.Hq,Experimental investigation of the leptonic sector,1.3018927874880937,Electromagnetic decays
+13.40.Hq,Lepton/Meson decay,1.1737385414301194,Electromagnetic decays
+13.40.Hq,Meson phenomenology,1.099386019682129,Electromagnetic decays
+13.40.Gp,Form factors,1.9677981843999564,Electromagnetic form factors
+13.40.Gp,Scattering of composite particles,1.036705981269573,Electromagnetic form factors
+13.40.Gp,Spin/angular momentum/polarization,0.84260542264919,Electromagnetic form factors
+13.40.Gp,Annihilation and scattering cross-sections,0.7589397985684223,Electromagnetic form factors
+13.40.Gp,Amplitude of processes in colliders,0.6197803097555615,Electromagnetic form factors
+13.40.-f,Spin/angular momentum/polarization,1.102336581548203,Electromagnetic processes and properties
+13.40.-f,Experiments on light,1.089496053487541,Electromagnetic processes and properties
+13.40.-f,Annihilation and scattering cross-sections,1.0337723541629324,Electromagnetic processes and properties
+13.40.-f,Form factors,0.8694139311045966,Electromagnetic processes and properties
+13.40.-f,Electromagnetism,0.8467925609151978,Electromagnetic processes and properties
+12.15.-y,Higgs boson,0.973769695964254,Electroweak interactions
+12.15.-y,Higgs beyond the SM,0.8857469118088597,Electroweak interactions
+12.15.-y,Search for BSM physics,0.7744149735955422,Electroweak interactions
+12.15.-y,Top quark,0.6590662959001401,Electroweak interactions
+12.15.-y,Events in colliders (kinematics),0.5359320202383735,Electroweak interactions
+12.15.Lk,Loops and next order expansions in Feynman Diagrams,1.2301941416395048,Electroweak radiative corrections
+12.15.Lk,Higgs beyond the SM,1.1764092169887443,Electroweak radiative corrections
+12.15.Lk,Higgs boson,0.9623326112950924,Electroweak radiative corrections
+12.15.Lk,Susy phenomenology and superpartners,0.7653032190812595,Electroweak radiative corrections
+12.15.Lk,Top quark,0.7167463310137854,Electroweak radiative corrections
+95.30.Cq,Dark matter (particles and direct searches),1.9442283393190145,Elementary particle processes
+95.30.Cq,Dark matter in the universe,1.4401580971916057,Elementary particle processes
+95.30.Cq,Early-universe and other cosmological data,1.1059333515786918,Elementary particle processes
+95.30.Cq,Neutrino physics,1.0299421082797102,Elementary particle processes
+95.30.Cq,Susy phenomenology and superpartners,0.7641533530336798,Elementary particle processes
+03.65.Ud,Holographic Principle and dualities,1.8862765638404455,Entanglement and quantum nonlocality
+03.65.Ud,Black holes,1.1897825745561474,Entanglement and quantum nonlocality
+03.65.Ud,Boundary conditions/non-locality,1.182725187193563,Entanglement and quantum nonlocality
+03.65.Ud,Systems dynamics and thermodynamics,0.8986633572668538,Entanglement and quantum nonlocality
+03.65.Ud,Quantum Field Theory,0.883044608770489,Entanglement and quantum nonlocality
+04.20.Jb,Black holes,1.9341622778104297,Exact solutions
+04.20.Jb,Space-time geometry and gravity,1.7525179414830987,Exact solutions
+04.20.Jb,String theory,0.933808246117872,Exact solutions
+04.20.Jb,Field theory and gravity,0.9321797204779052,Exact solutions
+04.20.Jb,Gravitons and extra-dimensions,0.9281981565208908,Exact solutions
+14.40.Rt,Hadronic zoo,1.7065114908249517,Exotic mesons
+14.40.Rt,Decay measurements,1.6141859427591574,Exotic mesons
+14.40.Rt,Meson phenomenology,1.2401053620526414,Exotic mesons
+14.40.Rt,Amplitude of processes in colliders,0.8332804839149119,Exotic mesons
+14.40.Rt,Heavy quarks and ions,0.7239478943013072,Exotic mesons
+11.15.Pg,Supersymmetric gauge theories,0.8167920357454668,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+11.15.Pg,Amplitudes and Feynman Diagram,0.7104778537800036,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+11.15.Pg,Symétrie chirale,0.6985613249976581,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+11.15.Pg,QCD calculation techniques,0.6715694288915341,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+11.15.Pg,Lattice calculation techniques,0.6496816035370329,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+12.38.Qk,Events in colliders (kinematics),1.3142711650153427,Experimental tests
+12.38.Qk,Events in colliders (signatures),1.1359787994297632,Experimental tests
+12.38.Qk,Cross-sections in colliders,1.112662482566385,Experimental tests
+12.38.Qk,Decay measurements,1.0999683885747056,Experimental tests
+12.38.Qk,Partons distributions,0.9363965856165032,Experimental tests
+04.80.Cc,Cosmology and gravity,1.0085207206840745,Experimental tests of gravitational theories
+04.80.Cc,Space-time geometry and gravity,0.9016411393733732,Experimental tests of gravitational theories
+04.80.Cc,Cosmological sources,0.8608848284404876,Experimental tests of gravitational theories
+04.80.Cc,Field theory and gravity,0.8583390538803072,Experimental tests of gravitational theories
+04.80.Cc,Gravitons and extra-dimensions,0.8363786777607017,Experimental tests of gravitational theories
+11.27.+d,String theory,1.5195592000143971,"Extended classical solutions; cosmic strings, domain walls, texture"
+11.27.+d,Supergravity,0.816465932230624,"Extended classical solutions; cosmic strings, domain walls, texture"
+11.27.+d,Space-time geometry and gravity,0.7668251548609885,"Extended classical solutions; cosmic strings, domain walls, texture"
+11.27.+d,M-theory and theories of everything,0.755777288671802,"Extended classical solutions; cosmic strings, domain walls, texture"
+11.27.+d,Topology,0.7208772177051398,"Extended classical solutions; cosmic strings, domain walls, texture"
+12.60.Fr,Higgs boson,1.728095495981986,Extensions of electroweak Higgs sector
+12.60.Fr,Higgs beyond the SM,1.5486813587999182,Extensions of electroweak Higgs sector
+12.60.Fr,Top quark,0.8345884792730608,Extensions of electroweak Higgs sector
+12.60.Fr,Flavor mixing,0.7711429429871808,Extensions of electroweak Higgs sector
+12.60.Fr,Flavour physics,0.6509502229986986,Extensions of electroweak Higgs sector
+12.60.Cn,Higgs boson,1.2275348063917588,Extensions of electroweak gauge sector
+12.60.Cn,Higgs beyond the SM,1.207244957588662,Extensions of electroweak gauge sector
+12.60.Cn,Top quark,0.921427653498879,Extensions of electroweak gauge sector
+12.60.Cn,Gauge symmetry breaking/GUTs,0.8103274942939742,Extensions of electroweak gauge sector
+12.60.Cn,Flavour physics,0.7696559391926332,Extensions of electroweak gauge sector
+12.39.St,Partons distributions,1.4917748393349786,Factorization
+12.39.St,Perturbative QCD,1.1709816943239286,Factorization
+12.39.St,Cross-sections in colliders,1.0271225166577291,Factorization
+12.39.St,Scattering of composite particles,0.8845060644032446,Factorization
+12.39.St,Heavy quarks and ions,0.8362287834822074,Factorization
+11.10.Kk,Gravitons and extra-dimensions,0.897344347924732,Field theories in dimensions other than four
+11.10.Kk,Topology,0.7083601870061508,Field theories in dimensions other than four
+11.10.Kk,M-theory and theories of everything,0.685474992933996,Field theories in dimensions other than four
+11.10.Kk,Holographic Principle and dualities,0.6272492486112192,Field theories in dimensions other than four
+11.10.Kk,Chern–Simons,0.602936592770507,Field theories in dimensions other than four
+11.10.-z,Quantum Field Theory,0.8838488148375684,Field theory
+11.10.-z,Lie algebra,0.7485773069440592,Field theory
+11.10.-z,Gauge Theory,0.708976994349188,Field theory
+11.10.-z,Effective Field Theory,0.6855765123537484,Field theory
+11.10.-z,Amplitudes and Feynman Diagram,0.6377523769066937,Field theory
+11.10.Wx,Thermodynamics,1.5690355283007866,Finite-temperature field theory
+11.10.Wx,States of matter,1.082991698562677,Finite-temperature field theory
+11.10.Wx,Symétrie chirale,0.898357658847597,Finite-temperature field theory
+11.10.Wx,QCD calculation techniques,0.8601762412857648,Finite-temperature field theory
+11.10.Wx,Systems dynamics and thermodynamics,0.7221909296349746,Finite-temperature field theory
+11.30.Hv,Flavor mixing,1.2971041100334864,Flavor symmetries
+11.30.Hv,Solar neutrinos,1.219977921286333,Flavor symmetries
+11.30.Hv,CP violating processes,1.042812565277523,Flavor symmetries
+11.30.Hv,Flavour physics,1.029343380057994,Flavor symmetries
+11.30.Hv,Neutrino physics,0.939911239853531,Flavor symmetries
+03.65.Ta,Quantum Field Theory,1.3177477549494283,Foundations of quantum mechanics; measurement theory
+03.65.Ta,Systems dynamics and thermodynamics,0.9259621814903718,Foundations of quantum mechanics; measurement theory
+03.65.Ta,Boundary conditions/non-locality,0.8020845720627512,Foundations of quantum mechanics; measurement theory
+03.65.Ta,Lie algebra,0.6282682899774181,Foundations of quantum mechanics; measurement theory
+03.65.Ta,Quantum Systems and Equations of motion,0.620705905653579,Foundations of quantum mechanics; measurement theory
+13.87.Fh,Spin/angular momentum/polarization,1.410286319895083,Fragmentation into hadrons
+13.87.Fh,Partons distributions,1.3730816480007657,Fragmentation into hadrons
+13.87.Fh,Heavy quarks and ions,1.2852275348596738,Fragmentation into hadrons
+13.87.Fh,Scattering of composite particles,1.2526830983496415,Fragmentation into hadrons
+13.87.Fh,Cross-sections in colliders,1.0121372928729084,Fragmentation into hadrons
+04.20.Cv,Space-time geometry and gravity,1.4786765647337123,Fundamental problems and general formalism
+04.20.Cv,Black holes,1.09273882745353,Fundamental problems and general formalism
+04.20.Cv,Field theory and gravity,1.0456318062341232,Fundamental problems and general formalism
+04.20.Cv,Gravitons and extra-dimensions,0.8787713071850983,Fundamental problems and general formalism
+04.20.Cv,Cosmology and gravity,0.8154869433004133,Fundamental problems and general formalism
+11.15.-q,Gauge Theory,1.2015088569425152,Gauge field theories
+11.15.-q,Supersymmetric gauge theories,1.045698488311135,Gauge field theories
+11.15.-q,Chern–Simons,1.0380940933500924,Gauge field theories
+11.15.-q,M-theory and theories of everything,0.9563140552299724,Gauge field theories
+11.15.-q,Effective Field Theory,0.7751365340592812,Gauge field theories
+11.25.Tq,Holographic Principle and dualities,1.528424031714774,Gauge/string duality
+11.25.Tq,States of matter,1.023162089167517,Gauge/string duality
+11.25.Tq,Supersymmetric gauge theories,0.9918655417427168,Gauge/string duality
+11.25.Tq,Space-time geometry and gravity,0.8571566756686112,Gauge/string duality
+11.25.Tq,Black holes,0.807435540854748,Gauge/string duality
+12.38.Aw,Symétrie chirale,1.0784265781356042,"General properties of QCD (dynamics, confinement, etc.)"
+12.38.Aw,QCD calculation techniques,0.944257800025453,"General properties of QCD (dynamics, confinement, etc.)"
+12.38.Aw,Thermodynamics,0.8788701559933952,"General properties of QCD (dynamics, confinement, etc.)"
+12.38.Aw,Lattice calculation techniques,0.6731014270560628,"General properties of QCD (dynamics, confinement, etc.)"
+12.38.Aw,States of matter,0.5849110458248926,"General properties of QCD (dynamics, confinement, etc.)"
+11.15.Bt,Amplitudes and Feynman Diagram,1.393594206827405,General properties of perturbation theory
+11.15.Bt,QCD calculation techniques,1.020315771085838,General properties of perturbation theory
+11.15.Bt,Loops and next order expansions in Feynman Diagrams,0.9825260338541972,General properties of perturbation theory
+11.15.Bt,Gauge Theory,0.8715803161408293,General properties of perturbation theory
+11.15.Bt,Renormalization,0.847618149848331,General properties of perturbation theory
+02.40.-k,Topology,1.307894998864812,"Geometry, differential geometry, and topology"
+02.40.-k,Supergravity,1.2966515919002448,"Geometry, differential geometry, and topology"
+02.40.-k,Lie algebra,1.190653750511344,"Geometry, differential geometry, and topology"
+02.40.-k,Conformal Field Theory,0.9824896647801984,"Geometry, differential geometry, and topology"
+02.40.-k,Superalgebras and superfields,0.9346525166703056,"Geometry, differential geometry, and topology"
+11.30.Fs,Neutrino physics,1.175294064063146,"Global symmetries (e.g., baryon number, lepton number)"
+11.30.Fs,Flavour physics,1.038011073416204,"Global symmetries (e.g., baryon number, lepton number)"
+11.30.Fs,Flavor mixing,1.0117842052103707,"Global symmetries (e.g., baryon number, lepton number)"
+11.30.Fs,Double-beta decay,0.9059365295933348,"Global symmetries (e.g., baryon number, lepton number)"
+11.30.Fs,Higgs beyond the SM,0.7438471988277899,"Global symmetries (e.g., baryon number, lepton number)"
+12.39.Mk,Meson phenomenology,1.3715364376533807,Glueball and nonstandard multi-quark/gluon states
+12.39.Mk,Decay measurements,1.2645530295386938,Glueball and nonstandard multi-quark/gluon states
+12.39.Mk,Hadronic zoo,1.2366608027454478,Glueball and nonstandard multi-quark/gluon states
+12.39.Mk,QCD,1.0402958330234633,Glueball and nonstandard multi-quark/gluon states
+12.39.Mk,Double-beta decay,1.026730910430987,Glueball and nonstandard multi-quark/gluon states
+14.70.Dj,QCD calculation techniques,1.2893030329585178,Gluons
+14.70.Dj,Partons distributions,0.9627925170933508,Gluons
+14.70.Dj,Renormalization,0.7342261999284617,Gluons
+14.70.Dj,Symétrie chirale,0.5730931172503535,Gluons
+14.70.Dj,Scattering of composite particles,0.5706626953966304,Gluons
+04.50.+h,Black holes,1.4758243970680731,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
+04.50.+h,Gravitons and extra-dimensions,1.3890802062648295,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
+04.50.+h,Space-time geometry and gravity,1.373840029069574,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
+04.50.+h,String theory,0.8652139405299188,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
+04.50.+h,Field theory and gravity,0.8436044968671843,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
+12.40.Yx,Meson phenomenology,1.4802154334487851,Hadron mass models and calculations
+12.40.Yx,Hadronic zoo,1.103190764491878,Hadron mass models and calculations
+12.40.Yx,Double-beta decay,0.9697350984683036,Hadron mass models and calculations
+12.40.Yx,Symétrie chirale,0.8340166846622628,Hadron mass models and calculations
+12.40.Yx,Decay measurements,0.7475177525659658,Hadron mass models and calculations
+13.66.Bc,Hadronic zoo,1.4280194056369124,Hadron production in e−e+ interactions
+13.66.Bc,Annihilation and scattering cross-sections,1.234890256397206,Hadron production in e−e+ interactions
+13.66.Bc,Decay measurements,1.212530091797891,Hadron production in e−e+ interactions
+13.66.Bc,Spin/angular momentum/polarization,1.0890575419045654,Hadron production in e−e+ interactions
+13.66.Bc,Experimental investigation of the leptonic sector,0.96666860789648,Hadron production in e−e+ interactions
+13.85.-t,Cross-sections in colliders,1.3631732781296635,Hadron-induced high- and super-high-energy interactions
+13.85.-t,Events in colliders (kinematics),1.3075591020155537,Hadron-induced high- and super-high-energy interactions
+13.85.-t,Events in colliders (signatures),1.140248933997419,Hadron-induced high- and super-high-energy interactions
+13.85.-t,Partons distributions,0.9407779274257272,Hadron-induced high- and super-high-energy interactions
+13.85.-t,Scattering of composite particles,0.937257252739898,Hadron-induced high- and super-high-energy interactions
+13.30.Eg,Decay measurements,1.5060407524091746,Hadronic decays
+13.30.Eg,Lepton/Meson decay,1.2143442146300754,Hadronic decays
+13.30.Eg,Hadronic zoo,1.111216512752511,Hadronic decays
+13.30.Eg,Meson phenomenology,1.0363968678421676,Hadronic decays
+13.30.Eg,Amplitude of processes in colliders,0.896342686866093,Hadronic decays
+12.39.Hg,QCD,1.1580079909598904,Heavy quark effective theory
+12.39.Hg,Lepton/Meson decay,1.0520695779287466,Heavy quark effective theory
+12.39.Hg,Heavy quarks and ions,0.9794114624550284,Heavy quark effective theory
+12.39.Hg,Meson phenomenology,0.8758877738703682,Heavy quark effective theory
+12.39.Hg,Hadronic zoo,0.7948183491020041,Heavy quark effective theory
+14.40.Pq,Hadronic zoo,1.7309373454007335,Heavy quarkonia
+14.40.Pq,Decay measurements,1.3848025747793085,Heavy quarkonia
+14.40.Pq,Meson phenomenology,1.020995757031021,Heavy quarkonia
+14.40.Pq,Lepton/Meson decay,0.8356623891768916,Heavy quarkonia
+14.40.Pq,Heavy quarks and ions,0.809017082962135,Heavy quarkonia
+04.50.Gh,Black holes,2.38321942274552,"Higher-dimensional black holes, black strings, and related objects"
+04.50.Gh,Space-time geometry and gravity,1.505354447407071,"Higher-dimensional black holes, black strings, and related objects"
+04.50.Gh,Holographic Principle and dualities,1.0633198154405932,"Higher-dimensional black holes, black strings, and related objects"
+04.50.Gh,Gravitons and extra-dimensions,0.976516174575489,"Higher-dimensional black holes, black strings, and related objects"
+04.50.Gh,Field theory and gravity,0.869156500243428,"Higher-dimensional black holes, black strings, and related objects"
+04.50.-h,Space-time geometry and gravity,1.4597506687458257,Higher-dimensional gravity and other theories of gravity
+04.50.-h,Black holes,1.4592748361351615,Higher-dimensional gravity and other theories of gravity
+04.50.-h,Gravitons and extra-dimensions,1.4140432303523578,Higher-dimensional gravity and other theories of gravity
+04.50.-h,Field theory and gravity,0.928732454230062,Higher-dimensional gravity and other theories of gravity
+04.50.-h,Inflation,0.8499370219033169,Higher-dimensional gravity and other theories of gravity
+24.10.Nz,Astrophysics,1.7433341973393226,Hydrodynamic models
+24.10.Nz,Electromagnetism,1.4468776942322323,Hydrodynamic models
+24.10.Nz,Systems dynamics and thermodynamics,1.2098067217469273,Hydrodynamic models
+24.10.Nz,Heavy quarks and ions,1.1940133254411116,Hydrodynamic models
+24.10.Nz,QCD,0.8897917970785537,Hydrodynamic models
+14.20.Jn,Form factors,1.1809168298292076,Hyperons
+14.20.Jn,Spin/angular momentum/polarization,1.0668392360564858,Hyperons
+14.20.Jn,Amplitude of processes in colliders,0.8514241539678676,Hyperons
+14.20.Jn,Symétrie chirale,0.820171401352408,Hyperons
+14.20.Jn,Hadronic zoo,0.8182492891018627,Hyperons
+13.85.Ni,Cross-sections in colliders,1.4273480104113687,Inclusive production with identified hadrons
+13.85.Ni,Spin/angular momentum/polarization,1.3534676343096566,Inclusive production with identified hadrons
+13.85.Ni,Events in colliders (kinematics),1.28036421160173,Inclusive production with identified hadrons
+13.85.Ni,Partons distributions,1.2134375976854606,Inclusive production with identified hadrons
+13.85.Ni,Heavy quarks and ions,1.1335631990262434,Inclusive production with identified hadrons
+13.85.Qk,Events in colliders (kinematics),1.565675031095485,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+13.85.Qk,Events in colliders (signatures),1.366631568937322,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+13.85.Qk,Cross-sections in colliders,1.3641260392133647,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+13.85.Qk,Partons distributions,1.0203020927086488,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+13.85.Qk,Spin/angular momentum/polarization,0.9006735105054854,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+13.85.Hd,Cross-sections in colliders,1.2418480513245669,Inelastic scattering: many-particle final states
+13.85.Hd,Scattering of composite particles,1.153264089073695,Inelastic scattering: many-particle final states
+13.85.Hd,Events in colliders (kinematics),1.1270043989452905,Inelastic scattering: many-particle final states
+13.85.Hd,Partons distributions,1.0861898173185165,Inelastic scattering: many-particle final states
+13.85.Hd,Events in colliders (signatures),1.0658586722159296,Inelastic scattering: many-particle final states
+02.30.Ik,Superalgebras and superfields,1.7436737867993108,Integrable systems
+02.30.Ik,Lie algebra,1.2768895806513183,Integrable systems
+02.30.Ik,Conformal Field Theory,0.9825194115016528,Integrable systems
+02.30.Ik,Quantum Field Theory,0.9436098099979452,Integrable systems
+02.30.Ik,Quantum Systems and Equations of motion,0.8318438076067913,Integrable systems
+13.87.-a,Events in colliders (signatures),1.5563730766958217,Jets in large-Q2 scattering
+13.87.-a,Events in colliders (kinematics),1.5290310600270034,Jets in large-Q2 scattering
+13.87.-a,Partons distributions,1.4436126412738406,Jets in large-Q2 scattering
+13.87.-a,Cross-sections in colliders,1.2010722237903335,Jets in large-Q2 scattering
+13.87.-a,Heavy quarks and ions,0.927611958465444,Jets in large-Q2 scattering
+11.10.Ef,Quantum Systems and Equations of motion,1.11194058061654,Lagrangian and Hamiltonian approach
+11.10.Ef,Gauge Theory,1.0856757551543268,Lagrangian and Hamiltonian approach
+11.10.Ef,Chern–Simons,0.8803072862786192,Lagrangian and Hamiltonian approach
+11.10.Ef,Lie algebra,0.8284228563077666,Lagrangian and Hamiltonian approach
+11.10.Ef,Quantum Field Theory,0.8178053887253738,Lagrangian and Hamiltonian approach
+12.38.Gc,Symétrie chirale,1.4792905841508954,Lattice QCD calculations
+12.38.Gc,Lattice calculation techniques,1.378639403726741,Lattice QCD calculations
+12.38.Gc,Algorithms and calculation techniques,1.118304519670649,Lattice QCD calculations
+12.38.Gc,QCD calculation techniques,0.8017341060134007,Lattice QCD calculations
+12.38.Gc,Thermodynamics,0.5986598741257425,Lattice QCD calculations
+11.15.Ha,Lattice calculation techniques,1.356280814909157,Lattice gauge theory
+11.15.Ha,Symétrie chirale,1.2061797628780435,Lattice gauge theory
+11.15.Ha,Algorithms and calculation techniques,1.1654029534081836,Lattice gauge theory
+11.15.Ha,QCD calculation techniques,0.8928780977336734,Lattice gauge theory
+11.15.Ha,Yang-Mills models of matter,0.7498306697752868,Lattice gauge theory
+05.50.+q,Algorithms and calculation techniques,1.3934198829388913,Lattice theory and statistics
+05.50.+q,Conformal Field Theory,1.1537093169308934,Lattice theory and statistics
+05.50.+q,Superalgebras and superfields,1.0045681054527118,Lattice theory and statistics
+05.50.+q,Holographic Principle and dualities,1.0043893611717998,Lattice theory and statistics
+05.50.+q,States of matter,0.899330181745291,Lattice theory and statistics
+13.30.Ce,Lepton/Meson decay,1.6396567556196828,"Leptonic, semileptonic, and radiative decays"
+13.30.Ce,Decay measurements,1.1641884662878976,"Leptonic, semileptonic, and radiative decays"
+13.30.Ce,Experimental investigation of the leptonic sector,0.9216650719109948,"Leptonic, semileptonic, and radiative decays"
+13.30.Ce,Form factors,0.9060094995967602,"Leptonic, semileptonic, and radiative decays"
+13.30.Ce,Hadronic zoo,0.7830015076954069,"Leptonic, semileptonic, and radiative decays"
+13.20.-v,Lepton/Meson decay,1.660401968076449,"Leptonic, semileptonic, and radiative decays of mesons"
+13.20.-v,Decay measurements,1.419024179921819,"Leptonic, semileptonic, and radiative decays of mesons"
+13.20.-v,Experimental investigation of the leptonic sector,1.1170704362387964,"Leptonic, semileptonic, and radiative decays of mesons"
+13.20.-v,Search for BSM physics,1.0380015939483234,"Leptonic, semileptonic, and radiative decays of mesons"
+13.20.-v,Hadronic zoo,0.9220153190295312,"Leptonic, semileptonic, and radiative decays of mesons"
+14.40.Be,Meson phenomenology,1.2859350506559848,Light mesons (S=C=B=0)
+14.40.Be,Hadronic zoo,1.2104542147865875,Light mesons (S=C=B=0)
+14.40.Be,Decay measurements,1.1564083619716707,Light mesons (S=C=B=0)
+14.40.Be,Form factors,1.0889028629263195,Light mesons (S=C=B=0)
+14.40.Be,Amplitude of processes in colliders,0.7676911895964748,Light mesons (S=C=B=0)
+14.65.Bt,Symétrie chirale,1.2970496805133198,Light quarks
+14.65.Bt,Scattering of composite particles,0.9651987023572528,Light quarks
+14.65.Bt,Heavy quarks and ions,0.8886902482057878,Light quarks
+14.65.Bt,Form factors,0.8223138777513418,Light quarks
+14.65.Bt,Meson phenomenology,0.7266530393163428,Light quarks
+13.85.Rm,Events in colliders (kinematics),1.7130364856432398,Limits on production of particles
+13.85.Rm,Events in colliders (signatures),1.685210439718378,Limits on production of particles
+13.85.Rm,Experimental investigation of the leptonic sector,1.384773330708711,Limits on production of particles
+13.85.Rm,Higgs boson,1.2396662123855295,Limits on production of particles
+13.85.Rm,Higgs beyond the SM,1.1803503021597042,Limits on production of particles
+04.60.Pp,Cosmology and gravity,1.3176003143190014,"Loop quantum gravity, quantum geometry, spin foams"
+04.60.Pp,Quantum Field Theory,0.949600578451288,"Loop quantum gravity, quantum geometry, spin foams"
+04.60.Pp,Lie algebra,0.8711966406168801,"Loop quantum gravity, quantum geometry, spin foams"
+04.60.Pp,Gravitons and extra-dimensions,0.6682690060546796,"Loop quantum gravity, quantum geometry, spin foams"
+04.60.Pp,Field theory and gravity,0.6613161773489995,"Loop quantum gravity, quantum geometry, spin foams"
+11.30.Cp,Cosmology and gravity,1.3350471816938545,Lorentz and Poincaré invariance
+11.30.Cp,Gauge Theory,1.155376086812441,Lorentz and Poincaré invariance
+11.30.Cp,Quantum Field Theory,0.6155849995207267,Lorentz and Poincaré invariance
+11.30.Cp,Effective Field Theory,0.5402766284866658,Lorentz and Poincaré invariance
+11.30.Cp,Chern–Simons,0.5375297283744358,Lorentz and Poincaré invariance
+04.60.Kz,Black holes,1.5811961060860489,Lower dimensional models; minisuperspace models
+04.60.Kz,Space-time geometry and gravity,1.3268652581678466,Lower dimensional models; minisuperspace models
+04.60.Kz,Gravitons and extra-dimensions,1.0774219030109458,Lower dimensional models; minisuperspace models
+04.60.Kz,Field theory and gravity,1.0619098999775929,Lower dimensional models; minisuperspace models
+04.60.Kz,Holographic Principle and dualities,0.9926769347230964,Lower dimensional models; minisuperspace models
+11.25.Yb,M-theory and theories of everything,1.628004646090446,M theory
+11.25.Yb,Supergravity,1.6188241641731032,M theory
+11.25.Yb,String theory,1.422402555401816,M theory
+11.25.Yb,Supersymmetric gauge theories,1.346274646061318,M theory
+11.25.Yb,Topology,1.107137444051714,M theory
+14.80.Hv,String theory,1.70701254128637,Magnetic monopoles
+14.80.Hv,Quantum Systems and Equations of motion,1.1539863715863534,Magnetic monopoles
+14.80.Hv,Chern–Simons,1.0317881883911666,Magnetic monopoles
+14.80.Hv,Electromagnetism,0.6830279560892519,Magnetic monopoles
+14.80.Hv,Yang-Mills models of matter,0.5487666642403293,Magnetic monopoles
+98.80.Jk,Inflation,1.5228450608057134,Mathematical and relativistic aspects of cosmology
+98.80.Jk,Space-time geometry and gravity,1.1980141542853482,Mathematical and relativistic aspects of cosmology
+98.80.Jk,Cosmology and gravity,1.1154527920184985,Mathematical and relativistic aspects of cosmology
+98.80.Jk,Gravitons and extra-dimensions,1.0307592474474732,Mathematical and relativistic aspects of cosmology
+98.80.Jk,Cosmological sources,0.9477441842955197,Mathematical and relativistic aspects of cosmology
+13.60.Le,Spin/angular momentum/polarization,1.2095872840891546,Meson production
+13.60.Le,Cross-sections in colliders,1.1322276774698985,Meson production
+13.60.Le,Annihilation and scattering cross-sections,1.1117269711323066,Meson production
+13.60.Le,Scattering of composite particles,1.0871419278425314,Meson production
+13.60.Le,Hadronic zoo,0.9516339948453008,Meson production
+13.75.Lb,Meson phenomenology,1.4451579992314243,Meson-meson interactions
+13.75.Lb,Hadronic zoo,1.2857777483014,Meson-meson interactions
+13.75.Lb,Decay measurements,1.1301347632174652,Meson-meson interactions
+13.75.Lb,Amplitude of processes in colliders,1.0345747752312782,Meson-meson interactions
+13.75.Lb,Symétrie chirale,0.8490091537609031,Meson-meson interactions
+14.40.-n,Meson phenomenology,1.4056340079755096,Mesons
+14.40.-n,Symétrie chirale,0.8080586000545199,Mesons
+14.40.-n,Hadronic zoo,0.7876926116477044,Mesons
+14.40.-n,Form factors,0.6601822432161677,Mesons
+14.40.-n,QCD,0.6391038034504319,Mesons
+14.40.Gx,Decay measurements,1.5902766064495617,"Mesons with S=C=B=0, mass > 2.5 GeV (including quarkonia)"
+14.40.Gx,Hadronic zoo,1.5833600723567407,"Mesons with S=C=B=0, mass > 2.5 GeV (including quarkonia)"
+14.40.Gx,Meson phenomenology,1.0642478331906686,"Mesons with S=C=B=0, mass > 2.5 GeV (including quarkonia)"
+14.40.Gx,Experimental investigation of the leptonic sector,1.0553545790293122,"Mesons with S=C=B=0, mass > 2.5 GeV (including quarkonia)"
+14.40.Gx,Lepton/Meson decay,1.03595221555959,"Mesons with S=C=B=0, mass > 2.5 GeV (including quarkonia)"
+12.90.+b,Higgs beyond the SM,0.6497493856083252,Miscellaneous theoretical ideas and models
+12.90.+b,Double-beta decay,0.566804022616744,Miscellaneous theoretical ideas and models
+12.90.+b,Higgs boson,0.4758158251579056,Miscellaneous theoretical ideas and models
+12.90.+b,Gauge symmetry breaking/GUTs,0.4266921779225672,Miscellaneous theoretical ideas and models
+12.90.+b,Dark matter in the universe,0.4204920773370229,Miscellaneous theoretical ideas and models
+12.60.-i,Higgs beyond the SM,1.0046104057500247,Models beyond the standard model
+12.60.-i,Search for BSM physics,0.9352270867901512,Models beyond the standard model
+12.60.-i,Higgs boson,0.9193921925526032,Models beyond the standard model
+12.60.-i,Top quark,0.8300513694475941,Models beyond the standard model
+12.60.-i,Flavor mixing,0.7265143647275134,Models beyond the standard model
+04.50.Kd,Gravitons and extra-dimensions,1.3424717969234978,Modified theories of gravity
+04.50.Kd,Space-time geometry and gravity,1.3198200274662408,Modified theories of gravity
+04.50.Kd,Inflation,1.2494679745681867,Modified theories of gravity
+04.50.Kd,Field theory and gravity,1.0787425516523552,Modified theories of gravity
+04.50.Kd,Cosmology and gravity,1.069759178629344,Modified theories of gravity
+14.60.Ef,Experimental investigation of the leptonic sector,1.182418199917029,Muons
+14.60.Ef,Search for BSM physics,1.1151528423121662,Muons
+14.60.Ef,Detectors,0.9889956894449538,Muons
+14.60.Ef,Analyses and measurements from colliders,0.8903194324602017,Muons
+14.60.Ef,Measurements and analysis of colliders data,0.8396450679659582,Muons
+12.15.Mm,Top quark,1.1995163805016804,Neutral currents
+12.15.Mm,Lepton/Meson decay,1.1936946326549795,Neutral currents
+12.15.Mm,Search for BSM physics,1.0469792987536133,Neutral currents
+12.15.Mm,Decay measurements,0.9743639014159654,Neutral currents
+12.15.Mm,CP violating processes,0.9212810332081468,Neutral currents
+13.15.+g,Neutrino physics,1.882345404509089,Neutrino interactions
+13.15.+g,Solar neutrinos,1.8414162334974224,Neutrino interactions
+13.15.+g,Detectors,0.9111463105722922,Neutrino interactions
+13.15.+g,Search for BSM physics,0.8224938266900063,Neutrino interactions
+13.15.+g,CP violating processes,0.7631967567377665,Neutrino interactions
+14.60.Pq,Solar neutrinos,2.1344086758837566,Neutrino mass and mixing
+14.60.Pq,Neutrino physics,1.9361014366350908,Neutrino mass and mixing
+14.60.Pq,Flavor mixing,1.0573036910920823,Neutrino mass and mixing
+14.60.Pq,Flavour physics,0.9140542954251394,Neutrino mass and mixing
+14.60.Pq,Double-beta decay,0.9064996445947352,Neutrino mass and mixing
+95.55.Vj,Neutrino physics,1.8815736467326856,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
+95.55.Vj,Solar neutrinos,1.860578855186749,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
+95.55.Vj,Detectors,1.4777319773886377,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
+95.55.Vj,Dark matter (particles and direct searches),1.3963475261820102,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
+95.55.Vj,High-energy source fluxes,1.3315448894469382,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
+95.85.Ry,Neutrino physics,1.9178407710684064,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
+95.85.Ry,Solar neutrinos,1.8933393471391475,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
+95.85.Ry,Cosmological sources,1.488481634458502,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
+95.85.Ry,High-energy source fluxes,1.387393052777736,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
+95.85.Ry,Early-universe and other cosmological data,1.2693471281470017,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
+25.30.Pt,Neutrino physics,1.8019181043582744,Neutrino-induced reactions
+25.30.Pt,Solar neutrinos,1.6677413674187356,Neutrino-induced reactions
+25.30.Pt,Analyses and measurements from colliders,0.9581373885329408,Neutrino-induced reactions
+25.30.Pt,Annihilation and scattering cross-sections,0.866054155627908,Neutrino-induced reactions
+25.30.Pt,Cross-sections in colliders,0.7300500075327381,Neutrino-induced reactions
+14.80.Cp,Higgs boson,1.7695780369836431,Non-standard-model Higgs bosons
+14.80.Cp,Higgs beyond the SM,1.600367055269122,Non-standard-model Higgs bosons
+14.80.Cp,Top quark,0.942457774854211,Non-standard-model Higgs bosons
+14.80.Cp,Susy phenomenology and superpartners,0.8181212974801564,Non-standard-model Higgs bosons
+14.80.Cp,Experimental investigation of the leptonic sector,0.7174770343878992,Non-standard-model Higgs bosons
+14.60.St,Solar neutrinos,1.979440988296364,"Non-standard-model neutrinos, right-handed neutrinos, etc."
+14.60.St,Neutrino physics,1.97402018091786,"Non-standard-model neutrinos, right-handed neutrinos, etc."
+14.60.St,Flavour physics,1.0169470223263042,"Non-standard-model neutrinos, right-handed neutrinos, etc."
+14.60.St,Flavor mixing,0.9815092209630882,"Non-standard-model neutrinos, right-handed neutrinos, etc."
+14.60.St,Double-beta decay,0.9053568414287672,"Non-standard-model neutrinos, right-handed neutrinos, etc."
+11.10.Nx,Effective Field Theory,1.886602335983984,Noncommutative field theory
+11.10.Nx,Gauge Theory,1.0762564863809398,Noncommutative field theory
+11.10.Nx,Chern–Simons,0.8725593726105632,Noncommutative field theory
+11.10.Nx,Quantum Field Theory,0.8721023529744153,Noncommutative field theory
+11.10.Nx,Lie algebra,0.8541106831917551,Noncommutative field theory
+02.40.Gh,Effective Field Theory,1.7688235635251324,Noncommutative geometry
+02.40.Gh,Lie algebra,1.034852627421616,Noncommutative geometry
+02.40.Gh,Topology,0.9828647432381646,Noncommutative geometry
+02.40.Gh,Quantum Field Theory,0.916865124721541,Noncommutative geometry
+02.40.Gh,Conformal Field Theory,0.8870950439846423,Noncommutative geometry
+11.10.Lm,String theory,0.9828107729832464,Nonlinear or nonlocal theories and models
+11.10.Lm,Superalgebras and superfields,0.9150850802267768,Nonlinear or nonlocal theories and models
+11.10.Lm,Quantum Systems and Equations of motion,0.872974363110496,Nonlinear or nonlocal theories and models
+11.10.Lm,Effective Field Theory,0.8156079100067447,Nonlinear or nonlocal theories and models
+11.10.Lm,Quantum Field Theory,0.76873005169795,Nonlinear or nonlocal theories and models
+11.25.Sq,String theory,1.674953368998774,Nonperturbative techniques; string field theory
+11.25.Sq,Supergravity,1.3678878109903576,Nonperturbative techniques; string field theory
+11.25.Sq,M-theory and theories of everything,1.2746870409976692,Nonperturbative techniques; string field theory
+11.25.Sq,Topology,1.1977052662871297,Nonperturbative techniques; string field theory
+11.25.Sq,Conformal Field Theory,1.1944055637364908,Nonperturbative techniques; string field theory
+12.39.Jh,Meson phenomenology,1.2263895155831208,Nonrelativistic quark model
+12.39.Jh,Hadronic zoo,1.130681188678616,Nonrelativistic quark model
+12.39.Jh,Heavy quarks and ions,0.8925062844128803,Nonrelativistic quark model
+12.39.Jh,Symétrie chirale,0.7343708052674512,Nonrelativistic quark model
+12.39.Jh,Top quark,0.7221781415427199,Nonrelativistic quark model
+13.75.Cs,Annihilation and scattering cross-sections,1.0173905466077429,Nucleon-nucleon interactions
+13.75.Cs,Amplitude of processes in colliders,0.9293418366560476,Nucleon-nucleon interactions
+13.75.Cs,Cross-sections in colliders,0.8993876537772507,Nucleon-nucleon interactions
+13.75.Cs,Spin/angular momentum/polarization,0.8783244995835814,Nucleon-nucleon interactions
+13.75.Cs,Scattering of composite particles,0.8258037431786911,Nucleon-nucleon interactions
+98.80.Es,Inflation,1.76323098960679,"Observational cosmology (including Hubble constant, distance scale, cosmological constant, early Universe, etc)"
+98.80.Es,Cosmological sources,1.552051230700867,"Observational cosmology (including Hubble constant, distance scale, cosmological constant, early Universe, etc)"
+98.80.Es,Dark matter in the universe,1.3563234648097775,"Observational cosmology (including Hubble constant, distance scale, cosmological constant, early Universe, etc)"
+98.80.Es,Cosmology and gravity,1.0954697496903434,"Observational cosmology (including Hubble constant, distance scale, cosmological constant, early Universe, etc)"
+98.80.Es,Early-universe and other cosmological data,1.0158026894706116,"Observational cosmology (including Hubble constant, distance scale, cosmological constant, early Universe, etc)"
+14.60.Lm,Solar neutrinos,2.2988179808681246,Ordinary neutrinos
+14.60.Lm,Neutrino physics,2.042812699678237,Ordinary neutrinos
+14.60.Lm,CP violating processes,0.9921551375415708,Ordinary neutrinos
+14.60.Lm,Detectors,0.9813506411012703,Ordinary neutrinos
+14.60.Lm,High-energy source fluxes,0.7385877035531229,Ordinary neutrinos
+98.80.Bp,Inflation,1.782566320530294,Origin and formation of the Universe
+98.80.Bp,Cosmology and gravity,1.122432476900172,Origin and formation of the Universe
+98.80.Bp,Cosmological sources,1.0470540840783709,Origin and formation of the Universe
+98.80.Bp,Space-time geometry and gravity,0.9593030576739248,Origin and formation of the Universe
+98.80.Bp,Field theory and gravity,0.8900804511176649,Origin and formation of the Universe
+14.70.Pw,Higgs boson,1.1617120183345615,Other gauge bosons
+14.70.Pw,Events in colliders (kinematics),1.0561380928324011,Other gauge bosons
+14.70.Pw,Events in colliders (signatures),1.040075079105392,Other gauge bosons
+14.70.Pw,Higgs beyond the SM,1.0185584151560445,Other gauge bosons
+14.70.Pw,Top quark,0.9715445675295886,Other gauge bosons
+11.30.Ly,Lie algebra,0.8809371476901688,Other internal and higher symmetries
+11.30.Ly,Gauge Theory,0.8727721835594835,Other internal and higher symmetries
+11.30.Ly,Gauge symmetry breaking/GUTs,0.8085848607413019,Other internal and higher symmetries
+11.30.Ly,Supersymmetric gauge theories,0.8009982294377981,Other internal and higher symmetries
+11.30.Ly,Chern–Simons,0.7843979525078618,Other internal and higher symmetries
+14.40.Cs,Meson phenomenology,1.5309731407084144,"Other mesons with S=C=0, mass < 2.5 GeV"
+14.40.Cs,Decay measurements,1.206612641837741,"Other mesons with S=C=0, mass < 2.5 GeV"
+14.40.Cs,Hadronic zoo,1.033062118060542,"Other mesons with S=C=0, mass < 2.5 GeV"
+14.40.Cs,Lepton/Meson decay,0.9845918701949422,"Other mesons with S=C=0, mass < 2.5 GeV"
+14.40.Cs,Amplitude of processes in colliders,0.8329765402009638,"Other mesons with S=C=0, mass < 2.5 GeV"
+12.40.-y,Thermodynamics,1.1099521136351185,Other models for strong interactions
+12.40.-y,Symétrie chirale,0.957479703873958,Other models for strong interactions
+12.40.-y,Form factors,0.8783748251646115,Other models for strong interactions
+12.40.-y,Meson phenomenology,0.8163993277927416,Other models for strong interactions
+12.40.-y,Heavy quarks and ions,0.5175475545529372,Other models for strong interactions
+14.80.Ec,Higgs boson,1.905695336756681,Other neutral Higgs bosons
+14.80.Ec,Higgs beyond the SM,1.6467537289719485,Other neutral Higgs bosons
+14.80.Ec,Top quark,0.9770871390717062,Other neutral Higgs bosons
+14.80.Ec,Events in colliders (signatures),0.9132999551700722,Other neutral Higgs bosons
+14.80.Ec,Experimental investigation of the leptonic sector,0.7622017123181908,Other neutral Higgs bosons
+12.38.Lg,QCD,1.418083513100272,Other nonperturbative calculations
+12.38.Lg,Symétrie chirale,0.8773628483134446,Other nonperturbative calculations
+12.38.Lg,QCD calculation techniques,0.765055100471188,Other nonperturbative calculations
+12.38.Lg,Form factors,0.6785740490496532,Other nonperturbative calculations
+12.38.Lg,Meson phenomenology,0.6772763917187135,Other nonperturbative calculations
+11.15.Tk,QCD calculation techniques,0.8447246614243338,Other nonperturbative techniques
+11.15.Tk,Renormalization,0.8143135484536714,Other nonperturbative techniques
+11.15.Tk,Chern–Simons,0.7679486964368261,Other nonperturbative techniques
+11.15.Tk,Gauge Theory,0.7459160298325475,Other nonperturbative techniques
+11.15.Tk,Supersymmetric gauge theories,0.7092265069345055,Other nonperturbative techniques
+14.80.-j,Dark matter (particles and direct searches),1.1471710738493144,Other particles (including hypothetical)
+14.80.-j,Events in colliders (kinematics),0.8668287083926901,Other particles (including hypothetical)
+14.80.-j,Events in colliders (signatures),0.8644769371362504,Other particles (including hypothetical)
+14.80.-j,Higgs beyond the SM,0.7677341349436069,Other particles (including hypothetical)
+14.80.-j,Experimental investigation of the leptonic sector,0.7353135939883007,Other particles (including hypothetical)
+25.75.Dw,Cross-sections in colliders,1.4175823444972853,Particle and resonance production
+25.75.Dw,Heavy quarks and ions,1.400576408479046,Particle and resonance production
+25.75.Dw,Astrophysics,1.351296556647626,Particle and resonance production
+25.75.Dw,Events in colliders (kinematics),1.168345403114878,Particle and resonance production
+25.75.Dw,Electromagnetism,0.8597819229338695,Particle and resonance production
+25.75.Gz,Astrophysics,1.5224523176661988,Particle correlations and fluctuations
+25.75.Gz,Heavy quarks and ions,1.3923648147557024,Particle correlations and fluctuations
+25.75.Gz,Cross-sections in colliders,1.1940310098368188,Particle correlations and fluctuations
+25.75.Gz,Events in colliders (kinematics),1.1206301670501686,Particle correlations and fluctuations
+25.75.Gz,Algorithms and calculation techniques,0.9861198066353858,Particle correlations and fluctuations
+98.80.Cq,Inflation,1.7969187019547583,"Particle-theory and field-theory models of the early Universe (including cosmic pancakes, cosmic strings, chaotic phenomena, inflationary universe, etc.)"
+98.80.Cq,Cosmological sources,1.163602463216995,"Particle-theory and field-theory models of the early Universe (including cosmic pancakes, cosmic strings, chaotic phenomena, inflationary universe, etc.)"
+98.80.Cq,Cosmology and gravity,0.8611892698320742,"Particle-theory and field-theory models of the early Universe (including cosmic pancakes, cosmic strings, chaotic phenomena, inflationary universe, etc.)"
+98.80.Cq,Dark matter in the universe,0.7735755791780219,"Particle-theory and field-theory models of the early Universe (including cosmic pancakes, cosmic strings, chaotic phenomena, inflationary universe, etc.)"
+98.80.Cq,Gravitons and extra-dimensions,0.715153027230015,"Particle-theory and field-theory models of the early Universe (including cosmic pancakes, cosmic strings, chaotic phenomena, inflationary universe, etc.)"
+12.38.Bx,Partons distributions,1.4332983953648628,Perturbative calculations
+12.38.Bx,Perturbative QCD,1.026098236828502,Perturbative calculations
+12.38.Bx,Loops and next order expansions in Feynman Diagrams,0.8870665559726095,Perturbative calculations
+12.38.Bx,Cross-sections in colliders,0.8406645248025212,Perturbative calculations
+12.38.Bx,Scattering of composite particles,0.7149385906074884,Perturbative calculations
+12.39.-x,Meson phenomenology,0.986634394135354,Phenomenological quark models
+12.39.-x,Symétrie chirale,0.911218343716118,Phenomenological quark models
+12.39.-x,Thermodynamics,0.6869968298951636,Phenomenological quark models
+12.39.-x,QCD,0.653886825747965,Phenomenological quark models
+12.39.-x,Hadronic zoo,0.6289715679481924,Phenomenological quark models
+04.60.Bc,Black holes,1.272409536456767,Phenomenology of quantum gravity
+04.60.Bc,Cosmology and gravity,0.9839897983675568,Phenomenology of quantum gravity
+04.60.Bc,Cosmological sources,0.951943393683662,Phenomenology of quantum gravity
+04.60.Bc,Inflation,0.8982281639996731,Phenomenology of quantum gravity
+04.60.Bc,Quantum Field Theory,0.8481030029650367,Phenomenology of quantum gravity
+13.60.-r,Scattering of composite particles,1.653398184127412,Photon and charged-lepton interactions with hadrons
+13.60.-r,Spin/angular momentum/polarization,1.4714649542706046,Photon and charged-lepton interactions with hadrons
+13.60.-r,Partons distributions,1.1337172936802662,Photon and charged-lepton interactions with hadrons
+13.60.-r,Cross-sections in colliders,1.0561311083265863,Photon and charged-lepton interactions with hadrons
+13.60.-r,Heavy quarks and ions,0.93988426431378,Photon and charged-lepton interactions with hadrons
+14.70.Bh,Experiments on light,1.0081780049384552,Photons
+14.70.Bh,Annihilation and scattering cross-sections,0.8569518622731892,Photons
+14.70.Bh,Partons distributions,0.8287846190937362,Photons
+14.70.Bh,Events in colliders (kinematics),0.6988880848347458,Photons
+14.70.Bh,Spin/angular momentum/polarization,0.6679092447015815,Photons
+04.70.-s,Black holes,2.5697771921809487,Physics of black holes
+04.70.-s,Space-time geometry and gravity,1.2850852573089198,Physics of black holes
+04.70.-s,Field theory and gravity,0.9676106560150476,Physics of black holes
+04.70.-s,Holographic Principle and dualities,0.8087842069256418,Physics of black holes
+04.70.-s,Gravitons and extra-dimensions,0.7375480466162582,Physics of black holes
+13.75.Gx,Meson phenomenology,1.3087937543600126,Pion-baryon interactions
+13.75.Gx,Amplitude of processes in colliders,1.1008743457188075,Pion-baryon interactions
+13.75.Gx,Symétrie chirale,0.9028250707857672,Pion-baryon interactions
+13.75.Gx,Annihilation and scattering cross-sections,0.8803951749491254,Pion-baryon interactions
+13.75.Gx,Analyses and measurements from colliders,0.7869838318163477,Pion-baryon interactions
+13.88.+e,Spin/angular momentum/polarization,1.804701694772293,Polarization in interactions and scattering
+13.88.+e,Scattering of composite particles,1.3171704194283458,Polarization in interactions and scattering
+13.88.+e,Partons distributions,1.1444270292665728,Polarization in interactions and scattering
+13.88.+e,Heavy quarks and ions,0.9555636292739712,Polarization in interactions and scattering
+13.88.+e,Cross-sections in colliders,0.9044327402789618,Polarization in interactions and scattering
+12.39.Pn,Meson phenomenology,1.2451551146497075,Potential models
+12.39.Pn,Hadronic zoo,1.1095234941014869,Potential models
+12.39.Pn,Decay measurements,0.7642147649576964,Potential models
+12.39.Pn,Heavy quarks and ions,0.7526055573162266,Potential models
+12.39.Pn,Symétrie chirale,0.7139797026437672,Potential models
+13.87.Ce,Events in colliders (kinematics),1.6028962567430245,Production
+13.87.Ce,Partons distributions,1.456028761262327,Production
+13.87.Ce,Events in colliders (signatures),1.4452751772372756,Production
+13.87.Ce,Cross-sections in colliders,1.3957241314755455,Production
+13.87.Ce,Scattering of composite particles,1.0347320586906277,Production
+11.25.Db,Amplitudes and Feynman Diagram,1.5678040441425294,Properties of perturbation theory
+11.25.Db,Supersymmetric gauge theories,0.9344257699013064,Properties of perturbation theory
+11.25.Db,Conformal Field Theory,0.8663423427759838,Properties of perturbation theory
+11.25.Db,M-theory and theories of everything,0.7956255123458155,Properties of perturbation theory
+11.25.Db,Loops and next order expansions in Feynman Diagrams,0.7679311781121672,Properties of perturbation theory
+14.20.Dh,Form factors,1.332816284825329,Protons and neutrons
+14.20.Dh,Scattering of composite particles,1.2931873327417067,Protons and neutrons
+14.20.Dh,Spin/angular momentum/polarization,1.1479001169138532,Protons and neutrons
+14.20.Dh,Symétrie chirale,0.7232165984427764,Protons and neutrons
+14.20.Dh,Heavy quarks and ions,0.6889599352956953,Protons and neutrons
+04.70.Dy,Black holes,2.587449472897095,"Quantum aspects of black holes, evaporation, thermodynamics"
+04.70.Dy,Space-time geometry and gravity,1.1128240318901974,"Quantum aspects of black holes, evaporation, thermodynamics"
+04.70.Dy,Holographic Principle and dualities,1.021186893068705,"Quantum aspects of black holes, evaporation, thermodynamics"
+04.70.Dy,Gravitons and extra-dimensions,0.6954995923326222,"Quantum aspects of black holes, evaporation, thermodynamics"
+04.70.Dy,Field theory and gravity,0.5789249492327401,"Quantum aspects of black holes, evaporation, thermodynamics"
+12.38.-t,Partons distributions,1.0331682954654575,Quantum chromodynamics
+12.38.-t,Scattering of composite particles,0.9023923149367166,Quantum chromodynamics
+12.38.-t,Heavy quarks and ions,0.6653141456478999,Quantum chromodynamics
+12.38.-t,Cross-sections in colliders,0.6423283609500128,Quantum chromodynamics
+12.38.-t,Perturbative QCD,0.6170296282692305,Quantum chromodynamics
+98.80.Qc,Inflation,1.6685164493865403,Quantum cosmology
+98.80.Qc,Cosmology and gravity,1.2582923328534523,Quantum cosmology
+98.80.Qc,Cosmological sources,1.090301204849336,Quantum cosmology
+98.80.Qc,Quantum Field Theory,0.8580696575864306,Quantum cosmology
+98.80.Qc,Space-time geometry and gravity,0.8222928575844367,Quantum cosmology
+12.20.-m,Experiments on light,1.0825072192461205,Quantum electrodynamics
+12.20.-m,Electromagnetism,0.8846188896901207,Quantum electrodynamics
+12.20.-m,Loops and next order expansions in Feynman Diagrams,0.8366021852613974,Quantum electrodynamics
+12.20.-m,Chern–Simons,0.5782161791825943,Quantum electrodynamics
+12.20.-m,Gauge Theory,0.5128088807782843,Quantum electrodynamics
+04.62.+v,Black holes,1.4251461828679048,Quantum fields in curved spacetime
+04.62.+v,Space-time geometry and gravity,1.0677114230304363,Quantum fields in curved spacetime
+04.62.+v,Field theory and gravity,0.9902948005102324,Quantum fields in curved spacetime
+04.62.+v,Inflation,0.8546725110709184,Quantum fields in curved spacetime
+04.62.+v,Quantum Field Theory,0.6782462403502056,Quantum fields in curved spacetime
+04.60.-m,Black holes,1.1982002703533512,Quantum gravity
+04.60.-m,Space-time geometry and gravity,1.0748634640112804,Quantum gravity
+04.60.-m,Gravitons and extra-dimensions,0.9903587121845124,Quantum gravity
+04.60.-m,Cosmology and gravity,0.9088900687621532,Quantum gravity
+04.60.-m,Quantum Field Theory,0.8467777316775734,Quantum gravity
+03.65.-w,Quantum Field Theory,1.1484885132682028,Quantum mechanics
+03.65.-w,Lie algebra,0.9444870113407714,Quantum mechanics
+03.65.-w,Quantum Systems and Equations of motion,0.941150315740994,Quantum mechanics
+03.65.-w,Effective Field Theory,0.847346563400031,Quantum mechanics
+03.65.-w,Chern–Simons,0.6441363068965577,Quantum mechanics
+12.15.Ff,Solar neutrinos,1.4812320924775024,Quark and lepton masses and mixing
+12.15.Ff,Flavor mixing,1.3613274045687012,Quark and lepton masses and mixing
+12.15.Ff,Neutrino physics,1.036667368731776,Quark and lepton masses and mixing
+12.15.Ff,Flavour physics,0.9875606237632262,Quark and lepton masses and mixing
+12.15.Ff,CP violating processes,0.8691028739617244,Quark and lepton masses and mixing
+25.75.Nq,Thermodynamics,1.623495599684958,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+25.75.Nq,States of matter,1.087643925372108,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+25.75.Nq,Heavy quarks and ions,1.070170410839339,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+25.75.Nq,Astrophysics,1.0563765448541482,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+25.75.Nq,Symétrie chirale,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+21.65.Qr,Thermodynamics,1.6143996016903095,Quark matter
+21.65.Qr,Astrophysics,1.1781253927565838,Quark matter
+21.65.Qr,Symétrie chirale,1.05308969536435,Quark matter
+21.65.Qr,States of matter,0.8422326067743195,Quark matter
+21.65.Qr,Electromagnetism,0.7310477012902373,Quark matter
+12.38.Mh,Thermodynamics,1.3541977233522569,Quark-gluon plasma
+12.38.Mh,Electromagnetism,1.1026903227697782,Quark-gluon plasma
+12.38.Mh,Heavy quarks and ions,0.9780218219816528,Quark-gluon plasma
+12.38.Mh,Astrophysics,0.9427298281909036,Quark-gluon plasma
+12.38.Mh,Symétrie chirale,0.7861303155069107,Quark-gluon plasma
+24.85.+p,Heavy quarks and ions,1.1242421159461229,"Quarks, gluons, and QCD in nuclear reactions"
+24.85.+p,Cross-sections in colliders,1.1166693360141176,"Quarks, gluons, and QCD in nuclear reactions"
+24.85.+p,Astrophysics,0.998655661046091,"Quarks, gluons, and QCD in nuclear reactions"
+24.85.+p,Scattering of composite particles,0.9587569801675614,"Quarks, gluons, and QCD in nuclear reactions"
+24.85.+p,Partons distributions,0.8518663347897792,"Quarks, gluons, and QCD in nuclear reactions"
+12.40.Nn,Scattering of composite particles,1.351041066640914,"Regge theory, duality, absorptive/optical models"
+12.40.Nn,Cross-sections in colliders,1.167221203824046,"Regge theory, duality, absorptive/optical models"
+12.40.Nn,Annihilation and scattering cross-sections,0.9507001838137524,"Regge theory, duality, absorptive/optical models"
+12.40.Nn,Partons distributions,0.8845873797095732,"Regge theory, duality, absorptive/optical models"
+12.40.Nn,Heavy quarks and ions,0.7296387154602803,"Regge theory, duality, absorptive/optical models"
+25.75.-q,Astrophysics,1.38074977797203,Relativistic heavy-ion collisions
+25.75.-q,Heavy quarks and ions,1.3692321045323057,Relativistic heavy-ion collisions
+25.75.-q,Cross-sections in colliders,1.158196236566175,Relativistic heavy-ion collisions
+25.75.-q,Electromagnetism,1.1120590136535728,Relativistic heavy-ion collisions
+25.75.-q,Events in colliders (kinematics),0.8651297868047478,Relativistic heavy-ion collisions
+12.39.Ki,Form factors,1.3434172052094957,Relativistic quark model
+12.39.Ki,Meson phenomenology,1.0940759736318044,Relativistic quark model
+12.39.Ki,Symétrie chirale,0.97723070286199,Relativistic quark model
+12.39.Ki,Heavy quarks and ions,0.9097989437380656,Relativistic quark model
+12.39.Ki,Top quark,0.5693510131445393,Relativistic quark model
+03.65.Pm,Electromagnetism,1.1117339784873452,Relativistic wave equations
+03.65.Pm,Quantum Systems and Equations of motion,1.0395609287625185,Relativistic wave equations
+03.65.Pm,Quantum Field Theory,0.9376776918888408,Relativistic wave equations
+03.65.Pm,Chern–Simons,0.7155058612892512,Relativistic wave equations
+03.65.Pm,Lie algebra,0.6878143892703379,Relativistic wave equations
+11.10.Gh,Renormalization,1.455644650388335,Renormalization
+11.10.Gh,QCD calculation techniques,0.96080917302426,Renormalization
+11.10.Gh,Lattice calculation techniques,0.7389056548714121,Renormalization
+11.10.Gh,Gauge Theory,0.73594742169382,Renormalization
+11.10.Gh,Loops and next order expansions in Feynman Diagrams,0.7147643135406602,Renormalization
+11.10.Hi,Renormalization,1.768537892882784,Renormalization group evolution of parameters
+11.10.Hi,QCD calculation techniques,0.5797495340844399,Renormalization group evolution of parameters
+11.10.Hi,Perturbative QCD,0.5592625705257264,Renormalization group evolution of parameters
+11.10.Hi,Lattice calculation techniques,0.530101443780491,Renormalization group evolution of parameters
+11.10.Hi,Gauge symmetry breaking/GUTs,0.4923199075122878,Renormalization group evolution of parameters
+26.65.+t,Solar neutrinos,2.644682038313694,Solar neutrinos
+26.65.+t,Neutrino physics,1.9818114630664836,Solar neutrinos
+26.65.+t,High-energy source fluxes,1.2755246937292504,Solar neutrinos
+26.65.+t,Early-universe and other cosmological data,0.918470462487986,Solar neutrinos
+26.65.+t,Detectors,0.8749665794163882,Solar neutrinos
+03.65.Ge,Quantum Field Theory,0.8980144472069957,Solutions of wave equations: bound states
+03.65.Ge,Quantum Systems and Equations of motion,0.8768100145370358,Solutions of wave equations: bound states
+03.65.Ge,Lie algebra,0.7225153858764664,Solutions of wave equations: bound states
+03.65.Ge,Electromagnetism,0.6648931013105781,Solutions of wave equations: bound states
+03.65.Ge,Boundary conditions/non-locality,0.4771537895484384,Solutions of wave equations: bound states
+04.20.Gz,Space-time geometry and gravity,1.3923182537754946,"Spacetime topology, causal structure, spinor structure"
+04.20.Gz,Black holes,1.2199419575734098,"Spacetime topology, causal structure, spinor structure"
+04.20.Gz,Field theory and gravity,0.9104678777042606,"Spacetime topology, causal structure, spinor structure"
+04.20.Gz,Topology,0.89415442591659,"Spacetime topology, causal structure, spinor structure"
+04.20.Gz,Supergravity,0.8245640934563735,"Spacetime topology, causal structure, spinor structure"
+12.20.Ds,Experiments on light,1.3050375390835651,Specific calculations
+12.20.Ds,Loops and next order expansions in Feynman Diagrams,1.084018075670218,Specific calculations
+12.20.Ds,Electromagnetism,0.9679974015770356,Specific calculations
+12.20.Ds,Amplitudes and Feynman Diagram,0.6700848454575348,Specific calculations
+12.20.Ds,Annihilation and scattering cross-sections,0.6021504145410278,Specific calculations
+11.30.Qc,Gauge symmetry breaking/GUTs,0.9569828161947812,Spontaneous and radiative symmetry breaking
+11.30.Qc,Yang-Mills models of matter,0.8743052294561252,Spontaneous and radiative symmetry breaking
+11.30.Qc,Thermodynamics,0.7776025156646534,Spontaneous and radiative symmetry breaking
+11.30.Qc,Symétrie chirale,0.6902539426128061,Spontaneous and radiative symmetry breaking
+11.30.Qc,States of matter,0.5344372781552661,Spontaneous and radiative symmetry breaking
+11.15.Ex,Gauge symmetry breaking/GUTs,1.152353352150704,Spontaneous breaking of gauge symmetries
+11.15.Ex,Yang-Mills models of matter,0.8826740422369435,Spontaneous breaking of gauge symmetries
+11.15.Ex,Higgs boson,0.8065117365958924,Spontaneous breaking of gauge symmetries
+11.15.Ex,Higgs beyond the SM,0.7996703259023658,Spontaneous breaking of gauge symmetries
+11.15.Ex,Chern–Simons,0.5513124316192308,Spontaneous breaking of gauge symmetries
+14.80.Bn,Higgs boson,1.694411328710218,Standard-model Higgs bosons
+14.80.Bn,Higgs beyond the SM,1.3722692316397536,Standard-model Higgs bosons
+14.80.Bn,Events in colliders (signatures),1.0631139174457516,Standard-model Higgs bosons
+14.80.Bn,Events in colliders (kinematics),1.0223418674295497,Standard-model Higgs bosons
+14.80.Bn,Top quark,0.9436888309884636,Standard-model Higgs bosons
+11.25.Wx,Gravitons and extra-dimensions,1.0413736758834866,String and brane phenomenology
+11.25.Wx,Supergravity,0.952928466258958,String and brane phenomenology
+11.25.Wx,Topology,0.9280791762561296,String and brane phenomenology
+11.25.Wx,Inflation,0.8604354259163413,String and brane phenomenology
+11.25.Wx,String theory,0.8055098517034355,String and brane phenomenology
+11.25.-w,String theory,1.4603699381393855,Strings and branes
+11.25.-w,Supergravity,1.2539522884822942,Strings and branes
+11.25.-w,M-theory and theories of everything,1.123579266381013,Strings and branes
+11.25.-w,Topology,1.0360969946517244,Strings and branes
+11.25.-w,Supersymmetric gauge theories,0.9700910043283067,Strings and branes
+11.55.Hx,QCD,2.2436153145119944,Sum rules
+11.55.Hx,Form factors,1.175552240191172,Sum rules
+11.55.Hx,Meson phenomenology,0.8704631302044182,Sum rules
+11.55.Hx,Hadronic zoo,0.8633356373720705,Sum rules
+11.55.Hx,Symétrie chirale,0.6625943996479818,Sum rules
+12.38.Cy,Partons distributions,1.6210422913310412,Summation of perturbation theory
+12.38.Cy,Perturbative QCD,1.0955927339642595,Summation of perturbation theory
+12.38.Cy,Loops and next order expansions in Feynman Diagrams,0.9993843300541873,Summation of perturbation theory
+12.38.Cy,Cross-sections in colliders,0.8738642370960551,Summation of perturbation theory
+12.38.Cy,Scattering of composite particles,0.83361736151838,Summation of perturbation theory
+04.65.+e,Supergravity,1.576645829047398,Supergravity
+04.65.+e,M-theory and theories of everything,1.343287199570929,Supergravity
+04.65.+e,Supersymmetric gauge theories,1.2030341354279042,Supergravity
+04.65.+e,Black holes,1.0542930084203663,Supergravity
+04.65.+e,String theory,0.9725041491468974,Supergravity
+14.80.Da,Higgs boson,1.873721864538094,Supersymmetric Higgs bosons
+14.80.Da,Higgs beyond the SM,1.6387669247208556,Supersymmetric Higgs bosons
+14.80.Da,Susy phenomenology and superpartners,1.2678347442818387,Supersymmetric Higgs bosons
+14.80.Da,Top quark,0.8438009143554515,Supersymmetric Higgs bosons
+14.80.Da,Dark matter (particles and direct searches),0.8239893890815116,Supersymmetric Higgs bosons
+12.60.Jv,Susy phenomenology and superpartners,1.3525244591934356,Supersymmetric models
+12.60.Jv,Higgs beyond the SM,1.1892023952740978,Supersymmetric models
+12.60.Jv,Higgs boson,1.0747693825594715,Supersymmetric models
+12.60.Jv,Dark matter (particles and direct searches),0.8026369575861934,Supersymmetric models
+12.60.Jv,Flavour physics,0.6902516056960077,Supersymmetric models
+14.80.Ly,Susy phenomenology and superpartners,1.6838283962804943,Supersymmetric partners of known particles
+14.80.Ly,Higgs beyond the SM,1.2787215563170828,Supersymmetric partners of known particles
+14.80.Ly,Dark matter (particles and direct searches),1.1490763730547031,Supersymmetric partners of known particles
+14.80.Ly,Events in colliders (kinematics),1.022515888311011,Supersymmetric partners of known particles
+14.80.Ly,Events in colliders (signatures),0.9724854174323966,Supersymmetric partners of known particles
+11.30.Pb,Supersymmetric gauge theories,1.3685680288271334,Supersymmetry
+11.30.Pb,Supergravity,1.286585730192782,Supersymmetry
+11.30.Pb,Superalgebras and superfields,1.0916960370729387,Supersymmetry
+11.30.Pb,M-theory and theories of everything,0.9344706942436396,Supersymmetry
+11.30.Pb,Conformal Field Theory,0.8435316254281442,Supersymmetry
+11.30.-j,Gauge Theory,0.93301814635134,Symmetry and conservation laws
+11.30.-j,Superalgebras and superfields,0.929242446530988,Symmetry and conservation laws
+11.30.-j,Black holes,0.8278931345995807,Symmetry and conservation laws
+11.30.-j,Quantum Field Theory,0.8226742244805141,Symmetry and conservation laws
+11.30.-j,Lie algebra,0.8225541147134071,Symmetry and conservation laws
+12.60.Nz,Yang-Mills models of matter,1.2331072918068855,Technicolor models
+12.60.Nz,Higgs beyond the SM,1.1537196143383956,Technicolor models
+12.60.Nz,Higgs boson,0.8668089797691017,Technicolor models
+12.60.Nz,Hadronic zoo,0.8585061234767888,Technicolor models
+12.60.Nz,Renormalization,0.8453527568835966,Technicolor models
+03.70.+k,Systems dynamics and thermodynamics,0.9557386443064076,Theory of quantized fields
+03.70.+k,Quantum Field Theory,0.9522228916009594,Theory of quantized fields
+03.70.+k,Boundary conditions/non-locality,0.9018837782479384,Theory of quantized fields
+03.70.+k,Gauge Theory,0.7993713752183935,Theory of quantized fields
+03.70.+k,Field theory and gravity,0.6955432955169693,Theory of quantized fields
+14.65.Ha,Top quark,1.9627738234084984,Top quarks
+14.65.Ha,Events in colliders (kinematics),1.329496294002428,Top quarks
+14.65.Ha,Events in colliders (signatures),1.2287935335863875,Top quarks
+14.65.Ha,Cross-sections in colliders,0.9901267942232408,Top quarks
+14.65.Ha,Higgs beyond the SM,0.8243997940437461,Top quarks
+13.60.Hb,Scattering of composite particles,1.784061510032681,Total and inclusive cross sections (including deep-inelastic processes)
+13.60.Hb,Partons distributions,1.3517763830364526,Total and inclusive cross sections (including deep-inelastic processes)
+13.60.Hb,Spin/angular momentum/polarization,1.1575763646742183,Total and inclusive cross sections (including deep-inelastic processes)
+13.60.Hb,Cross-sections in colliders,0.983097581216775,Total and inclusive cross sections (including deep-inelastic processes)
+13.60.Hb,Heavy quarks and ions,0.9513034740122444,Total and inclusive cross sections (including deep-inelastic processes)
+13.85.Lg,Annihilation and scattering cross-sections,1.5995323296295942,Total cross sections
+13.85.Lg,Cross-sections in colliders,1.5718401223514762,Total cross sections
+13.85.Lg,Events in colliders (kinematics),1.0937116457937228,Total cross sections
+13.85.Lg,Scattering of composite particles,0.9890956303296362,Total cross sections
+13.85.Lg,Events in colliders (signatures),0.8532631074453966,Total cross sections
+12.10.Kt,Gauge symmetry breaking/GUTs,1.2603449227139831,Unification of couplings; mass relations
+12.10.Kt,Higgs boson,1.117695648339966,Unification of couplings; mass relations
+12.10.Kt,Flavour physics,0.9990931595886396,Unification of couplings; mass relations
+12.10.Kt,Yang-Mills models of matter,0.991847437687146,Unification of couplings; mass relations
+12.10.Kt,Higgs beyond the SM,0.9798696127640024,Unification of couplings; mass relations
+12.10.-g,Gauge symmetry breaking/GUTs,1.1440499930183308,Unified field theories and models
+12.10.-g,Topology,0.7077525702775956,Unified field theories and models
+12.10.-g,Yang-Mills models of matter,0.6978946848020786,Unified field theories and models
+12.10.-g,Higgs boson,0.6927608700157126,Unified field theories and models
+12.10.-g,M-theory and theories of everything,0.6744218098463203,Unified field theories and models
+12.10.Dm,Gauge symmetry breaking/GUTs,1.3384132857407347,Unified theories and models of strong and electroweak interactions
+12.10.Dm,Yang-Mills models of matter,1.0641375784881062,Unified theories and models of strong and electroweak interactions
+12.10.Dm,Flavour physics,0.96346822195944,Unified theories and models of strong and electroweak interactions
+12.10.Dm,Higgs boson,0.945916613695966,Unified theories and models of strong and electroweak interactions
+12.10.Dm,Higgs beyond the SM,0.9267628177751704,Unified theories and models of strong and electroweak interactions
+14.70.Fm,Events in colliders (kinematics),1.5334060905152278,W bosons
+14.70.Fm,Events in colliders (signatures),1.3531049158160369,W bosons
+14.70.Fm,Cross-sections in colliders,1.0666675512100183,W bosons
+14.70.Fm,Experimental investigation of the leptonic sector,1.0161891186341807,W bosons
+14.70.Fm,Higgs boson,1.0070599258864124,W bosons
+14.70.Hp,Events in colliders (kinematics),1.4810284272640146,Z bosons
+14.70.Hp,Events in colliders (signatures),1.3498749936106005,Z bosons
+14.70.Hp,Cross-sections in colliders,1.210994529567157,Z bosons
+14.70.Hp,Experimental investigation of the leptonic sector,1.0036291226164424,Z bosons
+14.70.Hp,Higgs boson,0.9848391393312108,Z bosons
+14.40.Aq,Form factors,1.090826937379271,"pi, K, and eta mesons"
+14.40.Aq,Decay measurements,0.9705928986149236,"pi, K, and eta mesons"
+14.40.Aq,Meson phenomenology,0.9615806552308434,"pi, K, and eta mesons"
+14.40.Aq,Symétrie chirale,0.841476211325386,"pi, K, and eta mesons"
+14.40.Aq,Lepton/Meson decay,0.7229854061674152,"pi, K, and eta mesons"

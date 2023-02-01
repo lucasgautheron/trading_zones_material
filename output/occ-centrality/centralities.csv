@@ -1,0 +1,1001 @@
+,ngram,centrality
+18,other hand,0.2050788263213113
+40,low energy,0.15811001382143666
+7,effective field theory,0.14641093999811436
+26,recent result,0.11403989159500182
+45,early universe,0.10541001923767455
+10,magnetic field,0.10291453778427727
+0,standard model,0.1020860539898616
+9,quantum field theory,0.09171696746847048
+391,recent observation,0.08549932698229291
+20,extra dimension,0.08141207339604133
+113,same time,0.07991759294364505
+38,upper bound,0.07843916060348927
+44,dark matter candidate,0.07751238212160055
+3,scalar field,0.06939203732790908
+58,wide range,0.06604199389770532
+43,previous work,0.06530779276270259
+21,first time,0.06269997452362182
+19,effective action,0.061544510442306036
+16,general relativity,0.05906507710114925
+34,next-to-leading order,0.0559477312984327
+61,important role,0.05307913123544386
+174,spontaneous breaking,0.049018958838598116
+22,effective theory,0.04888856792664408
+28,high energy,0.048439220783910164
+75,new result,0.04823661336687389
+4,experimental data,0.047937717276394634
+533,scale invariance,0.04772507978920804
+17,good agreement,0.04770702566293749
+30,magnetic moment,0.045827390516769276
+27,numerical result,0.045080150290571136
+117,strong interaction,0.041570628744977446
+605,dirac fermion,0.0405455555756157
+94,electric field,0.040292797807827865
+14,cosmological constant,0.0402486654991665
+692,key ingredient,0.040232617386926
+23,heavy ion collision,0.03960072296745643
+13,upper limit,0.038818377495732206
+76,dark matter particle,0.03881436546767208
+428,other model,0.03782740656488152
+11,boundary condition,0.03698688668628548
+80,strong coupling,0.03621457128471157
+6,large hadron collider,0.03592570526438262
+31,finite temperature,0.03353654255457863
+24,integrated luminosity,0.03147436013167476
+1,black hole,0.03146232404749439
+110,electric charge,0.030766237179062832
+82,free parameter,0.02975320009388146
+73,effective potential,0.02818249110834281
+182,conformal symmetry,0.028014988936832623
+29,higgs boson,0.027404157664678706
+149,\cal o,0.02729382689302529
+8,new physic,0.026960828564034978
+138,gauge symmetry,0.026353006312926152
+162,present work,0.026182495120370873
+656,cosmological data,0.024874573972770365
+15,supersymmetric standard model,0.024513491447359183
+106,previous result,0.023971867659242408
+222,spontaneous symmetry breaking,0.023931747378641167
+270,green function,0.02377527828429632
+49,theoretical prediction,0.02356865883919992
+5,final state,0.022780295325385506
+107,chiral symmetry breaking,0.02249343531908662
+41,chiral symmetry,0.02245331503848538
+274,lorentz invariance,0.022268761747719665
+50,gravitational wave,0.021807378520805373
+687,recent paper,0.02142422984106351
+25,proton-proton collision,0.02090868423533754
+141,large value,0.02085050982846574
+37,angular momentum,0.02059374003261779
+12,conformal field theory,0.019089229510071193
+250,light quark,0.01884048377034349
+2,dark matter,0.018704074816299265
+295,higgs doublet model,0.017707085843358387
+93,scalar potential,0.017464358145720872
+116,massive gravity,0.01732193114958646
+46,radiative correction,0.017237678560323853
+103,systematic uncertainty,0.016976896736415774
+912,static solution,0.016946806525964843
+143,gravitational field,0.016862553936702232
+123,entanglement entropy,0.016638883372350307
+562,cp-violating phase,0.016423236864118628
+211,forward-backward asymmetry,0.01558472299955266
+156,supersymmetric extension,0.014806389555888554
+147,new method,0.014441295002417247
+142,recent development,0.014214615417020227
+109,theoretical uncertainty,0.013768277295331404
+664,total energy,0.013470384211867178
+83,future experiment,0.012954838606141212
+56,total cross section,0.012643906431481581
+108,present result,0.012537587687888289
+216,perturbative expansion,0.012509503491467419
+247,direct search,0.012326956214731765
+153,gauge boson,0.0121504269800863
+48,experimental result,0.011995963899771514
+388,simplified model,0.011917729352599092
+209,holographic model,0.011845512847516856
+71,supersymmetric model,0.011769284314374495
+283,tensor-to-scalar ratio,0.011394159690752878
+195,recent measurement,0.011053137305642316
+194,complete set,0.01098292681459014
+264,systematic error,0.0109428065339889
+356,au+au collision,0.010894662197267408
+919,third generation,0.010846517860545917
+127,direct detection experiment,0.010726157018742188
+796,realistic model,0.01069807282232132
+299,relic abundance,0.010533579671856225
+133,previous study,0.01015043099211436
+114,dimensional reduction,0.010112316725543179
+198,low temperature,0.008848527886604039
+622,quantum field,0.008710112918529753
+170,standard model expectation,0.008411216828050495
+52,dark energy,0.008270795845946147
+39,cosmic microwave background,0.0081143267516013
+35,cp violation,0.008088248569210494
+248,higher order,0.008026062134278568
+179,supersymmetric particle,0.007951839615166269
+68,fixed point,0.007923755418745399
+67,lower bound,0.007739202127979683
+62,electromagnetic field,0.0077191419876790615
+53,exact solution,0.0076449194685667635
+348,elementary particle,0.007512522542582663
+64,heavy quark,0.007289854985245767
+165,critical value,0.007209614424043282
+120,experimental constraint,0.007161470087321791
+85,large number,0.0071594640732917285
+218,new approach,0.007139403932991107
+193,dark matter model,0.007127367848810734
+503,bottom quark,0.006992964908796572
+79,differential equation,0.006690056790257191
+36,top quark,0.006667990635926508
+86,linear collider,0.006627870355325265
+126,simple model,0.006491461401281041
+111,global symmetry,0.00648143133113073
+260,hole solution,0.006403196783958307
+81,free energy,0.006397178741868121
+47,standard model prediction,0.0063791246155975615
+175,electric dipole moment,0.006276817900064393
+100,relic density,0.006276817900064393
+132,massive particle,0.006227670556327871
+758,gravitational potential,0.005989957893765509
+309,numerical solution,0.005891663206292465
+297,analytical expression,0.005889657192262403
+59,chemical potential,0.005869597051961781
+203,near future,0.005865585023901657
+87,right-handed neutrino,0.005863579009871595
+90,invariant mass,0.005671001662985631
+230,feynman diagram,0.005652947536715072
+33,differential cross section,0.005476418302069605
+262,particular attention,0.005450340119678797
+129,recent work,0.0053781236145965606
+509,simple example,0.005071203467997055
+57,quantum gravity,0.005011023047095191
+89,sterile neutrino,0.004986950878734446
+98,center-of-mass energy,0.004930782485892706
+54,initial condition,0.0048746140930509664
+101,standard model higgs,0.004871605072005874
+780,particular interest,0.0047602712933374255
+333,first order phase,0.004728175068856431
+208,initial state,0.00472616905482637
+565,few percent,0.004715135977661028
+436,weak interaction,0.004692066816315313
+158,numerical simulation,0.004686048774225127
+88,tree level,0.004672006676014692
+32,gauge theory,0.004667994647954568
+373,cern lhc,0.004647934507653947
+51,critical point,0.004585748072722021
+630,electroweak interaction,0.004567693946451462
+344,weak coupling,0.0045135315676397844
+55,quark-gluon plasma,0.004433291006437299
+596,critical behavior,0.004339008347024379
+266,general form,0.004240713659551335
+196,direct detection,0.004110322747597297
+659,parameter space,0.004088256593266613
+152,excited state,0.004020052116244501
+154,electroweak scale,0.003965889737432823
+95,angular distribution,0.0038515469377192824
+97,large class,0.003843522881599034
+838,general feature,0.0038314867974186613
+343,gluon fusion,0.0037873544887572943
+617,decay rate,0.0037873544887572943
+244,pseudoscalar meson,0.0037753184045769216
+357,baryon asymmetry,0.0037592702923364245
+576,two-higgs-doublet model,0.003731186095915555
+240,standard model particle,0.0036569635768032563
+183,global fit,0.003652951548743132
+246,small value,0.0036348974224725728
+847,new limit,0.0035065125245485967
+288,strong constraint,0.003448338117676795
+341,systematic study,0.003447335110661764
+160,electroweak symmetry breaking,0.0033460314021436267
+215,quantum correction,0.003241718672580396
+122,first order,0.003197586363919029
+140,cross section,0.003129381886896917
+289,different value,0.003111327760626358
+70,central charge,0.0030732134940551774
+227,n =,0.003069201465995053
+228,late time,0.003069201465995053
+137,higher dimension,0.003049141325694432
+134,new particle,0.002974918806582133
+336,first-order phase transition,0.0029628827224017604
+512,significant deviation,0.002922762441800518
+77,neutrino oscillation,0.0028986902734397723
+232,dark matter mass,0.002806413628056915
+419,cosmological solution,0.0027793324386510758
+279,different type,0.0027241670528243673
+144,recent progress,0.0026940768423734354
+746,theoretical approach,0.002639914463561758
+850,local symmetry,0.0024242679553300797
+265,asymptotic behavior,0.002369102569503371
+224,detailed analysis,0.002355060471292936
+192,cold dark matter,0.002240717671579395
+72,perturbative qcd,0.002224669559338898
+319,phenomenological model,0.0021624831244069723
+118,such model,0.002150447040226599
+84,black hole solution,0.0020421222826032446
+184,chiral phase transition,0.00203811025454312
+155,current status,0.0019498456372203867
+91,centre-of-mass energy,0.001935803539009952
+42,chiral perturbation theory,0.0018475389216872182
+505,heavy neutrino,0.0018314908094467213
+478,cosmological evolution,0.0018094246551160378
+282,previous analysis,0.0018014005989957895
+321,scalar particle,0.0017713103885448574
+78,scalar field theory,0.0017612803183945469
+125,higgs mass,0.0017271780798834907
+529,perturbative calculation,0.0017031059115227452
+688,full set,0.0016790337431619997
+833,possible implication,0.0016549615748012543
+986,majorana fermion,0.0016549615748012543
+173,decay width,0.001636907448530695
+263,top quark pair,0.001620859336290198
+207,special attention,0.001604811224049701
+60,anomalous dimension,0.0015947811538993904
+411,effective operator,0.0015767270276288313
+239,crucial role,0.0015687029715085827
+130,yukawa coupling,0.0015205586347870918
+92,gauge field,0.0015185526207570296
+876,specific case,0.0014694052770205075
+441,general solution,0.0013841496807428671
+169,critical exponent,0.0012998970914802578
+457,dark photon,0.0012577707968489532
+99,neutrino mass,0.0012577707968489532
+136,lhc energy,0.001255764782818891
+908,yukawa interaction,0.0012056144320673379
+382,symmetric model,0.0011675001654961575
+256,top quark mass,0.001093277646383859
+205,lower limit,0.0010772295341433618
+516,dark matter abundance,0.0010671994639930512
+74,pp collision,0.0009628867344298206
+201,quantum fluctuation,0.0009167484117383918
+346,good description,0.0008806401591972734
+318,classical solution,0.0008345018365058445
+167,precise measurement,0.0008064176400849747
+66,special case,0.0007041109245518063
+355,effective mass,0.0006780327421609986
+276,main result,0.0006439305036499425
+442,hubble parameter,0.0006298884054395077
+713,dark matter halo,0.0005636899424474575
+363,neutron star,0.0005476418302069604
+135,new class,0.0005416237881167741
+475,significant excess,0.0005255756758762771
+119,critical temperature,0.000491473437365221
+112,matrix element,0.0004854553952750346
+332,scale factor,0.0004774313391547861
+296,theoretical model,0.0003931787498921767
+229,form factor,0.00038716070780199036
+200,quantum number,0.0003851546937719282
+241,chiral condensate,0.00037713063765167977
+187,inflationary model,0.0003671005675013691
+563,scalar boson,0.00036108252541118275
+164,spatial dimension,0.00034904644123080996
+311,first law,0.0003269802869001266
+166,dipole moment,0.0003049141325694432
+69,inelastic scattering,0.0002888660203289462
+380,scalar mass,0.0002607818239080764
+495,dominant contribution,0.0002497487467427347
+755,main feature,0.00024072168360745515
+223,minimal model,0.00022467357136695814
+191,two-point function,0.000206619445096399
+275,dimensional regularization,0.00020461343106633687
+339,second part,0.0001825472767356535
+774,model-independent way,0.00017652923464546712
+330,observational data,0.0001604811224049701
+273,first result,0.00015646909434484586
+464,anti-de sitter,0.00013941797508931777
+124,preliminary result,0.0001364089540442246
+214,energy-momentum tensor,0.00013239692598410034
+278,numerical calculation,0.00012838489792397608
+102,supersymmetric gauge theory,0.00010431272956323056
+403,recent year,0.00010431272956323056
+362,recent data,9.829468747304418e-05
+220,arbitrary number,8.024056120248505e-05
+426,light neutrino mass,8.024056120248505e-05
+105,cosmological model,7.823454717242293e-05
+236,linear combination,7.823454717242293e-05
+233,standard deviation,6.619846299205017e-05
+235,neutrino mass matrix,6.419244896198804e-05
+306,one-loop correction,5.817440687180166e-05
+148,spectral index,5.6168392841739534e-05
+800,earlier result,4.814433672149103e-05
+543,uv completion,3.410223851105615e-05
+409,new measurement,3.410223851105615e-05
+293,one-loop level,3.410223851105615e-05
+225,radiative decay,3.0090210450931894e-05
+414,non-minimal coupling,3.0090210450931894e-05
+65,double beta decay,1.604811224049701e-05
+197,higgs field,1.4042098210434884e-05
+181,discrete symmetry,1.2036084180372757e-05
+369,higgs production,1.2036084180372757e-05
+131,ads/cft correspondence,8.024056120248505e-06
+251,effective lagrangian,8.024056120248505e-06
+190,present paper,6.018042090186378e-06
+146,nuclear matter,4.0120280601242526e-06
+217,numerical analysis,4.0120280601242526e-06
+765,central collision,0.0
+752,new phenomenon,0.0
+789,inflationary scenario,0.0
+790,experimental uncertainty,0.0
+791,possible explanation,0.0
+792,cosmological implication,0.0
+793,significant signal,0.0
+794,one-to-one correspondence,0.0
+754,new mechanism,0.0
+753,logarithmic correction,0.0
+795,perfect agreement,0.0
+797,same way,0.0
+751,lhc search,0.0
+766,njl model,0.0
+798,threshold correction,0.0
+750,higher derivative,0.0
+799,hamiltonian formulation,0.0
+801,phenomenological study,0.0
+802,broad class,0.0
+749,thermodynamic quantity,0.0
+748,one-loop contribution,0.0
+803,allowed region,0.0
+804,angular correlation,0.0
+805,dimensional theory,0.0
+747,sensitive probe,0.0
+788,underground laboratory,0.0
+756,bosonic string,0.0
+787,inverse femtobarns,0.0
+757,exotic state,0.0
+767,flavour symmetry,0.0
+768,open problem,0.0
+769,combined analysis,0.0
+770,bose-einstein condensate,0.0
+771,heavy quark symmetry,0.0
+772,higgs boson mass,0.0
+773,neutrino interaction,0.0
+764,phenomenological application,0.0
+763,exclusive process,0.0
+775,e+ e-,0.0
+762,asymptotic freedom,0.0
+776,quantum level,0.0
+777,d^ *,0.0
+778,conformal transformation,0.0
+761,heavy quarkonia,0.0
+781,azimuthal correlation,0.0
+782,qcd matter,0.0
+783,scalar-tensor theory,0.0
+784,new contribution,0.0
+760,hypergeometric function,0.0
+759,logarithmic accuracy,0.0
+785,feynman integral,0.0
+786,canonical quantization,0.0
+779,asymptotic expansion,0.0
+712,topological field theory,0.0
+745,* +,0.0
+683,bekenstein-hawking entropy,0.0
+675,numerical value,0.0
+676,complex plane,0.0
+677,internal space,0.0
+807,same result,0.0
+678,complex structure,0.0
+679,theoretical result,0.0
+680,central value,0.0
+681,black string,0.0
+682,dual theory,0.0
+684,new insight,0.0
+697,topological string,0.0
+685,future measurement,0.0
+686,indirect detection,0.0
+648,general method,0.0
+689,lower energy,0.0
+690,flux compactifications,0.0
+691,conformal anomaly,0.0
+693,flow equation,0.0
+694,heterotic string theory,0.0
+695,heavy quark mass,0.0
+649,abelian gauge theory,0.0
+674,high scale,0.0
+673,chiral anomaly,0.0
+672,top quark decay,0.0
+654,new way,0.0
+655,integral equation,0.0
+653,dyson-schwinger equation,0.0
+657,susy model,0.0
+658,explicit solution,0.0
+660,molecular state,0.0
+661,two-point correlation function,0.0
+662,perturbative qcd approach,0.0
+663,phase transition,0.0
+665,holographic description,0.0
+652,kinetic mixing,0.0
+666,stringent limit,0.0
+667,classical level,0.0
+668,experimental observation,0.0
+651,two-higgs doublet model,0.0
+669,flavour violation,0.0
+670,measured value,0.0
+671,exact expression,0.0
+650,top quark production,0.0
+696,partial wave analysis,0.0
+698,sufficient condition,0.0
+744,broken phase,0.0
+734,black ring,0.0
+725,new state,0.0
+726,subsequent decay,0.0
+727,integrable model,0.0
+728,hidden sector,0.0
+729,magnetic monopoles,0.0
+730,heavy particle,0.0
+731,big bang,0.0
+732,landau gauge,0.0
+733,such state,0.0
+735,friedmann equation,0.0
+699,massive neutrino,0.0
+736,qcd calculation,0.0
+737,possible existence,0.0
+738,standard model field,0.0
+739,light-cone sum rule,0.0
+647,chiral lagrangian,0.0
+740,cosmological parameter,0.0
+741,sine-gordon model,0.0
+742,\rm t,0.0
+743,effective interaction,0.0
+724,second order phase,0.0
+723,few year,0.0
+722,future prospect,0.0
+721,reasonable agreement,0.0
+700,holographic qcd,0.0
+701,slow-roll inflation,0.0
+702,holographic dual,0.0
+703,planck scale,0.0
+704,nambu-goldstone boson,0.0
+705,one-loop amplitude,0.0
+706,closed string,0.0
+707,other experiment,0.0
+708,jona-lasinio model,0.0
+709,similar result,0.0
+710,boson mass,0.0
+711,double field theory,0.0
+714,physical state,0.0
+715,other approach,0.0
+716,minimal supergravity,0.0
+717,broad range,0.0
+718,first error,0.0
+719,partial wave,0.0
+720,cern sps,0.0
+806,hybrid inflation,0.0
+914,present measurement,0.0
+808,kinematic distribution,0.0
+931,derivative correction,0.0
+933,deconfinement transition,0.0
+934,supersymmetric su,0.0
+935,gauss-bonnet gravity,0.0
+936,experimental evidence,0.0
+937,loop order,0.0
+938,initial data,0.0
+939,experimental setup,0.0
+940,near-horizon geometry,0.0
+941,relativistic particle,0.0
+942,rotational symmetry,0.0
+943,canonical ensemble,0.0
+944,conserved quantity,0.0
+945,additional constraint,0.0
+946,simple extension,0.0
+947,physical value,0.0
+948,independent way,0.0
+949,valuable information,0.0
+950,physical degree,0.0
+951,baryon number,0.0
+932,exclusive production,0.0
+930,phenomenological constraint,0.0
+953,experimental sensitivity,0.0
+929,gauge transformation,0.0
+907,azimuthal asymmetry,0.0
+909,gauss-bonnet term,0.0
+910,explicit construction,0.0
+911,simple form,0.0
+913,perturbative series,0.0
+645,electroweak baryogenesis,0.0
+915,main goal,0.0
+916,see-saw mechanism,0.0
+917,theoretical study,0.0
+918,chaotic inflation,0.0
+920,many case,0.0
+921,cp-violating asymmetry,0.0
+922,partial width,0.0
+923,general result,0.0
+924,indirect search,0.0
+925,obtained result,0.0
+926,wide variety,0.0
+927,signal strength,0.0
+928,various model,0.0
+952,additional contribution,0.0
+954,variational principle,0.0
+905,large mass,0.0
+977,heavy quarkonium,0.0
+979,statistical error,0.0
+980,systematic way,0.0
+981,kinematical region,0.0
+982,nonperturbative effect,0.0
+983,covariant derivative,0.0
+984,electromagnetic interaction,0.0
+985,new perspective,0.0
+987,same form,0.0
+988,seesaw model,0.0
+989,basic property,0.0
+990,universality class,0.0
+991,observed value,0.0
+992,charmed meson,0.0
+993,such particle,0.0
+994,arbitrary value,0.0
+995,brief overview,0.0
+996,two-loop correction,0.0
+997,one-parameter family,0.0
+998,single-spin asymmetry,0.0
+978,qualitative agreement,0.0
+976,gravitational perturbation,0.0
+955,opposite sign,0.0
+975,gravitational coupling,0.0
+956,fermi surface,0.0
+957,short review,0.0
+958,asymptotic behaviour,0.0
+959,minimal extension,0.0
+960,false vacuum,0.0
+961,cosmic acceleration,0.0
+962,various type,0.0
+963,two-loop order,0.0
+964,current constraint,0.0
+965,more detail,0.0
+966,classical equation,0.0
+967,quantum theory,0.0
+968,cpt violation,0.0
+969,present data,0.0
+970,top production,0.0
+971,statistical mechanic,0.0
+972,normal hierarchy,0.0
+973,functional form,0.0
+974,kinetic equation,0.0
+906,inflationary cosmology,0.0
+904,n >,0.0
+809,better understanding,0.0
+831,low-energy constant,0.0
+834,inclusive production,0.0
+835,superconformal algebra,0.0
+836,effective description,0.0
+837,qcd factorization,0.0
+839,interesting feature,0.0
+840,holographic superconductors,0.0
+841,nuclear medium,0.0
+842,baryonic matter,0.0
+843,tev scale,0.0
+844,infinite set,0.0
+845,conserved charge,0.0
+846,euclidean space,0.0
+848,generic feature,0.0
+849,soft term,0.0
+851,other word,0.0
+852,kinematic variable,0.0
+853,neutral particle,0.0
+854,small number,0.0
+855,nuclear target,0.0
+832,physical system,0.0
+830,new set,0.0
+857,natural way,0.0
+829,free field,0.0
+810,such effect,0.0
+811,dense matter,0.0
+812,cosmological scenario,0.0
+813,gravitational effect,0.0
+814,supersymmetric solution,0.0
+815,einstein-hilbert action,0.0
+816,hadronic interaction,0.0
+817,black branes,0.0
+818,stress-energy tensor,0.0
+819,current limit,0.0
+820,acoustic oscillation,0.0
+821,spectral density,0.0
+822,free theory,0.0
+823,fermionic field,0.0
+824,such solution,0.0
+825,cosmological constraint,0.0
+826,total number,0.0
+827,third order,0.0
+828,hard process,0.0
+856,w boson,0.0
+858,current bound,0.0
+903,new interaction,0.0
+882,special relativity,0.0
+884,minimal length,0.0
+885,fifth dimension,0.0
+886,long time,0.0
+887,curved spacetime,0.0
+888,anomalous coupling,0.0
+889,scalar theory,0.0
+890,conformal block,0.0
+891,other method,0.0
+892,modulus stabilization,0.0
+893,possible solution,0.0
+894,non-relativistic limit,0.0
+895,gluon distribution,0.0
+896,calabi-yau threefolds,0.0
+897,gauge invariant,0.0
+898,gauged supergravity,0.0
+899,physical point,0.0
+900,fundamental theory,0.0
+901,azimuthal angle,0.0
+902,proton-antiproton collision,0.0
+883,certain condition,0.0
+881,unified description,0.0
+859,such scenario,0.0
+880,superconformal symmetry,0.0
+860,loop correction,0.0
+861,different scenario,0.0
+862,dual cft,0.0
+863,higher spin,0.0
+864,quark-antiquark pair,0.0
+865,cp asymmetry,0.0
+866,conformal dimension,0.0
+867,axial anomaly,0.0
+868,large region,0.0
+869,visible sector,0.0
+870,stringent bound,0.0
+871,present study,0.0
+872,large logarithm,0.0
+873,bound state,0.0
+874,lepton number,0.0
+875,nlo correction,0.0
+877,general formalism,0.0
+878,numerical evaluation,0.0
+879,possible way,0.0
+646,experimental signature,0.0
+500,neutral gauge boson,0.0
+644,klein-gordon equation,0.0
+325,infinite number,0.0
+364,experimental search,0.0
+365,strong cp problem,0.0
+366,new physic model,0.0
+367,theoretical calculation,0.0
+368,first observation,0.0
+370,analytical result,0.0
+371,real part,0.0
+372,\cal b,0.0
+374,general class,0.0
+375,different model,0.0
+376,external field,0.0
+377,standard model background,0.0
+378,deep-inelastic scattering,0.0
+379,new feature,0.0
+381,nucleus-nucleus collision,0.0
+383,brief review,0.0
+384,new model,0.0
+385,black hole background,0.0
+386,dual field theory,0.0
+361,quark matter,0.0
+360,lorentz violation,0.0
+359,dark matter density,0.0
+340,experimental limit,0.0
+327,yang-mills theory,0.0
+328,nonlinear sigma model,0.0
+329,higgs model,0.0
+331,global analysis,0.0
+334,anti-de sitter space,0.0
+335,numerical study,0.0
+337,gravitational theory,0.0
+338,leptonic decay,0.0
+342,chiral limit,0.0
+358,lorentz symmetry,0.0
+345,super yang-mills,0.0
+347,quasinormal mode,0.0
+349,exact result,0.0
+350,generalized parton distribution,0.0
+351,holographic entanglement entropy,0.0
+352,different approach,0.0
+353,scalar perturbation,0.0
+354,gauge invariance,0.0
+387,dark matter relic density,0.0
+389,differential distribution,0.0
+390,non-perturbative effect,0.0
+430,final result,0.0
+420,excellent agreement,0.0
+421,analytic solution,0.0
+422,lattice simulation,0.0
+423,explicit form,0.0
+424,local operator,0.0
+425,neural network,0.0
+427,non-abelian gauge theory,0.0
+429,drell-yan process,0.0
+431,solar neutrino,0.0
+417,higgs potential,0.0
+432,generalized uncertainty principle,0.0
+433,new physic effect,0.0
+434,composite higgs model,0.0
+435,axion-like particle,0.0
+437,same order,0.0
+438,thermal equilibrium,0.0
+439,magnetic flux,0.0
+440,strong evidence,0.0
+418,charged particle,0.0
+416,intermediate state,0.0
+392,pb-pb collision,0.0
+401,several example,0.0
+393,rare decay,0.0
+394,grand unification,0.0
+395,physical quantity,0.0
+396,topological charge,0.0
+397,potential model,0.0
+398,irreducible representation,0.0
+399,hadronic decay,0.0
+400,higgs doublet,0.0
+402,galactic center,0.0
+415,functional renormalization group,0.0
+404,n limit,0.0
+405,earlier work,0.0
+406,large distance,0.0
+407,black hole thermodynamics,0.0
+408,non-linear sigma model,0.0
+410,bethe-salpeter equation,0.0
+412,atmospheric neutrino,0.0
+413,effective model,0.0
+326,arbitrary dimension,0.0
+324,minkowski space,0.0
+643,general theory,0.0
+323,such theory,0.0
+186,experimental value,0.0
+188,dirac equation,0.0
+189,invariant mass distribution,0.0
+199,next-to-next-to-leading order,0.0
+202,experimental measurement,0.0
+204,high energy physic,0.0
+206,space-time dimension,0.0
+210,analytic expression,0.0
+212,black hole entropy,0.0
+213,semileptonic decay,0.0
+219,black hole horizon,0.0
+221,final state interaction,0.0
+226,cosmic string,0.0
+231,hilbert space,0.0
+234,particular case,0.0
+237,linear sigma model,0.0
+238,available data,0.0
+242,invariant mass spectrum,0.0
+243,shear viscosity,0.0
+185,explicit example,0.0
+180,elastic scattering,0.0
+178,supersymmetric theory,0.0
+150,electromagnetic form factor,0.0
+63,modulus space,0.0
+96,second order,0.0
+104,imaginary part,0.0
+115,qcd sum rule,0.0
+121,\cal n,0.0
+128,dark matter annihilation,0.0
+139,spectral function,0.0
+145,dark matter search,0.0
+151,kinetic term,0.0
+177,first measurement,0.0
+157,explicit expression,0.0
+159,supersymmetric yang-mills theory,0.0
+161,super yang-mills theory,0.0
+163,high temperature,0.0
+168,superconformal field theory,0.0
+171,cosmic ray,0.0
+172,transverse momentum,0.0
+176,nuclear modification factor,0.0
+245,detailed study,0.0
+249,electroweak symmetry,0.0
+252,proton-proton collision data,0.0
+308,previous paper,0.0
+298,next-to-leading order qcd,0.0
+300,phenomenological implication,0.0
+301,current data,0.0
+302,topological defect,0.0
+303,n=4 sym,0.0
+304,chiral quark model,0.0
+305,standard model gauge,0.0
+307,physical interpretation,0.0
+310,einstein equation,0.0
+292,nuclear collision,0.0
+312,latter case,0.0
+313,elliptic flow,0.0
+314,stringent constraint,0.0
+315,neutral current,0.0
+316,neutrino mass hierarchy,0.0
+317,qcd correction,0.0
+320,harmonic oscillator,0.0
+322,decay channel,0.0
+294,conformal invariance,0.0
+291,experimental bound,0.0
+253,big bang nucleosynthesis,0.0
+269,spacetime dimension,0.0
+254,analytic continuation,0.0
+255,flat space,0.0
+257,atlas experiment,0.0
+258,strong coupling constant,0.0
+259,unified theory,0.0
+261,new type,0.0
+267,general case,0.0
+268,lhcb experiment,0.0
+271,scalar meson,0.0
+290,relativistic heavy-ion collision,0.0
+272,cosmological perturbation,0.0
+277,first step,0.0
+280,s * *,0.0
+281,heavy ion collider,0.0
+284,einstein gravity,0.0
+285,fundamental representation,0.0
+286,neutral higgs boson,0.0
+287,open string,0.0
+443,three-point function,0.0
+444,higher order correction,0.0
+445,qcd phase diagram,0.0
+446,electroweak phase transition,0.0
+574,finite density,0.0
+575,fine tuning,0.0
+577,heavy quark effective theory,0.0
+578,standard model effective field,0.0
+579,dark matter direct detection,0.0
+580,dark matter scenario,0.0
+581,gravitational collapse,0.0
+582,different way,0.0
+583,possible application,0.0
+584,decay constant,0.0
+585,specific model,0.0
+586,tau lepton,0.0
+587,second law,0.0
+588,infrared divergence,0.0
+589,precise determination,0.0
+590,light meson,0.0
+591,perfect fluid,0.0
+592,certain class,0.0
+593,gravitational interaction,0.0
+573,matrix model,0.0
+572,signal event,0.0
+571,such system,0.0
+557,schwinger-dyson equation,0.0
+549,boundary term,0.0
+550,new data,0.0
+551,higgs boson production,0.0
+552,flat direction,0.0
+553,chiral model,0.0
+554,present status,0.0
+555,direct measurement,0.0
+556,integral representation,0.0
+558,lowest order,0.0
+570,derivative expansion,0.0
+559,hadronic matter,0.0
+560,finite temperature and density,0.0
+561,light higgs boson,0.0
+564,scalar curvature,0.0
+566,new constraint,0.0
+567,numerical method,0.0
+568,finite volume,0.0
+569,open question,0.0
+594,virtual photon,0.0
+595,higgs coupling,0.0
+597,four-point function,0.0
+633,riemann surface,0.0
+624,associated production,0.0
+625,naked singularity,0.0
+626,early time,0.0
+627,weak decay,0.0
+628,compact object,0.0
+629,milky way,0.0
+631,dynamical system,0.0
+632,kinematic range,0.0
+634,closed form,0.0
+621,general expression,0.0
+635,explicit formula,0.0
+636,gauge coupling,0.0
+637,large scale structure,0.0
+638,scalar field model,0.0
+639,supersymmetric quantum mechanic,0.0
+640,lhc experiment,0.0
+641,pair production,0.0
+642,pb+pb collision,0.0
+623,particular emphasis,0.0
+620,heavy meson,0.0
+598,new physic scenario,0.0
+608,small scale,0.0
+599,single spin asymmetry,0.0
+600,experimental test,0.0
+601,heavy baryon,0.0
+602,quantum effect,0.0
+603,latest result,0.0
+604,different method,0.0
+606,accelerated expansion,0.0
+607,lattice qcd,0.0
+609,effective coupling,0.0
+619,boundary theory,0.0
+610,nambu-jona-lasinio model,0.0
+611,derivative term,0.0
+612,e+e- collider,0.0
+613,quark mass,0.0
+614,electroweak correction,0.0
+615,kinetic theory,0.0
+616,necessary condition,0.0
+618,dark matter detection,0.0
+548,lagrangian approach,0.0
+547,lightest neutralino,0.0
+546,rhic energy,0.0
+481,inclusive cross section,0.0
+471,weak scale,0.0
+472,high transverse momentum,0.0
+473,future collider,0.0
+474,physical observables,0.0
+476,new solution,0.0
+477,statistical significance,0.0
+479,large transverse momentum,0.0
+480,noncommutative space,0.0
+482,kinematic region,0.0
+469,large scale,0.0
+483,early stage,0.0
+484,recent study,0.0
+485,high density,0.0
+486,phenomenological analysis,0.0
+487,internal structure,0.0
+488,first uncertainty,0.0
+489,flat spacetime,0.0
+490,general framework,0.0
+470,large n,0.0
+468,concrete example,0.0
+492,cm experiment,0.0
+455,direct cp violation,0.0
+447,dual description,0.0
+448,powerful tool,0.0
+449,first principle,0.0
+450,hadronic collision,0.0
+451,integrable system,0.0
+452,theoretical framework,0.0
+453,randall-sundrum model,0.0
+454,short distance,0.0
+456,neutrino oscillation experiment,0.0
+467,special emphasis,0.0
+458,heterotic string,0.0
+459,finite number,0.0
+460,decay mode,0.0
+461,one-loop order,0.0
+462,nuclear physic,0.0
+463,general formula,0.0
+465,explicit calculation,0.0
+466,cosmological constant problem,0.0
+491,active neutrino,0.0
+493,cosmological observation,0.0
+545,quantum mechanic,0.0
+534,phenomenological consequence,0.0
+524,specific example,0.0
+525,modified gravity,0.0
+526,lattice calculation,0.0
+527,compact star,0.0
+528,analytical solution,0.0
+530,experimental study,0.0
+531,magnetic effect,0.0
+532,magnetic charge,0.0
+535,lhcb collaboration,0.0
+522,null energy condition,0.0
+536,gauge group,0.0
+537,wide class,0.0
+538,nuclear effect,0.0
+539,standard model fermion,0.0
+540,key role,0.0
+541,previous measurement,0.0
+542,general property,0.0
+544,strange quark,0.0
+523,physical property,0.0
+521,thermodynamic property,0.0
+494,noncommutative geometry,0.0
+507,classical limit,0.0
+496,first part,0.0
+497,boundary state,0.0
+498,auxiliary field,0.0
+499,next generation,0.0
+501,virtual compton scattering,0.0
+502,analytic result,0.0
+504,calabi-yau manifold,0.0
+506,high precision,0.0
+508,symmetric solution,0.0
+520,scalar sector,0.0
+510,chiral fermion,0.0
+511,observational constraint,0.0
+513,strong decay,0.0
+514,new physic contribution,0.0
+515,chiral symmetry restoration,0.0
+517,higher energy,0.0
+518,previous calculation,0.0
+519,kinetic energy,0.0
+999,recent proposal,0.0

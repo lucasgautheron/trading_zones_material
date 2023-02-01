@@ -1,0 +1,14 @@
+!!python/object:argparse.Namespace
+constant_sampling: 0
+filter: categories
+lemmatize: true
+location: output/occ-centrality
+nouns: false
+samples: 50000
+threads: 4
+top_termhood: 1000
+top_unithood: 5000
+values:
+- Experiment-HEP
+- Phenomenology-HEP
+- Theory-HEP

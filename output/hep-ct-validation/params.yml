@@ -1,0 +1,24 @@
+!!python/object:argparse.Namespace
+add_title: false
+adjectives: true
+alpha: symmetric
+beta: 0.01
+compute_best_params: true
+constant_sampling: 0
+filter: categories
+lemmatize: true
+location: output/hep-ct-validation
+nouns: true
+reload_model: false
+reuse_articles: true
+reuse_best_params: false
+reuse_stored_vocabulary: true
+samples: 25000
+threads: 16
+top_unithood: 50000
+topics: 8
+values:
+- Experiment-HEP
+- Theory-HEP
+- Phenomenology-HEP
+- Lattice

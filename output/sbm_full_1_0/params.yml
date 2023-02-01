@@ -1,0 +1,28 @@
+!!python/object:argparse.Namespace
+add_title: true
+adjectives: false
+category_cited: 1
+category_cites: 0
+constant_sampling: 0
+exclude: []
+filter: categories
+lemmatize: true
+lemmatize_ngrams: true
+limit_redundancy: false
+location: output/sbm_full
+min_df: 0
+min_token_length: 0
+nouns: false
+remove_latex: true
+reuse_articles: false
+reuse_stored_vocabulary: false
+sample: false
+samples: 1000000
+susy_only: false
+threads: 8
+top_termhood: 100
+top_unithood: 500
+values:
+- Theory-HEP
+- Phenomenology-HEP
+- Experiment-HEP

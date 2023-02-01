@@ -1,0 +1,9 @@
+[submodule "inspire-harvest"]
+	path = inspire-harvest
+	url = git@gin.g-node.org:/lucasgautheron/inspire-harvest.git
+	datalad-id = 3f7d09c3-436a-480d-b3b7-7bcebe4cecb4
+	datalad-url = git@gin.g-node.org:/lucasgautheron/inspire-harvest.git
+[submodule "inspire-harvest"]
+	path = inspire-harvest
+	url = ./inspire-harvest
+	datalad-id = 3f7d09c3-436a-480d-b3b7-7bcebe4cecb4

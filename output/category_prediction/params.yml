@@ -1,0 +1,22 @@
+!!python/object:argparse.Namespace
+add_title: true
+adjectives: false
+constant_sampling: 0
+filter: categories
+lemmatize: true
+lemmatize_ngrams: true
+limit_redundancy: false
+location: output/bow_paper
+min_df: 0
+min_token_length: 0
+nouns: true
+remove_latex: true
+reuse_articles: false
+reuse_stored_vocabulary: false
+samples: 60000
+threads: 4
+top_unithood: 1000
+values:
+- Experiment-HEP
+- Phenomenology-HEP
+- Theory-HEP

@@ -457,16 +457,16 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.688629in}{3.532588in}}%
-\pgfpathlineto{\pgfqpoint{2.906441in}{3.532588in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{2.925719in}{3.532588in}}{\pgfqpoint{2.925719in}{3.551866in}}%
+\pgfpathmoveto{\pgfqpoint{1.244600in}{3.532684in}}%
+\pgfpathlineto{\pgfqpoint{2.906441in}{3.532684in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.925719in}{3.532684in}}{\pgfqpoint{2.925719in}{3.551962in}}%
 \pgfpathlineto{\pgfqpoint{2.925719in}{3.949083in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{2.925719in}{3.968361in}}{\pgfqpoint{2.906441in}{3.968361in}}%
-\pgfpathlineto{\pgfqpoint{0.688629in}{3.968361in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{0.669351in}{3.968361in}}{\pgfqpoint{0.669351in}{3.949083in}}%
-\pgfpathlineto{\pgfqpoint{0.669351in}{3.551866in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{0.669351in}{3.532588in}}{\pgfqpoint{0.688629in}{3.532588in}}%
-\pgfpathlineto{\pgfqpoint{0.688629in}{3.532588in}}%
+\pgfpathlineto{\pgfqpoint{1.244600in}{3.968361in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{1.225322in}{3.968361in}}{\pgfqpoint{1.225322in}{3.949083in}}%
+\pgfpathlineto{\pgfqpoint{1.225322in}{3.551962in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{1.225322in}{3.532684in}}{\pgfqpoint{1.244600in}{3.532684in}}%
+\pgfpathlineto{\pgfqpoint{1.244600in}{3.532684in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -477,16 +477,16 @@
 \definecolor{currentstroke}{rgb}{0.121569,0.466667,0.705882}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.707906in}{3.895780in}}%
-\pgfpathlineto{\pgfqpoint{0.804295in}{3.895780in}}%
-\pgfpathlineto{\pgfqpoint{0.900684in}{3.895780in}}%
+\pgfpathmoveto{\pgfqpoint{1.263877in}{3.895780in}}%
+\pgfpathlineto{\pgfqpoint{1.360266in}{3.895780in}}%
+\pgfpathlineto{\pgfqpoint{1.456655in}{3.895780in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.977795in,y=3.862044in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Susy phenomenology and superpartners}%
+\pgftext[x=1.533766in,y=3.862044in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Supersymmetric particles}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetrectcap%
@@ -495,16 +495,16 @@
 \definecolor{currentstroke}{rgb}{1.000000,0.498039,0.054902}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.707906in}{3.760065in}}%
-\pgfpathlineto{\pgfqpoint{0.804295in}{3.760065in}}%
-\pgfpathlineto{\pgfqpoint{0.900684in}{3.760065in}}%
+\pgfpathmoveto{\pgfqpoint{1.263877in}{3.760162in}}%
+\pgfpathlineto{\pgfqpoint{1.360266in}{3.760162in}}%
+\pgfpathlineto{\pgfqpoint{1.456655in}{3.760162in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.977795in,y=3.726329in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Higgs beyond the SM}%
+\pgftext[x=1.533766in,y=3.726425in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Higgs sector beyond the SM}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetrectcap%
@@ -513,16 +513,16 @@
 \definecolor{currentstroke}{rgb}{0.172549,0.627451,0.172549}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.707906in}{3.624639in}}%
-\pgfpathlineto{\pgfqpoint{0.804295in}{3.624639in}}%
-\pgfpathlineto{\pgfqpoint{0.900684in}{3.624639in}}%
+\pgfpathmoveto{\pgfqpoint{1.263877in}{3.624735in}}%
+\pgfpathlineto{\pgfqpoint{1.360266in}{3.624735in}}%
+\pgfpathlineto{\pgfqpoint{1.456655in}{3.624735in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.977795in,y=3.590903in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Higgs boson}%
+\pgftext[x=1.533766in,y=3.590999in,left,base]{\color{textcolor}\rmfamily\fontsize{6.940000}{8.328000}\selectfont Higgs boson}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%

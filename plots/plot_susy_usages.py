@@ -14,7 +14,7 @@ matplotlib.rcParams.update(
         "pgf.rcfonts": False,
     }
 )
-usages = pd.read_csv("analyses/supersymmetry_usages.csv")
+usages = pd.read_csv("output/supersymmetry_usages.csv")
 descriptions = pd.read_csv("output/hep-ct-75-0.1-0.001-130000-20/descriptions.csv")
 usages = usages.merge(descriptions)
 

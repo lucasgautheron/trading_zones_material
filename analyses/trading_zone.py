@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--remove-latex', default=True, action="store_true", help="remove latex")
     parser.add_argument('--limit-redundancy', default=False, action="store_true", help="limit redundancy")
     parser.add_argument('--add-title', default=True, action="store_true", help="include title")
-    parser.add_argument('--top-unithood', type=int, default=500, help='top unithood filter')
+    parser.add_argument('--top-unithood', type=int, default=2000, help='top unithood filter')
     parser.add_argument('--threads', type=int, default=16)
     parser.add_argument('--category-cited', type=int, help="filter cited category (0=theory,1=phenomenology,2=experiment)")
     parser.add_argument('--category-cites', type=int, help="filter citing category (0=theory,1=phenomenology,2=experiment)")
@@ -139,38 +139,56 @@ if __name__ == '__main__':
     articles["ngrams"] = ngrams
 
     print("Deriving vocabulary...")
-    if not args.reuse_stored_vocabulary:
-        ngrams_occurrences = defaultdict(int)        
-        categories = articles["category_cited"].tolist()
+    ngrams_occurrences = defaultdict(int)        
+    categories = articles["category_cited"].tolist()
 
-        for ngrams in articles["ngrams"].tolist():            
-            _ngrams = set(ngrams)
-            for ngram in _ngrams:
-                ngrams_occurrences[ngram] += 1
-            
-        ngrams_occurrences = {
-            "ngram": ngrams_occurrences.keys(),
-            "count": ngrams_occurrences.values()
-        }
+    for ngrams in articles["ngrams"].tolist():            
+        _ngrams = set(ngrams)
+        for ngram in _ngrams:
+            ngrams_occurrences[ngram] += 1
         
-        ngrams_occurrences = pd.DataFrame(ngrams_occurrences)
+    ngrams_occurrences = {
+        "ngram": ngrams_occurrences.keys(),
+        "count": ngrams_occurrences.values()
+    }
+    
+    ngrams_occurrences = pd.DataFrame(ngrams_occurrences)
+    
+    ngrams_occurrences["unithood"] = (
+        np.log(2 + ngrams_occurrences["ngram"].str.count(" "))
+        * ngrams_occurrences["count"] / len(articles)
+    )
         
-        ngrams_occurrences["unithood"] = (
-            np.log(2 + ngrams_occurrences["ngram"].str.count(" "))
-            * ngrams_occurrences["count"] / len(articles)
-        )
-            
-        ngrams_occurrences.set_index("ngram", inplace=True)
+    ngrams_occurrences.set_index("ngram", inplace=True)
 
-        top = ngrams_occurrences.sort_values("unithood", ascending=False).head(
-            args.top_unithood
-        )
-        top.to_csv(opj(location, "ngrams.csv"))
+    top = ngrams_occurrences.sort_values("unithood", ascending=False).head(
+        args.top_unithood
+    )
+    top.to_csv(opj(location, "ngrams.csv"))
 
     articles = articles.sample(frac=1)
     ngrams = articles["ngrams"].tolist()
 
     selected_ngrams = pd.read_csv(opj(location, 'ngrams.csv'))['ngram'].tolist()
+
+    n = []
+    frac = []
+
+    ngrams_bow = np.array(ngrams_bow)
+    for i in range(0, args.top_unithood, 10):
+        sum_bow = ngrams_bow[:,:i]
+        sum_bow = sum_bow.sum(axis=1)
+        sum_bow = (sum_bow==0).mean()
+        n.append(i)
+        frac.append(100*sum_bow)
+
+    frac = np.array(frac)
+    n_words = n[np.argmin(frac[frac>5])]
+    
+    print(f"preserving {n_words} words out of {len(selected_ngrams)}.")
+
+    selected_ngrams = selected_ngrams[:n_words]
+    selected_ngrams += [keyword for keyword in susy_ngrams if keyword not in selected_ngrams]
     
     vocabulary = {
         n: i

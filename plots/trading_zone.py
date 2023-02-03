@@ -26,22 +26,7 @@ args = parser.parse_args()
 
 boundary = f"{args.cited}_{args.cites}"
 
-articles = pd.read_parquet("../inspire-harvest/database/articles.parquet")[["date_created", "categories"]]
-
-articles = articles[articles.categories.map(lambda l: "Theory-HEP" in l or "Phenomenology-HEP" in l)]
-articles = articles[articles["date_created"].str.len() >= 4]
-articles["year"] = articles["date_created"].str[:4].astype(int)-2001
-articles = articles[(articles["year"] >= 0) & (articles["year"] <= 19)]
-articles["year"] = (articles["year"]/2).astype(int)
-articles["ph"] = articles["categories"].map(lambda l: "Phenomenology-HEP" in l)
-
-articles = articles.groupby("year").agg(
-    ph = ('ph', 'mean')
-).reset_index()
-
-articles["year"] = 2001+articles["year"]
-
-ngrams = pd.read_csv(f"output/trading_zone_{boundary}/ngrams.csv")
+ngrams = pd.read_csv(f"output/trading_zone_{boundary}/selected_ngrams.csv")
 ngrams["keyword"] = ngrams.index+1
 supersymmetry_keywords = ngrams[ngrams["ngram"].str.contains("super")]["keyword"].tolist()
 n_ngrams = len(ngrams)
@@ -58,9 +43,27 @@ for citation in citations.to_dict(orient="records"):
 
 p_w_t = (p_w_t.T/p_t).T
 ngrams["p_w_t_max"] = p_w_t.max(axis=0)
-ngrams.sort_values("p_w_t_max", inplace=True)
+ngrams["drop"] = False
 
-years = 2000+np.arange(len(p_t))
+# drop collinear features (keep the most frequents)
+bow_corr = np.corrcoef(bow, rowvar=False)
+x, y = np.where(bow_corr-np.identity(bow_corr.shape[1])>0.95)
+
+for k,_ in enumerate(x):
+    i = x[k]
+    j = y[k]
+    a = ngrams.at[i,"p_w_t_max"]
+    b = ngrams.at[j,"p_w_t_max"]
+
+    if a < b:
+        ngrams.at[i,"drop"] = True
+    else:
+        ngrams.at[j,"drop"] = True
+
+ngrams.sort_values("p_w_t_max", inplace=True)
+ngrams = ngrams[ngrams["drop"]==False]
+
+years = 2001+np.arange(len(p_t))
 
 colors = ['#377eb8', '#ff7f00', '#4daf4a', '#f781bf', '#a65628', '#984ea3', '#999999', '#e41a1c', '#dede00']
 colors += colors
@@ -92,7 +95,6 @@ for i, ngram in ngrams[ngrams["ngram"].str.contains("super")].tail(5).to_dict(or
 
 for i in range(2):
     axes[i].set_xlim(2001,2020)
-    # axes[i].set_ylim(0,4)
     axes[i].set_ylim(0.003,0.3)
     axes[i].set_yscale("log")
     axes[i].plot([2000,2020.5], [1, 1], ls="-", color="black")

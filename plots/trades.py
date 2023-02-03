@@ -46,7 +46,7 @@ p_t_ph_exp = citations_ph_exp.groupby("year_cites").agg(
 )
 p_t_ph_exp = p_t_ph_exp["trades"]/p_t_ph_exp["total"]
 
-years = p_t_th_ph.index.values+2000
+years = p_t_th_ph.index.values+2001
 
 print(years.shape)
 print(p_t_th_ph.shape)

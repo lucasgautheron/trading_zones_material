@@ -198,7 +198,6 @@ if __name__ == '__main__':
     print(f"preserving {n_words} words out of {len(selected_ngrams)}.")
 
     selected_ngrams = selected_ngrams[:n_words]
-    selected_ngrams += [keyword for keyword in susy_ngrams if keyword not in selected_ngrams]
     
     vocabulary = {
         n: i

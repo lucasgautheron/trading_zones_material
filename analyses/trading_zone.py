@@ -35,6 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('--threads', type=int, default=16)
     parser.add_argument('--category-cited', type=int, help="filter cited category (0=theory,1=phenomenology,2=experiment)")
     parser.add_argument('--category-cites', type=int, help="filter citing category (0=theory,1=phenomenology,2=experiment)")
+    args = parser.parse_args()
 
     location = f"{args.location}_{args.category_cited}_{args.category_cites}"
 

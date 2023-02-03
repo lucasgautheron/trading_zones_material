@@ -21,7 +21,7 @@ if __name__ == '__main__':
     parser.add_argument('--filter', choices=['categories', 'keywords', 'no-filter'], help='filter type', default="categories")
     parser.add_argument('--values', nargs='+', default=["Theory-HEP", "Phenomenology-HEP", "Experiment-HEP"], help='filter allowed values')
     parser.add_argument('--exclude', nargs='+', default=[], help='exclude values')
-    parser.add_argument('--samples', type=int, default=5000000)
+    parser.add_argument('--samples', type=int, default=10000000)
     parser.add_argument('--constant-sampling', type=int, default=0)
     parser.add_argument('--reuse-articles', default=False, action="store_true", help="reuse article selection")
     parser.add_argument('--nouns', default=False, action="store_true", help="include nouns")
@@ -87,7 +87,7 @@ if __name__ == '__main__':
         (citations["category_cited"] == args.category_cited) & (citations["category_cites"].isin([args.category_cites,args.category_cited]))
     ]
     citations["trade"] = (citations["category_cited"] != citations["category_cites"])
-    citations = citations[citations["year_cites"]>=2000]
+    citations = citations[citations["year_cites"]>=2001]
     citations = citations[citations["year_cites"]<=2019]
     citations["year_cites"] = ((citations["year_cites"]-citations["year_cites"].min())).astype(int)
     citations.drop_duplicates(["article_id_cited", "article_id_cites"], inplace=True)

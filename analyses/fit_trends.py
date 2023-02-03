@@ -124,25 +124,43 @@ significant_inc = fits[fits["99_significant"]==True].tail(3)
 
 fig, axes = plt.subplots(1,2,sharey=True)
 
+colors = ['#377eb8', '#ff7f00', '#4daf4a', '#f781bf', '#a65628', '#984ea3']
+
 ax = axes[0]
+n = 0
 for topic in significant_dec.to_dict(orient="records"):
     ax.plot(
         years,
         cumprobs[:,topic['topic']]/counts,
-        label=topic['description']
+        color = colors[n]
     )
+    ax.scatter(
+        years,
+        cumprobs[:,topic['topic']]/counts,
+        label=topic['description'],
+        color = colors[n]
+    )
+    n +=1
 
 ax.set_ylabel("Average relative contribution of each topic per year ($\\bar{\\theta_z}$)")
 ax.set_xlim(years.min(), years.max())
 ax.legend(fontsize='x-small', loc="upper right")
 
 ax = axes[1]
+n = 0
 for topic in significant_inc.to_dict(orient="records"):
     ax.plot(
         years,
         cumprobs[:,topic['topic']]/counts,
-        label=topic['description']
+        color = colors[n]
     )
+    ax.scatter(
+        years,
+        cumprobs[:,topic['topic']]/counts,
+        label=topic['description'],
+        color = colors[n]
+    )
+    n +=1
 
 ax.set_xlim(years.min(), years.max())
 ax.legend(fontsize='x-small', loc="upper right")

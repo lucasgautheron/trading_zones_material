@@ -68,8 +68,8 @@ ax.plot(years, p_t_ph_th, color=colors[1], lw=0.5)
 
 ax.set_ylabel("$P($trade$)$")
 
-ax.set_xticks(np.arange(2000,2020+2,2))
-ax.set_xlim(2000,2020)
+ax.set_xticks(np.arange(2000,2020,2))
+ax.set_xlim(2001,2019)
 ax.set_ylim(0,0.15)
 ax.legend()
 

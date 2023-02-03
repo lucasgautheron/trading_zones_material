@@ -99,10 +99,9 @@ for i, ngram in ngrams[ngrams["ngram"].str.contains("super")].tail(5).to_dict(or
     n += 1
 
 for i in range(2):
-    axes[i].set_xlim(2001,2020)
+    axes[i].set_xlim(2001,2019)
     axes[i].set_ylim(0.003,0.3)
     axes[i].set_yscale("log")
-    axes[i].plot([2000,2020.5], [1, 1], ls="-", color="black")
     axes[i].legend(loc=("best" if i < 2 else "lower right"), prop={'size': 6})
 
 plt.savefig(f"plots/trading_zone_{boundary}.pdf", bbox_inches="tight")

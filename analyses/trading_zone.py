@@ -172,6 +172,15 @@ if __name__ == '__main__':
 
     selected_ngrams = pd.read_csv(opj(location, 'ngrams.csv'))['ngram'].tolist()
 
+    vocabulary = {
+        n: i
+        for i, n in enumerate(selected_ngrams)
+    }
+
+    ngrams = [[ngram for ngram in _ngrams if ngram in selected_ngrams] for _ngrams in ngrams]
+    ngrams_bow = [[vocabulary[ngram] for ngram in _ngrams] for _ngrams in ngrams]
+    ngrams_bow = [[_ngrams.count(i) for i in range(len(selected_ngrams))] for _ngrams in ngrams_bow]
+
     n = []
     frac = []
 

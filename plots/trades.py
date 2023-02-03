@@ -75,6 +75,7 @@ ax.legend()
 
 plt.savefig(f"plots/trades.pdf", bbox_inches="tight")
 plt.savefig(f"plots/trades.pgf", bbox_inches="tight")
+plt.savefig(f"plots/trades.eps", bbox_inches="tight")
 
 plt.cla()
 plt.clf()

@@ -67,3 +67,4 @@ for term in terms:
 plt.subplots_adjust(bottom=0.2)
 plt.savefig("plots/terms_cats.pgf", bbox_inches="tight")
 plt.savefig("plots/terms_cats.pdf", bbox_inches="tight")
+plt.savefig("plots/terms_cats.eps", bbox_inches="tight")

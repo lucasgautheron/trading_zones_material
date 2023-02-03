@@ -91,3 +91,4 @@ plt.arrow(x0, y0, dx, dy, head_width=0.01, head_length=0.01, fc='k', ec='k')
 
 plt.savefig(f"plots/social_divide_ternary.pgf", bbox_inches='tight')
 plt.savefig(f"plots/social_divide_ternary.pdf", bbox_inches='tight')
+plt.savefig(f"plots/social_divide_ternary.eps", bbox_inches='tight')

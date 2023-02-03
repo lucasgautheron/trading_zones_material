@@ -81,4 +81,5 @@ sns.heatmap(submatrix, xticklabels = wlabels, yticklabels = wlabels, annot=True,
 
 plt.savefig("plots/susy_correlations.pdf", bbox_inches="tight")
 plt.savefig("plots/susy_correlations.pgf", bbox_inches="tight")
+plt.savefig("plots/susy_correlations.eps", bbox_inches="tight")
 

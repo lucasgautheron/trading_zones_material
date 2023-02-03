@@ -68,6 +68,7 @@ plt.xlabel("Citing article's category")
 plt.ylabel("Cited article's category")
 plt.savefig("plots/cites_matrix.pgf")
 plt.savefig("plots/cites_matrix.pdf")
+plt.savefig("plots/cites_matrix.eps")
 
 plt.clf()
 
@@ -76,3 +77,4 @@ plt.xlabel("Cited article's category")
 plt.ylabel("Citing article's category")
 plt.savefig("plots/cited_matrix.pgf")
 plt.savefig("plots/cited_matrix.pdf")
+plt.savefig("plots/cited_matrix.eps")

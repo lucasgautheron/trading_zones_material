@@ -47,3 +47,4 @@ for term, topics in usages.groupby("term"):
 plt.subplots_adjust(bottom=0.2)
 plt.savefig("plots/susy_usages.pgf", bbox_inches="tight")
 plt.savefig("plots/susy_usages.pdf", bbox_inches="tight")
+plt.savefig("plots/susy_usages.eps", bbox_inches="tight")

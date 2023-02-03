@@ -106,3 +106,4 @@ for i in range(2):
 
 plt.savefig(f"plots/trading_zone_{boundary}.pdf", bbox_inches="tight")
 plt.savefig(f"plots/trading_zone_{boundary}.pgf", bbox_inches="tight")
+plt.savefig(f"plots/trading_zone_{boundary}.eps", bbox_inches="tight")

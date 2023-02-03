@@ -9,19 +9,13 @@ filter: categories
 lemmatize: true
 lemmatize_ngrams: true
 limit_redundancy: false
-location: output/sbm_full
-min_df: 0
-min_token_length: 0
+location: output/trading_zone
 nouns: false
 remove_latex: true
 reuse_articles: false
-reuse_stored_vocabulary: false
-sample: false
 samples: 1000000
-susy_only: false
-threads: 8
-top_termhood: 100
-top_unithood: 500
+threads: 16
+top_unithood: 2000
 values:
 - Theory-HEP
 - Phenomenology-HEP

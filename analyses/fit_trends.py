@@ -174,3 +174,4 @@ fig.suptitle(
 )
 plt.savefig(f"plots/hot_cold_topics_hep_{args.since}_{args.until}_{args.domain}.pgf", bbox_inches="tight")
 plt.savefig(f"plots/hot_cold_topics_hep_{args.since}_{args.until}_{args.domain}.pdf", bbox_inches="tight")
+plt.savefig(f"plots/hot_cold_topics_hep_{args.since}_{args.until}_{args.domain}.eps", bbox_inches="tight")

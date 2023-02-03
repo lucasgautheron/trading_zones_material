@@ -21,7 +21,7 @@ if __name__ == '__main__':
     parser.add_argument('--filter', choices=['categories', 'keywords', 'no-filter'], help='filter type', default="categories")
     parser.add_argument('--values', nargs='+', default=["Theory-HEP", "Phenomenology-HEP", "Experiment-HEP"], help='filter allowed values')
     parser.add_argument('--exclude', nargs='+', default=[], help='exclude values')
-    parser.add_argument('--samples', type=int, default=1000000)
+    parser.add_argument('--samples', type=int, default=5000000)
     parser.add_argument('--constant-sampling', type=int, default=0)
     parser.add_argument('--reuse-articles', default=False, action="store_true", help="reuse article selection")
     parser.add_argument('--nouns', default=False, action="store_true", help="include nouns")
@@ -61,60 +61,55 @@ if __name__ == '__main__':
     articles["abstract"] = articles["abstract"].str.lower()
 
     articles = articles[articles["date_created"].str.len() >= 4]
+    articles = articles[~articles["abstract"].isnull()]
 
-    if args.reuse_articles:
-        used = pd.read_csv(opj(location, 'articles.csv'))
-        articles = articles[articles["article_id"].isin(used["article_id"])]
-    else:
-        articles = articles[~articles["abstract"].isnull()]
+    if args.constant_sampling > 0:
+        articles = articles.groupby("year").head(args.constant_sampling)
 
-        if args.constant_sampling > 0:
-            articles = articles.groupby("year").head(args.constant_sampling)
+    keep = pd.Series([False]*len(articles), index=articles.index)
 
-        keep = pd.Series([False]*len(articles), index=articles.index)
+    print("Applying filter...")
+    if args.filter == 'keywords':
+        for value in args.values:
+            keep |= articles["abstract"].str.contains(value)
+        for value in args.exclude:
+            keep &= ~articles["abstract"].str.contains(value)
+    elif args.filter == 'categories':
+        for value in args.values:
+            keep |= articles["categories"].apply(lambda l: value in l)
+        for value in args.exclude:
+            keep &= ~articles["categories"].apply(lambda l: value in l)
 
-        print("Applying filter...")
-        if args.filter == 'keywords':
-            for value in args.values:
-                keep |= articles["abstract"].str.contains(value)
-            for value in args.exclude:
-                keep &= ~articles["abstract"].str.contains(value)
-        elif args.filter == 'categories':
-            for value in args.values:
-                keep |= articles["categories"].apply(lambda l: value in l)
-            for value in args.exclude:
-                keep &= ~articles["categories"].apply(lambda l: value in l)
+    articles = articles[keep==True]
 
-        articles = articles[keep==True]
+    citations = articles[[x for x in articles.columns if x != "abstract"]].merge(pd.read_parquet("output/cross_citations.parquet")[["article_id_cited", "article_id_cites", "category_cites", "category_cited", "year_cites", "year_cited"]], how="inner", left_on="article_id",right_on="article_id_cited")
+    citations = citations[
+        (citations["category_cited"] == args.category_cited) & (citations["category_cites"].isin([args.category_cites,args.category_cited]))
+    ]
+    citations["trade"] = (citations["category_cited"] != citations["category_cites"])
+    citations = citations[citations["year_cites"]>=2000]
+    citations = citations[citations["year_cites"]<=2019]
+    citations["year_cites"] = ((citations["year_cites"]-citations["year_cites"].min())).astype(int)
+    citations.drop_duplicates(["article_id_cited", "article_id_cites"], inplace=True)
+    citations = citations.sample(args.samples if args.samples < len(citations) else len(citations))
 
-        citations = articles[[x for x in articles.columns if x != "abstract"]].merge(pd.read_parquet("output/cross_citations.parquet")[["article_id_cited", "article_id_cites", "category_cites", "category_cited", "year_cites", "year_cited"]], how="inner", left_on="article_id",right_on="article_id_cited")
-        citations = citations[
-            (citations["category_cited"] == args.category_cited) & (citations["category_cites"].isin([args.category_cites,args.category_cited]))
-        ]
-        citations["trade"] = (citations["category_cited"] != citations["category_cites"])
-        citations = citations[citations["year_cites"]>=2000]
-        citations = citations[citations["year_cites"]<=2019]
-        citations["year_cites"] = ((citations["year_cites"]-citations["year_cites"].min())).astype(int)
-        citations.drop_duplicates(["article_id_cited", "article_id_cites"], inplace=True)
-        citations = citations.sample(args.samples if args.samples < len(citations) else len(citations))
+    citations = citations.groupby(["article_id_cited", "year_cites"]).agg(
+        trades = ("trade", "sum"),
+        total = ("article_id_cites", "count"),
+        category_cited = ("category_cited", "first")
+    )
 
-        citations = citations.groupby(["article_id_cited", "year_cites"]).agg(
-            trades = ("trade", "sum"),
-            total = ("article_id_cites", "count"),
-            category_cited = ("category_cited", "first")
-        )
+    citations.reset_index(inplace=True)
+    articles_to_keep = list(citations["article_id_cited"].unique())
 
-        citations.reset_index(inplace=True)
-        articles_to_keep = list(citations["article_id_cited"].unique())
+    citations = citations[citations["article_id_cited"].isin(articles_to_keep)]        
 
-        citations = citations[citations["article_id_cited"].isin(articles_to_keep)]        
-
-        articles = articles[articles["article_id"].isin(articles_to_keep)]
-        articles = articles.merge(
-            citations[["article_id_cited", "category_cited"]].drop_duplicates(),
-            left_on="article_id",
-            right_on="article_id_cited"
-        )
+    articles = articles[articles["article_id"].isin(articles_to_keep)]
+    articles = articles.merge(
+        citations[["article_id_cited", "category_cited"]].drop_duplicates(),
+        left_on="article_id",
+        right_on="article_id_cited"
+    )
 
 
     print("Extracting n-grams...")

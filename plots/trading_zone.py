@@ -45,13 +45,18 @@ p_w_t = (p_w_t.T/p_t).T
 ngrams["p_w_t_max"] = p_w_t.max(axis=0)
 ngrams["drop"] = False
 
-# drop collinear features (keep the most frequents)
-bow_corr = np.corrcoef(bow, rowvar=False)
-x, y = np.where(bow_corr-np.identity(bow_corr.shape[1])>0.95)
+n_items = bow.shape[0]
+n_words = bow.shape[1]
 
+num = np.outer(bow[:2000].sum(axis=0),bow[:2000].sum(axis=0))/(2000**2)
+den = np.tensordot(bow[:2000,:], bow[:2000,:], axes=([0],[0]))/2000
+npmi = np.log(num)/np.log(den)-1
+
+x, y = np.where(npmi-np.identity(n_words)>0.9)
 for k,_ in enumerate(x):
     i = x[k]
     j = y[k]
+
     a = ngrams.at[i,"p_w_t_max"]
     b = ngrams.at[j,"p_w_t_max"]
 

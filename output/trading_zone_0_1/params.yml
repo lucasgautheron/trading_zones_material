@@ -13,7 +13,7 @@ location: output/trading_zone
 nouns: false
 remove_latex: true
 reuse_articles: false
-samples: 5000000
+samples: 10000000
 threads: 16
 top_unithood: 2000
 values:

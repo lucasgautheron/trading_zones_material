@@ -56,9 +56,9 @@ colors += colors
 
 fig, ax = plt.subplots(1,1,sharey=True)
 
-ax.scatter(years, p_t_th_ph, color=colors[0], s=10, label="$P($phenomenological $\\to$ theoretical$)$")
+ax.scatter(years, p_t_th_ph, color=colors[0], s=10, label="$P($phenomenological cites theoretical$)$")
 ax.plot(years, p_t_th_ph, color=colors[0], lw=0.5)
-ax.scatter(years, p_t_ph_th, color=colors[1], s=10, label="$P($theoretical $\\to$ phenomenological$)$")
+ax.scatter(years, p_t_ph_th, color=colors[1], s=10, label="$P($theoretical cites phenomenological$)$")
 ax.plot(years, p_t_ph_th, color=colors[1], lw=0.5)
 
 # ax.scatter(years, p_t_exp_ph, color=colors[2], s=10, label="phenomenological $\\to$ experimental")

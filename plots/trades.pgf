@@ -811,16 +811,16 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{2.895569in}{3.488778in}}%
+\pgfpathmoveto{\pgfqpoint{2.763763in}{3.488778in}}%
 \pgfpathlineto{\pgfqpoint{5.501359in}{3.488778in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{5.529137in}{3.488778in}}{\pgfqpoint{5.529137in}{3.516555in}}%
 \pgfpathlineto{\pgfqpoint{5.529137in}{3.919333in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{5.529137in}{3.947111in}}{\pgfqpoint{5.501359in}{3.947111in}}%
-\pgfpathlineto{\pgfqpoint{2.895569in}{3.947111in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{2.867791in}{3.947111in}}{\pgfqpoint{2.867791in}{3.919333in}}%
-\pgfpathlineto{\pgfqpoint{2.867791in}{3.516555in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{2.867791in}{3.488778in}}{\pgfqpoint{2.895569in}{3.488778in}}%
-\pgfpathlineto{\pgfqpoint{2.895569in}{3.488778in}}%
+\pgfpathlineto{\pgfqpoint{2.763763in}{3.947111in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.735986in}{3.947111in}}{\pgfqpoint{2.735986in}{3.919333in}}%
+\pgfpathlineto{\pgfqpoint{2.735986in}{3.516555in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.735986in}{3.488778in}}{\pgfqpoint{2.763763in}{3.488778in}}%
+\pgfpathlineto{\pgfqpoint{2.763763in}{3.488778in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -848,7 +848,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{3.062236in}{3.823847in}%
+\pgfsys@transformshift{2.930430in}{3.823847in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -856,7 +856,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.312236in,y=3.787389in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle P(\)phenomenological \(\displaystyle \to\) theoretical\(\displaystyle )\)}%
+\pgftext[x=3.180430in,y=3.787389in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle P(\)phenomenological cites theoretical\(\displaystyle )\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -882,7 +882,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{3.062236in}{3.615514in}%
+\pgfsys@transformshift{2.930430in}{3.615514in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -890,7 +890,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.312236in,y=3.579055in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle P(\)theoretical \(\displaystyle \to\) phenomenological\(\displaystyle )\)}%
+\pgftext[x=3.180430in,y=3.579055in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle P(\)theoretical cites phenomenological\(\displaystyle )\)}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

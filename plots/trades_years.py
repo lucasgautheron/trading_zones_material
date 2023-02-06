@@ -63,6 +63,7 @@ clf = linear_model.BayesianRidge()
 clf.fit(ratio_ph_th[["year_cited"]], ratio_ph_th["ratio"])
 print(clf.score(ratio_ph_th[["year_cited"]], ratio_ph_th["ratio"]))
 
+ratio_time_ph_th = ratio_ph_th.pivot(columns="year_cited", index="year_cites", values="ratio_time")
 ratio_ph_th = ratio_ph_th.pivot(columns="year_cited", index="year_cites", values="ratio")
 
 ratio_th_ph = p_t_th_ph.reset_index()
@@ -78,10 +79,20 @@ clf = linear_model.BayesianRidge()
 clf.fit(ratio_th_ph[["year_cited"]], ratio_th_ph["ratio"])
 print(clf.score(ratio_th_ph[["year_cited"]], ratio_th_ph["ratio"]))
 
+ratio_time_th_ph = ratio_th_ph.pivot(columns="year_cited", index="year_cites", values="ratio_time")
 ratio_th_ph = ratio_th_ph.pivot(columns="year_cited", index="year_cites", values="ratio")
 
 fig, axes = plt.subplots(nrows=2, ncols=1, sharex=True, sharey=True, figsize = [6.4, 4.8*2])
 sns.heatmap(ratio_th_ph, cmap="Reds", vmin=0, vmax=0.13, ax=axes[0])
+axes[0].scatter(
+    [i+0.5 for (j,i),r in np.ndenumerate(ratio_time_th_ph.values)],
+    [j+0.5 for (j,i),r in np.ndenumerate(ratio_time_th_ph.values)],
+    s=[200*r for (j,i),r in np.ndenumerate(ratio_time_th_ph.values)],
+    edgecolors="black",
+    facecolors='none',
+    linewidths=0.5
+)
+
 axes[0].invert_yaxis()
 axes[0].set(xlabel=None)
 axes[0].set(xlabel=None)
@@ -89,10 +100,21 @@ axes[0].set_ylabel("citing paper publication year")
 axes[0].set_title("$P($trade$)_{\\mathrm{th} \\to \\mathrm{ph}}$")
 
 sns.heatmap(ratio_ph_th, cmap="Reds", vmin=0, vmax=0.13, ax=axes[1])
+axes[1].scatter(
+    [i+0.5 for (j,i),r in np.ndenumerate(ratio_time_ph_th.values)],
+    [j+0.5 for (j,i),r in np.ndenumerate(ratio_time_ph_th.values)],
+    s=[200*r for (j,i),r in np.ndenumerate(ratio_time_ph_th.values)],
+    edgecolors="black",
+    facecolors='none',
+    linewidths=0.5
+)
+
 axes[1].invert_yaxis()
 axes[1].set_xlabel("cited paper publication year")
 axes[1].set_ylabel("citing paper publication year")
 axes[1].set_title("$P($trade$)_{\\mathrm{ph} \\to \\mathrm{th}}$")
+
+
 fig.savefig("plots/trading_zone_years.eps", bbox_inches="tight")
 
 ratio = p_t_ph_th.reset_index()

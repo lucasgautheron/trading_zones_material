@@ -89,16 +89,6 @@ CP violating processes,11.30.Hv,1.042812565277523,Flavor symmetries
 CP violating processes,13.25.Ft,1.0025766721981102,Decays of charmed mesons
 CP violating processes,14.60.Lm,0.9921551375415708,Ordinary neutrinos
 CP violating processes,12.15.Mm,0.9212810332081468,Neutral currents
-Chern–Simons,11.15.-q,1.0380940933500924,Gauge field theories
-Chern–Simons,14.80.Hv,1.0317881883911666,Magnetic monopoles
-Chern–Simons,04.20.Fy,0.9739457443456796,"Canonical formalism, Lagrangians, and variational principles"
-Chern–Simons,11.10.Ef,0.8803072862786192,Lagrangian and Hamiltonian approach
-Chern–Simons,11.10.Nx,0.8725593726105632,Noncommutative field theory
-Chern–Simons,11.15.Kc,0.8230560810482712,Classical and semiclassical techniques
-Chern–Simons,02.40.Gh,0.8214361011942783,Noncommutative geometry
-Chern–Simons,11.30.Ly,0.7843979525078618,Other internal and higher symmetries
-Chern–Simons,11.15.Tk,0.7679486964368261,Other nonperturbative techniques
-Chern–Simons,02.40.-k,0.7533245618886792,"Geometry, differential geometry, and topology"
 Conformal Field Theory,11.25.Hf,1.7185425416934934,"Conformal field theory, algebraic structures"
 Conformal Field Theory,03.65.Fd,1.3351438707339582,Algebraic methods
 Conformal Field Theory,11.25.Sq,1.1944055637364908,Nonperturbative techniques; string field theory
@@ -219,26 +209,26 @@ Electromagnetism,12.20.Ds,0.9679974015770356,Specific calculations
 Electromagnetism,25.75.Gz,0.914613255658744,Particle correlations and fluctuations
 Electromagnetism,25.75.Nq,0.8930384721703164,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
 Electromagnetism,12.20.-m,0.8846188896901207,Quantum electrodynamics
-Events in colliders (kinematics),13.85.Rm,1.7130364856432398,Limits on production of particles
-Events in colliders (kinematics),13.87.Ce,1.6028962567430245,Production
-Events in colliders (kinematics),13.85.Qk,1.565675031095485,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
-Events in colliders (kinematics),14.70.Fm,1.5334060905152278,W bosons
-Events in colliders (kinematics),13.87.-a,1.5290310600270034,Jets in large-Q2 scattering
-Events in colliders (kinematics),14.70.Hp,1.4810284272640146,Z bosons
-Events in colliders (kinematics),14.65.Ha,1.329496294002428,Top quarks
-Events in colliders (kinematics),12.38.Qk,1.3142711650153427,Experimental tests
-Events in colliders (kinematics),13.85.-t,1.3075591020155537,Hadron-induced high- and super-high-energy interactions
-Events in colliders (kinematics),13.85.Ni,1.28036421160173,Inclusive production with identified hadrons
-Events in colliders (signatures),13.85.Rm,1.685210439718378,Limits on production of particles
-Events in colliders (signatures),13.87.-a,1.5563730766958217,Jets in large-Q2 scattering
-Events in colliders (signatures),13.87.Ce,1.4452751772372756,Production
-Events in colliders (signatures),13.85.Qk,1.366631568937322,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
-Events in colliders (signatures),14.70.Fm,1.3531049158160369,W bosons
-Events in colliders (signatures),14.70.Hp,1.3498749936106005,Z bosons
-Events in colliders (signatures),14.65.Ha,1.2287935335863875,Top quarks
-Events in colliders (signatures),13.85.-t,1.140248933997419,Hadron-induced high- and super-high-energy interactions
-Events in colliders (signatures),12.38.Qk,1.1359787994297632,Experimental tests
-Events in colliders (signatures),13.85.Hd,1.0658586722159296,Inelastic scattering: many-particle final states
+Events in colliders (kinematics?),13.85.Rm,1.7130364856432398,Limits on production of particles
+Events in colliders (kinematics?),13.87.Ce,1.6028962567430245,Production
+Events in colliders (kinematics?),13.85.Qk,1.565675031095485,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+Events in colliders (kinematics?),14.70.Fm,1.5334060905152278,W bosons
+Events in colliders (kinematics?),13.87.-a,1.5290310600270034,Jets in large-Q2 scattering
+Events in colliders (kinematics?),14.70.Hp,1.4810284272640146,Z bosons
+Events in colliders (kinematics?),14.65.Ha,1.329496294002428,Top quarks
+Events in colliders (kinematics?),12.38.Qk,1.3142711650153427,Experimental tests
+Events in colliders (kinematics?),13.85.-t,1.3075591020155537,Hadron-induced high- and super-high-energy interactions
+Events in colliders (kinematics?),13.85.Ni,1.28036421160173,Inclusive production with identified hadrons
+Events in colliders (signatures?),13.85.Rm,1.685210439718378,Limits on production of particles
+Events in colliders (signatures?),13.87.-a,1.5563730766958217,Jets in large-Q2 scattering
+Events in colliders (signatures?),13.87.Ce,1.4452751772372756,Production
+Events in colliders (signatures?),13.85.Qk,1.366631568937322,"Inclusive production with identified leptons, photons, or other nonhadronic particles"
+Events in colliders (signatures?),14.70.Fm,1.3531049158160369,W bosons
+Events in colliders (signatures?),14.70.Hp,1.3498749936106005,Z bosons
+Events in colliders (signatures?),14.65.Ha,1.2287935335863875,Top quarks
+Events in colliders (signatures?),13.85.-t,1.140248933997419,Hadron-induced high- and super-high-energy interactions
+Events in colliders (signatures?),12.38.Qk,1.1359787994297632,Experimental tests
+Events in colliders (signatures?),13.85.Hd,1.0658586722159296,Inelastic scattering: many-particle final states
 Experimental investigation of the leptonic sector,13.85.Rm,1.384773330708711,Limits on production of particles
 Experimental investigation of the leptonic sector,13.40.Hq,1.3018927874880937,Electromagnetic decays
 Experimental investigation of the leptonic sector,13.20.Gd,1.2576910839475746,"Decays of J/ψ, Υ, and other quarkonia"
@@ -359,16 +349,6 @@ Heavy quarks and ions,13.85.Ni,1.1335631990262434,Inclusive production with iden
 Heavy quarks and ions,24.85.+p,1.1242421159461229,"Quarks, gluons, and QCD in nuclear reactions"
 Heavy quarks and ions,14.20.Lq,1.1083665784331869,"Charmed baryons (|C|>0, B=0)"
 Heavy quarks and ions,25.75.Nq,1.070170410839339,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
-Higgs beyond the SM,14.80.Ec,1.6467537289719485,Other neutral Higgs bosons
-Higgs beyond the SM,14.80.Da,1.6387669247208556,Supersymmetric Higgs bosons
-Higgs beyond the SM,14.80.Cp,1.600367055269122,Non-standard-model Higgs bosons
-Higgs beyond the SM,12.60.Fr,1.5486813587999182,Extensions of electroweak Higgs sector
-Higgs beyond the SM,14.80.Bn,1.3722692316397536,Standard-model Higgs bosons
-Higgs beyond the SM,14.80.Ly,1.2787215563170828,Supersymmetric partners of known particles
-Higgs beyond the SM,12.60.Cn,1.207244957588662,Extensions of electroweak gauge sector
-Higgs beyond the SM,12.60.Jv,1.1892023952740978,Supersymmetric models
-Higgs beyond the SM,13.85.Rm,1.1803503021597042,Limits on production of particles
-Higgs beyond the SM,12.15.Lk,1.1764092169887443,Electroweak radiative corrections
 Higgs boson,14.80.Ec,1.905695336756681,Other neutral Higgs bosons
 Higgs boson,14.80.Da,1.873721864538094,Supersymmetric Higgs bosons
 Higgs boson,14.80.Cp,1.7695780369836431,Non-standard-model Higgs bosons
@@ -379,6 +359,16 @@ Higgs boson,12.60.Cn,1.2275348063917588,Extensions of electroweak gauge sector
 Higgs boson,14.70.Pw,1.1617120183345615,Other gauge bosons
 Higgs boson,12.10.Kt,1.117695648339966,Unification of couplings; mass relations
 Higgs boson,12.60.Jv,1.0747693825594715,Supersymmetric models
+Higgs sector beyond the SM,14.80.Ec,1.6467537289719485,Other neutral Higgs bosons
+Higgs sector beyond the SM,14.80.Da,1.6387669247208556,Supersymmetric Higgs bosons
+Higgs sector beyond the SM,14.80.Cp,1.600367055269122,Non-standard-model Higgs bosons
+Higgs sector beyond the SM,12.60.Fr,1.5486813587999182,Extensions of electroweak Higgs sector
+Higgs sector beyond the SM,14.80.Bn,1.3722692316397536,Standard-model Higgs bosons
+Higgs sector beyond the SM,14.80.Ly,1.2787215563170828,Supersymmetric partners of known particles
+Higgs sector beyond the SM,12.60.Cn,1.207244957588662,Extensions of electroweak gauge sector
+Higgs sector beyond the SM,12.60.Jv,1.1892023952740978,Supersymmetric models
+Higgs sector beyond the SM,13.85.Rm,1.1803503021597042,Limits on production of particles
+Higgs sector beyond the SM,12.15.Lk,1.1764092169887443,Electroweak radiative corrections
 High-energy source fluxes,95.85.Ry,1.387393052777736,"Neutrino, muon, pion, and other elementary particles; cosmic rays"
 High-energy source fluxes,95.55.Vj,1.3315448894469382,"Neutrino, muon, pion, and other elementary particle detectors; cosmic ray detectors"
 High-energy source fluxes,26.65.+t,1.2755246937292504,Solar neutrinos
@@ -439,16 +429,16 @@ Lie algebra,11.30.Ly,0.8809371476901688,Other internal and higher symmetries
 Lie algebra,04.60.Pp,0.8711966406168801,"Loop quantum gravity, quantum geometry, spin foams"
 Lie algebra,05.50.+q,0.8664793118577754,Lattice theory and statistics
 Lie algebra,11.10.Nx,0.8541106831917551,Noncommutative field theory
-Loops and next order expansions in Feynman Diagrams,13.40.Ks,1.3190006854290006,Electromagnetic corrections to strong- and weak-interaction processes
-Loops and next order expansions in Feynman Diagrams,12.15.Lk,1.2301941416395048,Electroweak radiative corrections
-Loops and next order expansions in Feynman Diagrams,12.20.Ds,1.084018075670218,Specific calculations
-Loops and next order expansions in Feynman Diagrams,12.38.Cy,0.9993843300541873,Summation of perturbation theory
-Loops and next order expansions in Feynman Diagrams,11.15.Bt,0.9825260338541972,General properties of perturbation theory
-Loops and next order expansions in Feynman Diagrams,12.38.Bx,0.8870665559726095,Perturbative calculations
-Loops and next order expansions in Feynman Diagrams,12.20.-m,0.8366021852613974,Quantum electrodynamics
-Loops and next order expansions in Feynman Diagrams,11.25.Db,0.7679311781121672,Properties of perturbation theory
-Loops and next order expansions in Feynman Diagrams,11.10.Gh,0.7147643135406602,Renormalization
-Loops and next order expansions in Feynman Diagrams,14.70.Bh,0.6315554108833891,Photons
+Loops and higher order expansions in Feynman Diagrams,13.40.Ks,1.3190006854290006,Electromagnetic corrections to strong- and weak-interaction processes
+Loops and higher order expansions in Feynman Diagrams,12.15.Lk,1.2301941416395048,Electroweak radiative corrections
+Loops and higher order expansions in Feynman Diagrams,12.20.Ds,1.084018075670218,Specific calculations
+Loops and higher order expansions in Feynman Diagrams,12.38.Cy,0.9993843300541873,Summation of perturbation theory
+Loops and higher order expansions in Feynman Diagrams,11.15.Bt,0.9825260338541972,General properties of perturbation theory
+Loops and higher order expansions in Feynman Diagrams,12.38.Bx,0.8870665559726095,Perturbative calculations
+Loops and higher order expansions in Feynman Diagrams,12.20.-m,0.8366021852613974,Quantum electrodynamics
+Loops and higher order expansions in Feynman Diagrams,11.25.Db,0.7679311781121672,Properties of perturbation theory
+Loops and higher order expansions in Feynman Diagrams,11.10.Gh,0.7147643135406602,Renormalization
+Loops and higher order expansions in Feynman Diagrams,14.70.Bh,0.6315554108833891,Photons
 M-theory and theories of everything,11.25.Yb,1.628004646090446,M theory
 M-theory and theories of everything,04.65.+e,1.343287199570929,Supergravity
 M-theory and theories of everything,11.25.Sq,1.2746870409976692,Nonperturbative techniques; string field theory
@@ -459,6 +449,16 @@ M-theory and theories of everything,11.15.-q,0.9563140552299724,Gauge field theo
 M-theory and theories of everything,11.30.Pb,0.9344706942436396,Supersymmetry
 M-theory and theories of everything,02.40.-k,0.9218472146352258,"Geometry, differential geometry, and topology"
 M-theory and theories of everything,11.25.Db,0.7956255123458155,Properties of perturbation theory
+Matter in Yang-Mills theories,12.60.Nz,1.2331072918068855,Technicolor models
+Matter in Yang-Mills theories,12.10.Dm,1.0641375784881062,Unified theories and models of strong and electroweak interactions
+Matter in Yang-Mills theories,12.10.Kt,0.991847437687146,Unification of couplings; mass relations
+Matter in Yang-Mills theories,12.60.Rc,0.9416865695842408,Composite models
+Matter in Yang-Mills theories,11.15.Ex,0.8826740422369435,Spontaneous breaking of gauge symmetries
+Matter in Yang-Mills theories,11.30.Qc,0.8743052294561252,Spontaneous and radiative symmetry breaking
+Matter in Yang-Mills theories,11.30.Rd,0.8315271367164317,Chiral symmetries
+Matter in Yang-Mills theories,11.30.Hv,0.781657490660923,Flavor symmetries
+Matter in Yang-Mills theories,11.15.Ha,0.7498306697752868,Lattice gauge theory
+Matter in Yang-Mills theories,12.60.Cn,0.7485925881645248,Extensions of electroweak gauge sector
 Measurements and analysis of colliders data,12.15.Hh,0.8997528662117057,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
 Measurements and analysis of colliders data,26.65.+t,0.872549551678938,Solar neutrinos
 Measurements and analysis of colliders data,14.60.Ef,0.8396450679659582,Muons
@@ -489,6 +489,16 @@ Neutrino physics,95.55.Vj,1.8815736467326856,"Neutrino, muon, pion, and other el
 Neutrino physics,25.30.Pt,1.8019181043582744,Neutrino-induced reactions
 Neutrino physics,11.30.Fs,1.175294064063146,"Global symmetries (e.g., baryon number, lepton number)"
 Neutrino physics,12.15.Ff,1.036667368731776,Quark and lepton masses and mixing
+Non-abelian theories,11.15.-q,1.0380940933500924,Gauge field theories
+Non-abelian theories,14.80.Hv,1.0317881883911666,Magnetic monopoles
+Non-abelian theories,04.20.Fy,0.9739457443456796,"Canonical formalism, Lagrangians, and variational principles"
+Non-abelian theories,11.10.Ef,0.8803072862786192,Lagrangian and Hamiltonian approach
+Non-abelian theories,11.10.Nx,0.8725593726105632,Noncommutative field theory
+Non-abelian theories,11.15.Kc,0.8230560810482712,Classical and semiclassical techniques
+Non-abelian theories,02.40.Gh,0.8214361011942783,Noncommutative geometry
+Non-abelian theories,11.30.Ly,0.7843979525078618,Other internal and higher symmetries
+Non-abelian theories,11.15.Tk,0.7679486964368261,Other nonperturbative techniques
+Non-abelian theories,02.40.-k,0.7533245618886792,"Geometry, differential geometry, and topology"
 Partons distributions,12.38.Cy,1.6210422913310412,Summation of perturbation theory
 Partons distributions,12.39.St,1.4917748393349786,Factorization
 Partons distributions,13.87.Ce,1.456028761262327,Production
@@ -519,16 +529,6 @@ Phenomenological jargon,14.40.Rt,0.2558058271030692,Exotic mesons
 Phenomenological jargon,04.60.Bc,0.250318529538393,Phenomenology of quantum gravity
 Phenomenological jargon,12.39.-x,0.2372325924742912,Phenomenological quark models
 Phenomenological jargon,14.80.Va,0.2332479619635545,"Axions and other Nambu-Goldstone bosons (Majorons, familons, etc.)"
-QCD,11.55.Hx,2.2436153145119944,Sum rules
-QCD,12.38.Lg,1.418083513100272,Other nonperturbative calculations
-QCD,14.20.Mr,1.31745353266703,Bottom baryons (|B|>0)
-QCD,14.20.Lq,1.2552286221403297,"Charmed baryons (|C|>0, B=0)"
-QCD,12.39.Hg,1.1580079909598904,Heavy quark effective theory
-QCD,12.39.Mk,1.0402958330234633,Glueball and nonstandard multi-quark/gluon states
-QCD,13.25.Jx,0.9548431490956276,Decays of other mesons
-QCD,24.10.Nz,0.8897917970785537,Hydrodynamic models
-QCD,14.40.Cs,0.7829038318523623,"Other mesons with S=C=0, mass < 2.5 GeV"
-QCD,13.40.Hq,0.6974646752732632,Electromagnetic decays
 QCD calculation techniques,14.70.Dj,1.2893030329585178,Gluons
 QCD calculation techniques,11.15.Bt,1.020315771085838,General properties of perturbation theory
 QCD calculation techniques,11.10.Gh,0.96080917302426,Renormalization
@@ -539,6 +539,16 @@ QCD calculation techniques,11.15.Tk,0.8447246614243338,Other nonperturbative tec
 QCD calculation techniques,12.38.Gc,0.8017341060134007,Lattice QCD calculations
 QCD calculation techniques,12.38.Lg,0.765055100471188,Other nonperturbative calculations
 QCD calculation techniques,11.15.Pg,0.6715694288915341,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+Quantum Chromodynamics (QCD),11.55.Hx,2.2436153145119944,Sum rules
+Quantum Chromodynamics (QCD),12.38.Lg,1.418083513100272,Other nonperturbative calculations
+Quantum Chromodynamics (QCD),14.20.Mr,1.31745353266703,Bottom baryons (|B|>0)
+Quantum Chromodynamics (QCD),14.20.Lq,1.2552286221403297,"Charmed baryons (|C|>0, B=0)"
+Quantum Chromodynamics (QCD),12.39.Hg,1.1580079909598904,Heavy quark effective theory
+Quantum Chromodynamics (QCD),12.39.Mk,1.0402958330234633,Glueball and nonstandard multi-quark/gluon states
+Quantum Chromodynamics (QCD),13.25.Jx,0.9548431490956276,Decays of other mesons
+Quantum Chromodynamics (QCD),24.10.Nz,0.8897917970785537,Hydrodynamic models
+Quantum Chromodynamics (QCD),14.40.Cs,0.7829038318523623,"Other mesons with S=C=0, mass < 2.5 GeV"
+Quantum Chromodynamics (QCD),13.40.Hq,0.6974646752732632,Electromagnetic decays
 Quantum Field Theory,03.65.Ta,1.3177477549494283,Foundations of quantum mechanics; measurement theory
 Quantum Field Theory,03.65.-w,1.1484885132682028,Quantum mechanics
 Quantum Field Theory,03.65.Fd,1.0550821167541784,Algebraic methods
@@ -559,6 +569,16 @@ Quantum Systems and Equations of motion,03.65.Ge,0.8768100145370358,Solutions of
 Quantum Systems and Equations of motion,03.65.Fd,0.8767001121070345,Algebraic methods
 Quantum Systems and Equations of motion,11.10.Lm,0.872974363110496,Nonlinear or nonlocal theories and models
 Quantum Systems and Equations of motion,02.30.Ik,0.8318438076067913,Integrable systems
+Quantum systems and thermodynamics,24.10.Nz,1.2098067217469273,Hydrodynamic models
+Quantum systems and thermodynamics,03.70.+k,0.9557386443064076,Theory of quantized fields
+Quantum systems and thermodynamics,03.65.Ta,0.9259621814903718,Foundations of quantum mechanics; measurement theory
+Quantum systems and thermodynamics,03.65.Ud,0.8986633572668538,Entanglement and quantum nonlocality
+Quantum systems and thermodynamics,12.38.Mh,0.7528967974993892,Quark-gluon plasma
+Quantum systems and thermodynamics,11.10.Wx,0.7221909296349746,Finite-temperature field theory
+Quantum systems and thermodynamics,25.75.-q,0.7214636563170791,Relativistic heavy-ion collisions
+Quantum systems and thermodynamics,25.75.Nq,0.7037082582611709,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+Quantum systems and thermodynamics,25.75.Ld,0.693007672273509,Collective flow
+Quantum systems and thermodynamics,04.80.Cc,0.6638397982075875,Experimental tests of gravitational theories
 Renormalization,11.10.Hi,1.768537892882784,Renormalization group evolution of parameters
 Renormalization,11.10.Gh,1.455644650388335,Renormalization
 Renormalization,11.15.Bt,0.847618149848331,General properties of perturbation theory
@@ -589,6 +609,16 @@ Search for BSM physics,13.20.He,0.9567984673115048,Decays of bottom mesons
 Search for BSM physics,14.70.Pw,0.936322164567728,Other gauge bosons
 Search for BSM physics,12.60.-i,0.9352270867901512,Models beyond the standard model
 Search for BSM physics,13.85.Rm,0.8792088966599741,Limits on production of particles
+Sigma models (?),02.30.Ik,1.7436737867993108,Integrable systems
+Sigma models (?),03.65.Fd,1.227124271882931,Algebraic methods
+Sigma models (?),11.30.Pb,1.0916960370729387,Supersymmetry
+Sigma models (?),05.50.+q,1.0045681054527118,Lattice theory and statistics
+Sigma models (?),11.25.Hf,0.992678013879963,"Conformal field theory, algebraic structures"
+Sigma models (?),02.40.-k,0.9346525166703056,"Geometry, differential geometry, and topology"
+Sigma models (?),11.30.-j,0.929242446530988,Symmetry and conservation laws
+Sigma models (?),11.10.Lm,0.9150850802267768,Nonlinear or nonlocal theories and models
+Sigma models (?),04.65.+e,0.8213260063636957,Supergravity
+Sigma models (?),11.25.Yb,0.7909960190126524,M theory
 Solar neutrinos,26.65.+t,2.644682038313694,Solar neutrinos
 Solar neutrinos,14.60.Lm,2.2988179808681246,Ordinary neutrinos
 Solar neutrinos,14.60.Pq,2.1344086758837566,Neutrino mass and mixing
@@ -639,16 +669,6 @@ String theory,11.25.Mj,1.2343003175658522,Compactification and four-dimensional 
 String theory,11.10.Lm,0.9828107729832464,Nonlinear or nonlocal theories and models
 String theory,04.65.+e,0.9725041491468974,Supergravity
 String theory,04.20.Jb,0.933808246117872,Exact solutions
-Superalgebras and superfields,02.30.Ik,1.7436737867993108,Integrable systems
-Superalgebras and superfields,03.65.Fd,1.227124271882931,Algebraic methods
-Superalgebras and superfields,11.30.Pb,1.0916960370729387,Supersymmetry
-Superalgebras and superfields,05.50.+q,1.0045681054527118,Lattice theory and statistics
-Superalgebras and superfields,11.25.Hf,0.992678013879963,"Conformal field theory, algebraic structures"
-Superalgebras and superfields,02.40.-k,0.9346525166703056,"Geometry, differential geometry, and topology"
-Superalgebras and superfields,11.30.-j,0.929242446530988,Symmetry and conservation laws
-Superalgebras and superfields,11.10.Lm,0.9150850802267768,Nonlinear or nonlocal theories and models
-Superalgebras and superfields,04.65.+e,0.8213260063636957,Supergravity
-Superalgebras and superfields,11.25.Yb,0.7909960190126524,M theory
 Supergravity,11.25.Yb,1.6188241641731032,M theory
 Supergravity,04.65.+e,1.576645829047398,Supergravity
 Supergravity,11.25.Mj,1.5060950419778754,Compactification and four-dimensional models
@@ -659,26 +679,26 @@ Supergravity,11.25.Uv,1.2773266014576126,D branes
 Supergravity,11.25.-w,1.2539522884822942,Strings and branes
 Supergravity,11.25.Wx,0.952928466258958,String and brane phenomenology
 Supergravity,11.25.Hf,0.8519600591240114,"Conformal field theory, algebraic structures"
-Supersymmetric gauge theories,11.30.Pb,1.3685680288271334,Supersymmetry
-Supersymmetric gauge theories,11.25.Yb,1.346274646061318,M theory
-Supersymmetric gauge theories,04.65.+e,1.2030341354279042,Supergravity
-Supersymmetric gauge theories,11.25.Sq,1.0514500004458545,Nonperturbative techniques; string field theory
-Supersymmetric gauge theories,11.15.-q,1.045698488311135,Gauge field theories
-Supersymmetric gauge theories,11.25.Uv,0.996360522358619,D branes
-Supersymmetric gauge theories,11.25.Tq,0.9918655417427168,Gauge/string duality
-Supersymmetric gauge theories,11.25.-w,0.9700910043283067,Strings and branes
-Supersymmetric gauge theories,11.25.Db,0.9344257699013064,Properties of perturbation theory
-Supersymmetric gauge theories,11.25.Mj,0.9116291681435164,Compactification and four-dimensional models
-Susy phenomenology and superpartners,14.80.Ly,1.6838283962804943,Supersymmetric partners of known particles
-Susy phenomenology and superpartners,12.60.Jv,1.3525244591934356,Supersymmetric models
-Susy phenomenology and superpartners,14.80.Da,1.2678347442818387,Supersymmetric Higgs bosons
-Susy phenomenology and superpartners,12.10.Kt,0.8486503802166804,Unification of couplings; mass relations
-Susy phenomenology and superpartners,14.80.Cp,0.8181212974801564,Non-standard-model Higgs bosons
-Susy phenomenology and superpartners,12.15.Lk,0.7653032190812595,Electroweak radiative corrections
-Susy phenomenology and superpartners,95.30.Cq,0.7641533530336798,Elementary particle processes
-Susy phenomenology and superpartners,12.10.Dm,0.7358528821432002,Unified theories and models of strong and electroweak interactions
-Susy phenomenology and superpartners,95.35.+d,0.6638173430672157,Dark matter
-Susy phenomenology and superpartners,11.30.Pb,0.6461539912074118,Supersymmetry
+Supersymmetric particles,14.80.Ly,1.6838283962804943,Supersymmetric partners of known particles
+Supersymmetric particles,12.60.Jv,1.3525244591934356,Supersymmetric models
+Supersymmetric particles,14.80.Da,1.2678347442818387,Supersymmetric Higgs bosons
+Supersymmetric particles,12.10.Kt,0.8486503802166804,Unification of couplings; mass relations
+Supersymmetric particles,14.80.Cp,0.8181212974801564,Non-standard-model Higgs bosons
+Supersymmetric particles,12.15.Lk,0.7653032190812595,Electroweak radiative corrections
+Supersymmetric particles,95.30.Cq,0.7641533530336798,Elementary particle processes
+Supersymmetric particles,12.10.Dm,0.7358528821432002,Unified theories and models of strong and electroweak interactions
+Supersymmetric particles,95.35.+d,0.6638173430672157,Dark matter
+Supersymmetric particles,11.30.Pb,0.6461539912074118,Supersymmetry
+Supersymmetric theories,11.30.Pb,1.3685680288271334,Supersymmetry
+Supersymmetric theories,11.25.Yb,1.346274646061318,M theory
+Supersymmetric theories,04.65.+e,1.2030341354279042,Supergravity
+Supersymmetric theories,11.25.Sq,1.0514500004458545,Nonperturbative techniques; string field theory
+Supersymmetric theories,11.15.-q,1.045698488311135,Gauge field theories
+Supersymmetric theories,11.25.Uv,0.996360522358619,D branes
+Supersymmetric theories,11.25.Tq,0.9918655417427168,Gauge/string duality
+Supersymmetric theories,11.25.-w,0.9700910043283067,Strings and branes
+Supersymmetric theories,11.25.Db,0.9344257699013064,Properties of perturbation theory
+Supersymmetric theories,11.25.Mj,0.9116291681435164,Compactification and four-dimensional models
 Symétrie chirale,12.39.Fe,1.5529918458843923,Chiral Lagrangians
 Symétrie chirale,11.30.Rd,1.5404550514590976,Chiral symmetries
 Symétrie chirale,12.38.Gc,1.4792905841508954,Lattice QCD calculations
@@ -689,16 +709,6 @@ Symétrie chirale,21.65.Qr,1.05308969536435,Quark matter
 Symétrie chirale,25.75.Nq,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
 Symétrie chirale,12.39.Ki,0.97723070286199,Relativistic quark model
 Symétrie chirale,12.40.-y,0.957479703873958,Other models for strong interactions
-Systems dynamics and thermodynamics,24.10.Nz,1.2098067217469273,Hydrodynamic models
-Systems dynamics and thermodynamics,03.70.+k,0.9557386443064076,Theory of quantized fields
-Systems dynamics and thermodynamics,03.65.Ta,0.9259621814903718,Foundations of quantum mechanics; measurement theory
-Systems dynamics and thermodynamics,03.65.Ud,0.8986633572668538,Entanglement and quantum nonlocality
-Systems dynamics and thermodynamics,12.38.Mh,0.7528967974993892,Quark-gluon plasma
-Systems dynamics and thermodynamics,11.10.Wx,0.7221909296349746,Finite-temperature field theory
-Systems dynamics and thermodynamics,25.75.-q,0.7214636563170791,Relativistic heavy-ion collisions
-Systems dynamics and thermodynamics,25.75.Nq,0.7037082582611709,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
-Systems dynamics and thermodynamics,25.75.Ld,0.693007672273509,Collective flow
-Systems dynamics and thermodynamics,04.80.Cc,0.6638397982075875,Experimental tests of gravitational theories
 Theoretical jargon,02.30.Ik,0.360761286699655,Integrable systems
 Theoretical jargon,03.65.-w,0.3600149544038245,Quantum mechanics
 Theoretical jargon,03.65.Ta,0.3299208824870314,Foundations of quantum mechanics; measurement theory
@@ -739,13 +749,3 @@ Topology,11.25.Wx,0.9280791762561296,String and brane phenomenology
 Topology,04.20.Gz,0.89415442591659,"Spacetime topology, causal structure, spinor structure"
 Topology,11.10.Nx,0.8465664741882695,Noncommutative field theory
 Topology,11.25.Uv,0.8050337445462022,D branes
-Yang-Mills models of matter,12.60.Nz,1.2331072918068855,Technicolor models
-Yang-Mills models of matter,12.10.Dm,1.0641375784881062,Unified theories and models of strong and electroweak interactions
-Yang-Mills models of matter,12.10.Kt,0.991847437687146,Unification of couplings; mass relations
-Yang-Mills models of matter,12.60.Rc,0.9416865695842408,Composite models
-Yang-Mills models of matter,11.15.Ex,0.8826740422369435,Spontaneous breaking of gauge symmetries
-Yang-Mills models of matter,11.30.Qc,0.8743052294561252,Spontaneous and radiative symmetry breaking
-Yang-Mills models of matter,11.30.Rd,0.8315271367164317,Chiral symmetries
-Yang-Mills models of matter,11.30.Hv,0.781657490660923,Flavor symmetries
-Yang-Mills models of matter,11.15.Ha,0.7498306697752868,Lattice gauge theory
-Yang-Mills models of matter,12.60.Cn,0.7485925881645248,Extensions of electroweak gauge sector

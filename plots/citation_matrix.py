@@ -23,7 +23,7 @@ matplotlib.rcParams.update(
 def is_hep(categories: str):
     return any(["-HEP" in x for x in categories])
 
-articles = pd.read_parquet("inspire-harvest/database/articles.parquet")[["article_id", "categories", "date_created", "abstract", "title"]]
+articles = pd.read_parquet("inspire-harvest/database/articles.parquet")[["article_id", "categories", "date_created"]]
 articles["is_hep"] = articles.categories.map(is_hep)
 
 articles = articles[articles["is_hep"]]
@@ -32,7 +32,7 @@ articles["exp"] = articles.categories.map(lambda l: "Experiment-HEP" in l)
 articles["ph"] = articles.categories.map(lambda l: "Phenomenology-HEP" in l)
 
 articles["year"] = articles["date_created"].str[:4].replace('', 0).astype(int)
-articles = articles[(articles["year"] >= 2011) & (articles["year"] < 2020)]
+articles = articles[(articles["year"] >= 2001) & (articles["year"] < 2020)]
 
 references = pd.read_parquet("inspire-harvest/database/articles_references.parquet")
 references = references.merge(articles[["article_id", "th", "exp", "ph"]], how='inner', left_on="cited", right_on="article_id")

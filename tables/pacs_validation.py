@@ -61,7 +61,7 @@ latex = df1.set_index(["topic", "PACS category"]).to_latex(
     label="table:full_topics_pacs_pmi"
 )
 
-with open("tables/validation.tex", "w+") as fp:
+with open("tables/topic_pacs_validation.tex", "w+") as fp:
     fp.write(latex)
 
 

@@ -1,0 +1,23 @@
+!!python/object:argparse.Namespace
+add_title: true
+adjectives: false
+category_cited: 1
+category_cites: 0
+constant_sampling: 0
+exclude: []
+filter: categories
+include_crosslists: true
+lemmatize: true
+lemmatize_ngrams: true
+limit_redundancy: false
+location: output/trading_zone_crosslists
+nouns: false
+remove_latex: true
+reuse_articles: false
+samples: 10000000
+threads: 16
+top_unithood: 2000
+values:
+- Theory-HEP
+- Phenomenology-HEP
+- Experiment-HEP

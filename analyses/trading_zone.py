@@ -35,6 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('--threads', type=int, default=16)
     parser.add_argument('--category-cited', type=int, help="filter cited category (0=theory,1=phenomenology,2=experiment)")
     parser.add_argument('--category-cites', type=int, help="filter citing category (0=theory,1=phenomenology,2=experiment)")
+    parser.add_argument('--include-crosslists', default=False, action="store_true", help="include crosslists papers")
     args = parser.parse_args()
 
     location = f"{args.location}_{args.category_cited}_{args.category_cites}"
@@ -82,7 +83,7 @@ if __name__ == '__main__':
 
     articles = articles[keep==True]
 
-    citations = articles[[x for x in articles.columns if x != "abstract"]].merge(pd.read_parquet("output/cross_citations.parquet")[["article_id_cited", "article_id_cites", "category_cites", "category_cited", "year_cites", "year_cited"]], how="inner", left_on="article_id",right_on="article_id_cited")
+    citations = articles[[x for x in articles.columns if x != "abstract"]].merge(pd.read_parquet("output/cross_citations{}.parquet".format("_crosslists" if args.include_crosslists else ""))[["article_id_cited", "article_id_cites", "category_cites", "category_cited", "year_cites", "year_cited"]], how="inner", left_on="article_id",right_on="article_id_cited")
     citations = citations[
         (citations["category_cited"] == args.category_cited) & (citations["category_cites"].isin([args.category_cites,args.category_cited]))
     ]

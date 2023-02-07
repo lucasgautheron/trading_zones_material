@@ -29,9 +29,7 @@ authors = authors_references.merge(articles[["article_id"] + list(hep_cats.keys(
 authors = authors.groupby("bai").agg(**{
     cat.replace("-", "_"): (cat, "sum") for cat in hep_cats
 })
-print(authors)
 authors = authors[authors.sum(axis=1)>=3]
-print(authors)
 primary_category = authors.idxmax(axis=1).str.replace("_","-")
 
 primary_category.to_csv("output/authors_primary_category.csv")
@@ -61,16 +59,11 @@ def decision_function(row):
         return most_frequent if not tie else -1
 
     
-print(articles)
 articles["category"] = articles.apply(decision_function, axis=1)
+articles = articles[articles["category"]>=0]
 
 articles["year"] = articles["date_created"].str[:4].replace('', 0).astype(int)
 articles = articles[(articles["year"] >= 1980) & (articles["year"] < 2020)]
-
-print(articles.groupby(["year", "category"]).count())
-
-articles = articles[articles["category"]>=0]
-
 
 references = pd.read_parquet("inspire-harvest/database/articles_references.parquet")
 references = references.merge(articles[["article_id", "category", "year"]], how='inner', left_on="cited", right_on="article_id")

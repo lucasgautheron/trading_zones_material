@@ -22,19 +22,21 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--cited", choices=["0","1","2"], help="Cited category (0: theory, 1: phenomenology, 2: experiment)", required=True)
 parser.add_argument("--cites", choices=["0","1","2"], help="Citing category (0: theory, 1: phenomenology, 2: experiment)", required=True)
+parser.add_argument("--include-crosslists",  default=False, action="store_true")
 args = parser.parse_args()
 
+crosslists = "_crosslists" if args.include_crosslists else ""
 boundary = f"{args.cited}_{args.cites}"
 
-ngrams = pd.read_csv(f"output/trading_zone_{boundary}/selected_ngrams.csv")
+ngrams = pd.read_csv(f"output/trading_zone{crosslists}_{boundary}/selected_ngrams.csv")
 ngrams["keyword"] = ngrams.index+1
 supersymmetry_keywords = ngrams[ngrams["ngram"].str.contains("super")]["keyword"].tolist()
 n_ngrams = len(ngrams)
 
-citations = pd.read_csv(f"output/trading_zone_{boundary}/citations.csv")
+citations = pd.read_csv(f"output/trading_zone{crosslists}_{boundary}/citations.csv")
 p_t = citations.groupby("year_cites")["trades"].sum().values
 
-bow = np.load(f"output/trading_zone_{boundary}/full_bow.npy")
+bow = np.load(f"output/trading_zone{crosslists}_{boundary}/full_bow.npy")
 p_w_t = np.zeros((len(p_t), bow.shape[1]))
 
 for citation in citations.to_dict(orient="records"):
@@ -104,6 +106,6 @@ for i in range(2):
     axes[i].set_yscale("log")
     axes[i].legend(loc=("best" if i < 2 else "lower right"), prop={'size': 6})
 
-plt.savefig(f"plots/trading_zone_{boundary}.pdf", bbox_inches="tight")
-plt.savefig(f"plots/trading_zone_{boundary}.pgf", bbox_inches="tight")
-plt.savefig(f"plots/trading_zone_{boundary}.eps", bbox_inches="tight")
+plt.savefig(f"plots/trading_zone{crosslists}_{boundary}.pdf", bbox_inches="tight")
+plt.savefig(f"plots/trading_zone{crosslists}_{boundary}.pgf", bbox_inches="tight")
+plt.savefig(f"plots/trading_zone{crosslists}_{boundary}.eps", bbox_inches="tight")

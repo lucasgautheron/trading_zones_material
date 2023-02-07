@@ -289,7 +289,7 @@ if __name__ == '__main__':
         
         table.append({
             'Reference category': cats_friendly[cat],
-            'Relation to phenomenology': "Vocabulary distinct from phenomenology",
+            'Relation to phenomenology': "Vocabulary specific to theory",
             'words': ", ".join(bottom)
         })
         
@@ -327,7 +327,7 @@ if __name__ == '__main__':
     
     table.append({
         'Reference category': cats_friendly[cat],
-        'Relation to phenomenology': "Vocabulary distinct from phenomenology",
+        'Relation to phenomenology': "Vocabulary specific to theory",
         'words': ", ".join(bottom)
     })
         

@@ -344,7 +344,7 @@ if __name__ == '__main__':
             index_names=False,
             index=False,
             column_format='p{7cm}|p{7cm}',
-            caption="Vocabulary specific to theory (left column) versus phenomenology (right column). ",
+            caption="Vocabulary specific to phenomenology (left column) versus theory (right column). ",
             label="table:specific_pheno_vocabulary_th_ph"
         )
 

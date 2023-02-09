@@ -6,7 +6,7 @@ filter: categories
 lemmatize: true
 lemmatize_ngrams: true
 limit_redundancy: false
-location: output/bow_paper
+location: output/category_prediction
 min_df: 0
 min_token_length: 0
 nouns: true

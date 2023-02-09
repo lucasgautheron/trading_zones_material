@@ -172,7 +172,7 @@ if __name__ == '__main__':
 
     score_vs_vocab_size = []
 
-    for vocab in np.arange(125, 1000+125, 125):
+    for vocab in [50] + list(np.arange(125, 1000+125, 125)):
         score = 0
         for i in range(3):
             dummies[i] = DummyClassifier(strategy="most_frequent")
@@ -316,8 +316,8 @@ if __name__ == '__main__':
 
     cat = "th"
 
-    top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(30).index.values
-    bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(30).index.values
+    top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(40).index.values
+    bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(40).index.values
         
     table.append({
         'Reference category': cats_friendly[cat],

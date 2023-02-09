@@ -144,11 +144,12 @@ if __name__ == '__main__':
     ngrams = articles["ngrams"].tolist()
     ngrams = [[ngram for ngram in _ngrams if ngram in selected_ngrams] for _ngrams in ngrams]
 
-    ngrams_bow = [[vocabulary[ngram] for ngram in _ngrams] for _ngrams in ngrams]
-    ngrams_bow = [[_ngrams.count(i) for i in range(len(selected_ngrams))] for _ngrams in ngrams_bow]
+    bow = [[vocabulary[ngram] for ngram in _ngrams] for _ngrams in ngrams]
+    bow = [[_ngrams.count(i) for i in range(len(selected_ngrams))] for _ngrams in bow]
+    bow = np.array(bow)
 
     tfidf = TfidfTransformer()
-    bow_tfidf = tfidf.fit_transform(ngrams_bow).todense().tolist()
+    bow_tfidf = tfidf.fit_transform(bow).todense().tolist()
     articles["bow_tfidf"] = bow_tfidf
 
     cat_classifier = MultiLabelBinarizer(sparse_output=False)
@@ -156,7 +157,7 @@ if __name__ == '__main__':
     cats = cat_classifier.fit_transform(articles["categories"]).tolist()
     articles["cats"] = cats
 
-    training, validation = train_test_split(articles, train_size=50000)
+    training, validation = train_test_split(articles, train_size=0.8333333)
 
     from sklearn.linear_model import LogisticRegression
     from sklearn.dummy import DummyClassifier
@@ -238,10 +239,37 @@ if __name__ == '__main__':
             results.append({
                 'term': inv_vocabulary[j],
                 'category': cat_classifier.inverse_transform(np.array([np.identity(3)[i,:]]))[0][0],
-                'coef': fit[i].coef_[0,j]
+                'coef': fit[i].coef_[0,j],
+                'rank': j
             })
 
-    results = pd.DataFrame(results).pivot(index="term",columns="category",values="coef")
+    results = pd.DataFrame(results)
+    results["drop"] = False
+
+    bow = (bow>=1).astype(int)
+    num = np.outer(bow[:3000,:vocab].sum(axis=0),bow[:3000,:vocab].sum(axis=0))/(3000**2)
+    den = np.tensordot(bow[:3000,:vocab], bow[:3000,:vocab], axes=([0],[0]))/3000
+    npmi = np.log(num)/np.log(den)-1
+
+    x, y = np.where(npmi-np.identity(vocab)>=0.95)
+    for k,_ in enumerate(x):
+        i = x[k]
+        j = y[k]
+
+        a = inv_vocabulary[i]
+        b = inv_vocabulary[j]
+
+        if (not (a in b or b in a)):
+            continue
+
+        if i > j:
+            results.loc[results['rank'] == i, 'drop'] = True
+        else:
+            results.loc[results['rank'] == j, 'drop'] = True
+
+    results = results[results["drop"]==False]
+
+    results = results.pivot(index="term",columns="category",values="coef")
     results["ph_minus_th"] = results["Phenomenology-HEP"]-results["Theory-HEP"]
     results["ph_minus_exp"] = results["Phenomenology-HEP"]-results["Experiment-HEP"]
     results.sort_values("ph_minus_th").to_csv(opj(args.location, "results.csv"))

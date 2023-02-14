@@ -11,6 +11,7 @@ The repository is structured as follows:
 | ``plots``           | This folder contains the plots included in the manuscript or supplementary materials as well as the scripts that produce them.  |
 | ``tables``          | This folder contains the tables included in the manuscript or supplementary materials as well as the scripts that produce them. |
 | ``output``          | This folder contains intermediate results used to produce material included in the paper.                                       |
+| ``AbstractSemantics`` | This folder contains a small python package for the multithreaded retrieval of ngrams matching certain patterns from large corpora.                                       |
 
 ## Setup
 

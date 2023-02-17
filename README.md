@@ -1,6 +1,6 @@
 # How research programs come apart: code and data
 
-This repository contains the code and data necessary to reproduce the figures and tables in "How research programs come apart: the case of supersymmetry and the disunity of physics". 
+This repository contains the code and data necessary to reproduce the figures and tables in "How research programs come apart: the case of supersymmetry and the disunity of physics" (the latest version of manuscript source can be found [here](https://github.com/lucasgautheron/supersymmetry_trading_zone_paper))
 
 The repository is structured as follows:
 

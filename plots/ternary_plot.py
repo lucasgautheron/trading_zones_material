@@ -52,9 +52,9 @@ tax.ticks(axis='lbr', linewidth=1, multiple=scale/5, tick_formats="%.1f")
 
 fontsize = 10
 
-tax.right_corner_label("Théorie", fontsize=fontsize)
-tax.top_corner_label("Phénoménologie", fontsize=fontsize)
-tax.left_corner_label("Expérience", fontsize=fontsize)
+tax.right_corner_label("Theroy", fontsize=fontsize)
+tax.top_corner_label("Phenomenology", fontsize=fontsize)
+tax.left_corner_label("Experiment", fontsize=fontsize)
 
 tax.left_axis_label("$\\frac{p_{exp}}{p_{exp}+p_{ph}+p_{th}}$", fontsize=fontsize, offset=0.14)
 tax.right_axis_label("$\\frac{p_{ph}}{p_{exp}+p_{ph}+p_{th}}$", fontsize=fontsize, offset=0.14)

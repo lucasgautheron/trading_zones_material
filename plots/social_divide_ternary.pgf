@@ -11197,19 +11197,19 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=6.028867in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Théorie}%
+\pgftext[x=6.028867in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Theroy}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.449667in,y=4.108013in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phénoménologie}%
+\pgftext[x=3.449667in,y=4.108013in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Phenomenology}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.870467in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Expérience}%
+\pgftext[x=0.870467in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Experiment}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%

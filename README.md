@@ -9,6 +9,7 @@ The repository is structured as follows:
 | ``inspire-harvest`` | Subdataset including the data from which present analyses are derived                                                           |
 | ``analyses``        | This folder contains the scripts which generate intermediate results for the plots and tables.                                  |
 | ``plots``           | This folder contains the plots included in the manuscript or supplementary materials as well as the scripts that produce them.  |
+| ``surveys``          | This folder contains the scripts to generate and compile the manual validation tasks that were performed, as well as the experts' reports.                                       |
 | ``tables``          | This folder contains the tables included in the manuscript or supplementary materials as well as the scripts that produce them. |
 | ``output``          | This folder contains intermediate results used to produce material included in the paper.                                       |
 | ``AbstractSemantics`` | This folder contains a small python package for the multithreaded retrieval of ngrams matching certain patterns from large corpora.                                       |

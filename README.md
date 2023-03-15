@@ -28,7 +28,7 @@ The dataset can be installed by doing:
 datalad install -r git@gin.g-node.org:/lucasgautheron/trading_zones_material.git
 ```
 
-You can then retrieve the data with:
+Data can be retrieved by executing the following command:
 
 ```bash
 cd trading_zones_material
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 This should cover the packages used in the present analyses. If not, please install missing dependencies manually and report them by creating a ticket.
 
-Then, you can run the analyses you want to reproduce or reuse by doing:
+Then, you may run any analysis by executing the corresponding script from the root of the repository:
 
 ```bash
 python analyses/<name_of_the_analysis>.py

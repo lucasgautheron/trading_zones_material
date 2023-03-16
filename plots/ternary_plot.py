@@ -52,7 +52,7 @@ tax.ticks(axis='lbr', linewidth=1, multiple=scale/5, tick_formats="%.1f")
 
 fontsize = 10
 
-tax.right_corner_label("Theroy", fontsize=fontsize)
+tax.right_corner_label("Theory", fontsize=fontsize)
 tax.top_corner_label("Phenomenology", fontsize=fontsize)
 tax.left_corner_label("Experiment", fontsize=fontsize)
 

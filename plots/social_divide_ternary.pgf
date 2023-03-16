@@ -11197,7 +11197,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=6.028867in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Theroy}%
+\pgftext[x=6.028867in,y=0.395050in,,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Theory}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%

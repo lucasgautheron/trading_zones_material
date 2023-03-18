@@ -12,7 +12,7 @@ The repository is structured as follows:
 | ``surveys``          | This folder contains the scripts to generate and compile the manual validation tasks that were performed, as well as the experts' reports.                                       |
 | ``tables``          | This folder contains the tables included in the manuscript or supplementary materials as well as the scripts that produce them. |
 | ``output``          | This folder contains intermediate results used to produce the material included in the paper.                                       |
-| ``AbstractSemantics`` | This folder contains a small python package for the multithreaded retrieval of ngrams matching certain patterns from large corpora.                                       |
+| ``AbstractSemantics`` | This folder contains a basic python package for the multithreaded retrieval of n-grams matching certain patterns from large corpora.                                       |
 
 ## Setup
 

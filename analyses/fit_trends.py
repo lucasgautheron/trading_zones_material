@@ -166,7 +166,7 @@ ax.set_xlim(years.min(), years.max())
 ax.legend(fontsize='x-small', loc="upper right")
 
 fig.suptitle(
-    "Decreasing topics (left) and increasing topics (right) – {}, {}-{}".format(
+    "Declining topics (left) and growing topics (right) – {}, {}-{}".format(
     "high-energy physics" if args.domain == "hep" else "supersymmetry",
     args.since,
     args.until

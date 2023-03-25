@@ -24,7 +24,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{6.122452in}{4.596555in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.996952in}{4.596555in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -36,8 +36,8 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{6.122452in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{6.122452in}{4.596555in}}%
+\pgfpathlineto{\pgfqpoint{5.996952in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{5.996952in}{4.596555in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{4.596555in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
@@ -1429,7 +1429,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.119368in,y=4.496555in,,top]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont Decreasing topics (left) and increasing topics (right) – supersymmetry, 2011-2019}%
+\pgftext[x=3.119368in,y=4.496555in,,top]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont Declining topics (left) and growing topics (right) – supersymmetry, 2011-2019}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

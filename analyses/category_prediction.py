@@ -268,6 +268,7 @@ if __name__ == '__main__':
             results.loc[results['rank'] == j, 'drop'] = True
 
     results = results[results["drop"]==False]
+    results = results[results["term"].str.isalpha()]
 
     results = results.pivot(index="term",columns="category",values="coef")
     results["ph_minus_th"] = results["Phenomenology-HEP"]-results["Theory-HEP"]
@@ -340,41 +341,40 @@ if __name__ == '__main__':
     with open("tables/specific_vocabulary.tex", "w+") as fp:
         fp.write(latex)
 
-    table = []
 
-    cat = "th"
-
-    top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(40).index.values
-    bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(40).index.values
+    for cat in ["th", "exp"]:
+        table = []
+        top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(40).index.values
+        bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(40).index.values
+            
+        table.append({
+            'Reference category': cats_friendly[cat],
+            'Relation to phenomenology': "Vocabulary specific to phenomenology",
+            'words': ", ".join(top)
+        })
         
-    table.append({
-        'Reference category': cats_friendly[cat],
-        'Relation to phenomenology': "Vocabulary specific to phenomenology",
-        'words': ", ".join(top)
-    })
-    
-    table.append({
-        'Reference category': cats_friendly[cat],
-        'Relation to phenomenology': "Vocabulary specific to theory",
-        'words': ", ".join(bottom)
-    })
-        
-    table = pd.DataFrame(table)
-    table = table.pivot(index="Reference category", columns="Relation to phenomenology", values="words")
+        table.append({
+            'Reference category': cats_friendly[cat],
+            'Relation to phenomenology': f"Vocabulary specific to {cats_friendly[cat].lower()}",
+            'words': ", ".join(bottom)
+        })
+            
+        table = pd.DataFrame(table)
+        table = table.pivot(index="Reference category", columns="Relation to phenomenology", values="words")
 
-    with pd.option_context("display.max_colwidth", None):
-        latex = table.to_latex(
-            longtable=True,
-            multirow=True,
-            multicolumn=True,
-            bold_rows=True,
-            header=True,
-            index_names=False,
-            index=False,
-            column_format='p{7cm}|p{7cm}',
-            caption="Vocabulary specific to phenomenology (left column) versus theory (right column). ",
-            label="table:specific_pheno_vocabulary_th_ph"
-        )
+        with pd.option_context("display.max_colwidth", None):
+            latex = table.to_latex(
+                longtable=True,
+                multirow=True,
+                multicolumn=True,
+                bold_rows=True,
+                header=True,
+                index_names=False,
+                index=False,
+                column_format='p{7cm}|p{7cm}',
+                caption=f"Vocabulary specific to phenomenology (left column) versus {cats_friendly[cat].lower()} (right column). ",
+                label=f"table:specific_pheno_vocabulary_{cat}_ph"
+            )
 
-    with open("tables/specific_vocabulary_th_ph.tex", "w+") as fp:
-        fp.write(latex)
+        with open(f"tables/specific_vocabulary_{cat}_ph.tex", "w+") as fp:
+            fp.write(latex)

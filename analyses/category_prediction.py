@@ -268,7 +268,7 @@ if __name__ == '__main__':
             results.loc[results['rank'] == j, 'drop'] = True
 
     results = results[results["drop"]==False]
-    results = results[results["term"].str.isalpha()]
+    results = results[results["term"].str.match("^[a-zA-Z--- ]*$")]
 
     results = results.pivot(index="term",columns="category",values="coef")
     results["ph_minus_th"] = results["Phenomenology-HEP"]-results["Theory-HEP"]

@@ -362,6 +362,11 @@ if __name__ == '__main__':
         table = pd.DataFrame(table)
         table = table.pivot(index="Reference category", columns="Relation to phenomenology", values="words")
 
+        if cat == "th":
+            caption = f"Vocabulary specific to phenomenology (left column) versus {cats_friendly[cat].lower()} (right column)."
+        else:
+            caption = f"Vocabulary specific to {cats_friendly[cat].lower()} (left column) versus phenomenology (right column)."
+
         with pd.option_context("display.max_colwidth", None):
             latex = table.to_latex(
                 longtable=True,
@@ -372,7 +377,7 @@ if __name__ == '__main__':
                 index_names=False,
                 index=False,
                 column_format='p{7cm}|p{7cm}',
-                caption=f"Vocabulary specific to phenomenology (left column) versus {cats_friendly[cat].lower()} (right column). ",
+                caption=caption,
                 label=f"table:specific_pheno_vocabulary_{cat}_ph"
             )
 

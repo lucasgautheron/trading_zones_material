@@ -70,7 +70,7 @@ angle = np.arctan(reg.coef_[0]/reg.coef_[1])-np.pi/2
 m = np.array([[np.cos(angle), np.sin(angle)], [-np.sin(angle),np.cos(angle)]])
 points=points@m
 
-fig, axes = plt.subplots(nrows=2,ncols=1,sharex=True,gridspec_kw={"height_ratios": [5, 1]},figsize=[6.4,5])
+fig, axes = plt.subplots(nrows=2,ncols=1,sharex=True,gridspec_kw={"height_ratios": [5, 1]})
 
 for i, cat in enumerate(cats):
     axes[0].scatter(
@@ -104,6 +104,8 @@ for i in range(2):
     axes[i].set_xticklabels([])
     axes[i].set_yticklabels([])
 
-fig.legend()
-plt.savefig(f"plots/topics_tsne.eps", bboxes_inches="tight")
-plt.savefig(f"plots/topics_tsne.png", bboxes_inches="tight")
+axes[1].set_ylabel("")
+
+axes[0].legend()
+fig.savefig(f"plots/topics_tsne.eps", bbox_inches="tight")
+fig.savefig(f"plots/topics_tsne.png", bbox_inches="tight")

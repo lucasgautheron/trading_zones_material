@@ -36,11 +36,10 @@ topics["categories"] = topics["categories"].map(
 X = np.stack(topics["topics"].values)
 Y = np.stack(topics["categories"].values).astype(int)
 
-cat_topic_mean = np.zeros((Y.shape[1], X.shape[1]))
-for i in range(3):
-    cat_topic_mean[i] = X[Y[:,i]==1,:].mean(axis=0)
-
-topic_main_category = cat_topic_mean.argmax(axis=0).astype(int)
+num = np.outer(X.sum(axis=0),Y.sum(axis=0))/(X.shape[0]**2)
+den = np.tensordot(X, Y, axes=([0],[0]))/X.shape[0]
+npmi = np.log(num)/np.log(den)-1
+topic_main_category = npmi.argmax(axis=1).astype(int)
 
 usages = pd.read_csv('output/supersymmetry_usages.csv')
 usages = usages.groupby("term").agg(topic=("topic", lambda x: x.tolist()))
@@ -60,6 +59,7 @@ correlations = mdl.get_correlations()
 colors=['#377eb8', '#ff7f00', '#4daf4a']
 cats=["Theory", "Phenomenology", "Experiment"]
 
+# perplexity = 40 better identifies the different lumps
 tsne = TSNE(n_components=2, metric="precomputed", random_state=714, perplexity=40)
 points = tsne.fit_transform(1-correlations)
 
@@ -104,8 +104,13 @@ for i in range(2):
     axes[i].set_xticklabels([])
     axes[i].set_yticklabels([])
 
-axes[1].set_ylabel("")
+axes[0].set_ylabel("y-axis")
+
+axes[1].set_xlabel("x-axis")
+axes[1].set_ylabel("Density")
 
 axes[0].legend()
+
+
 fig.savefig(f"plots/topics_tsne.eps", bbox_inches="tight")
 fig.savefig(f"plots/topics_tsne.png", bbox_inches="tight")

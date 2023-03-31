@@ -13,8 +13,8 @@ nouns: true
 remove_latex: true
 reuse_articles: false
 reuse_stored_vocabulary: false
-samples: 60000
-threads: 4
+samples: 110000
+threads: 16
 top_unithood: 1000
 values:
 - Experiment-HEP

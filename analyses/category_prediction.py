@@ -43,7 +43,7 @@ if __name__ == '__main__':
     parser.add_argument('--min-df', type=int, default=0, help='min_df')
     parser.add_argument('--reuse-stored-vocabulary', default=False, action='store_true')
     parser.add_argument('--threads', type=int, default=4)
-    args = parser.parse_args(["output/category_prediction", "categories", "--values", "Experiment-HEP", "Phenomenology-HEP", "Theory-HEP", "--samples", "60000", "--nouns", "--lemmatize", "--lemmatize-ngrams", "--remove-latex", "--add-title", "--top-unithood", "1000", "--threads", "4"])
+    args = parser.parse_args(["output/category_prediction", "categories", "--values", "Experiment-HEP", "Phenomenology-HEP", "Theory-HEP", "--samples", "110000", "--nouns", "--lemmatize", "--lemmatize-ngrams", "--remove-latex", "--add-title", "--top-unithood", "1000", "--threads", "16"])
 
     with open(opj(args.location, "params.yml"), "w+") as fp:
         yaml.dump(args, fp)
@@ -157,7 +157,7 @@ if __name__ == '__main__':
     cats = cat_classifier.fit_transform(articles["categories"]).tolist()
     articles["cats"] = cats
 
-    training, validation = train_test_split(articles, train_size=0.8333333)
+    training, validation = train_test_split(articles, train_size=100000/110000)
 
     from sklearn.linear_model import LogisticRegression
     from sklearn.dummy import DummyClassifier
@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
     score_vs_vocab_size = []
 
-    for vocab in [50] + list(np.arange(125, 1000+125, 125)):
+    for vocab in [50] + list(np.arange(125, 1000, 125)):
         score = 0
         for i in range(3):
             dummies[i] = DummyClassifier(strategy="most_frequent")
@@ -287,19 +287,6 @@ if __name__ == '__main__':
             "pgf.rcfonts": False,
         }
     )
-    colors = ['#377eb8', '#ff7f00', '#4daf4a']
-
-    for i in range(3):
-        plt.plot(score_vs_vocab_size["vocab"], score_vs_vocab_size[f"acc_{i}"], color=colors[i], label=["Expérience", "Phénoménologie", "Théorie"][i])
-        plt.plot(score_vs_vocab_size["vocab"], [dummies_scores[i]]*len(score_vs_vocab_size["vocab"]), color=colors[i], ls="--")
-
-    plt.xlim(0,500)
-    plt.title("Prédiction des catégories d'un article à partir de son résumé")
-    plt.xlabel("Taille du vocabulaire ($V$)")
-    plt.ylabel("Précision")
-    plt.legend()
-    plt.savefig("plots/categories_bow_prediction.png")
-    plt.savefig("plots/categories_bow_prediction.eps")
 
     cats = {"exp": "Experiment-HEP", "th": "Theory-HEP"}
     cats_friendly = {"th": "Theory", "exp": "Experiment"}
@@ -344,8 +331,8 @@ if __name__ == '__main__':
 
     for cat in ["th", "exp"]:
         table = []
-        top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(40).index.values
-        bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(40).index.values
+        top = results[results["Phenomenology-HEP"]>0].sort_values(f"ph_minus_{cat}", ascending=False).head(45).index.values
+        bottom = results[results[cats[cat]]>0].sort_values(f"ph_minus_{cat}", ascending=True).head(45).index.values
             
         table.append({
             'Reference category': cats_friendly[cat],

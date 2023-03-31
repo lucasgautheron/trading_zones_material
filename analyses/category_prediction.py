@@ -298,8 +298,8 @@ if __name__ == '__main__':
     plt.xlabel("Taille du vocabulaire ($V$)")
     plt.ylabel("Précision")
     plt.legend()
-    plt.savefig("plots/categories_bow_prediction.pdf")
-    plt.savefig("plots/categories_bow_prediction.pgf")
+    plt.savefig("plots/categories_bow_prediction.png")
+    plt.savefig("plots/categories_bow_prediction.eps")
 
     cats = {"exp": "Experiment-HEP", "th": "Theory-HEP"}
     cats_friendly = {"th": "Theory", "exp": "Experiment"}
@@ -362,10 +362,7 @@ if __name__ == '__main__':
         table = pd.DataFrame(table)
         table = table.pivot(index="Reference category", columns="Relation to phenomenology", values="words")
 
-        if cat == "th":
-            caption = f"Vocabulary specific to phenomenology (left column) versus {cats_friendly[cat].lower()} (right column)."
-        else:
-            caption = f"Vocabulary specific to {cats_friendly[cat].lower()} (left column) versus phenomenology (right column)."
+        caption = f"Vocabulary specific to phenomenology (left column) versus {cats_friendly[cat].lower()} (right column)."
 
         with pd.option_context("display.max_colwidth", None):
             latex = table.to_latex(
@@ -378,7 +375,8 @@ if __name__ == '__main__':
                 index=False,
                 column_format='p{7cm}|p{7cm}',
                 caption=caption,
-                label=f"table:specific_pheno_vocabulary_{cat}_ph"
+                label=f"table:specific_pheno_vocabulary_{cat}_ph",
+                columns = ["Vocabulary specific to phenomenology", f"Vocabulary specific to {cats_friendly[cat].lower()}"]
             )
 
         with open(f"tables/specific_vocabulary_{cat}_ph.tex", "w+") as fp:

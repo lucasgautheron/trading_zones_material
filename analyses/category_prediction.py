@@ -248,7 +248,7 @@ if __name__ == '__main__':
         dummy_predictions = dummies[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
 
         validation[f"accurate_{i}"] = predictions==y_hat
-        validation[f"dummy_accurate_{i}"] = predictions==y_hat
+        validation[f"dummy_accurate_{i}"] = dummy_predictions==y_hat
         validation[f"truth_{i}"] = y_hat
 
     validation["year_group"] = validation["year"]//5

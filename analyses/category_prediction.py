@@ -249,11 +249,11 @@ if __name__ == '__main__':
         np.save(opj(args.location, f"predictions_{i}.npy"), predictions)
         np.save(opj(args.location, f"truth_{i}.npy"), y_hat)
 
-        training[f"accurate_{i}"] = predictions==y_hat
-        training[f"truth_{i}"] = y_hat
+        validation[f"accurate_{i}"] = predictions==y_hat
+        validation[f"truth_{i}"] = y_hat
 
-    training["year_group"] = training["year"]//5
-    training.groupby("year_group").agg(
+    validation["year_group"] = training["year"]//5
+    validation.groupby("year_group").agg(
         accurate_0=("accurate_0", "mean"),
         accurate_1=("accurate_1", "mean"),
         accurate_2=("accurate_2", "mean"),

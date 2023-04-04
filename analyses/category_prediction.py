@@ -243,6 +243,26 @@ if __name__ == '__main__':
                 'rank': j
             })
 
+        years = validation["year"].values.astype(int)
+        predictions = fit[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
+        np.save(opj(args.location, f"years_{i}.npy"), years)
+        np.save(opj(args.location, f"predictions_{i}.npy"), predictions)
+        np.save(opj(args.location, f"truth_{i}.npy"), y_hat)
+
+        training[f"accurate_{i}"] = predictions==y_hat
+        training[f"truth_{i}"] = y_hat
+
+    training["year_group"] = training["year"]//5
+    training.groupby("year_group").agg(
+        accurate_0=("accurate_0", "mean"),
+        accurate_1=("accurate_1", "mean"),
+        accurate_2=("accurate_2", "mean"),
+        truth_0=("truth_0", "sum"),
+        truth_1=("truth_1", "sum"),
+        truth_2=("truth_2", "sum"),
+    ).to_csv(opj(args.location, "accuracy_per_period.csv"))
+
+
     results = pd.DataFrame(results)
     results["drop"] = False
 

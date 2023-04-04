@@ -245,21 +245,26 @@ if __name__ == '__main__':
 
         years = validation["year"].values.astype(int)
         predictions = fit[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
-        np.save(opj(args.location, f"years_{i}.npy"), years)
-        np.save(opj(args.location, f"predictions_{i}.npy"), predictions)
-        np.save(opj(args.location, f"truth_{i}.npy"), y_hat)
+        dummy_predictions = dummies[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
 
         validation[f"accurate_{i}"] = predictions==y_hat
+        validation[f"dummy_accurate_{i}"] = predictions==y_hat
         validation[f"truth_{i}"] = y_hat
 
-    validation["year_group"] = training["year"]//5
+    validation["year_group"] = validation["year"]//5
     validation.groupby("year_group").agg(
         accurate_0=("accurate_0", "mean"),
         accurate_1=("accurate_1", "mean"),
         accurate_2=("accurate_2", "mean"),
+        dummy_accurate_0=("dummy_accurate_0", "mean"),
+        dummy_accurate_1=("dummy_accurate_1", "mean"),
+        dummy_accurate_2=("dummy_accurate_2", "mean"),
         truth_0=("truth_0", "sum"),
         truth_1=("truth_1", "sum"),
         truth_2=("truth_2", "sum"),
+        count_0=("truth_0", "count"),
+        count_1=("truth_1", "count"),
+        count_2=("truth_2", "count"),
     ).to_csv(opj(args.location, "accuracy_per_period.csv"))
 
 

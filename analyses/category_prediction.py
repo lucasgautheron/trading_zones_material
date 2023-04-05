@@ -64,6 +64,7 @@ if __name__ == '__main__':
     articles = articles[articles["date_created"].str.len() >= 4]
     articles["year"] = articles["date_created"].str[:4].astype(int)-1980
     articles = articles[(articles["year"] >= 0) & (articles["year"] <= 40)]
+    articles["year_group"] = articles["year"]//5
 
     if args.reuse_articles:
         used = pd.read_csv(opj(args.location, 'articles.csv'))
@@ -243,15 +244,13 @@ if __name__ == '__main__':
                 'rank': j
             })
 
-        years = validation["year"].values.astype(int)
         predictions = fit[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
         dummy_predictions = dummies[i].predict(np.stack(validation["bow_tfidf"].values)[:,0:vocab])
 
         validation[f"accurate_{i}"] = predictions==y_hat
-        validation[f"dummy_accurate_{i}"] = predictions==y_hat
+        validation[f"dummy_accurate_{i}"] = dummy_predictions==y_hat
         validation[f"truth_{i}"] = y_hat
 
-    validation["year_group"] = validation["year"]//5
     validation.groupby("year_group").agg(
         accurate_0=("accurate_0", "mean"),
         accurate_1=("accurate_1", "mean"),
@@ -267,6 +266,45 @@ if __name__ == '__main__':
         count_2=("truth_2", "count"),
     ).to_csv(opj(args.location, "accuracy_per_period.csv"))
 
+    kfold = []
+
+    
+    for year_group, test in articles.groupby("year_group"):
+        train = articles[articles["year_group"] != year_group]
+        accurate = np.zeros(3)
+        dummy_accurate = np.zeros(3)
+        truth = np.zeros(3)
+        count = np.zeros(3)
+
+        for i in range(3):
+            kfold_fit = LogisticRegression(random_state=0,max_iter=200).fit(np.stack(train["bow_tfidf"].values)[:,0:vocab], np.stack(train["cats"].values).astype(int)[:,i])
+            y_hat = np.stack(test["cats"].values).astype(int)[:,i]
+
+            predictions = kfold_fit.predict(np.stack(test["bow_tfidf"].values)[:,0:vocab])
+            dummy_predictions = dummies[i].predict(np.stack(test["bow_tfidf"].values)[:,0:vocab])
+
+            accurate[i] = (predictions==y_hat).mean()
+            dummy_accurate[i] = (dummy_predictions==y_hat).mean()
+            truth[i] = y_hat.mean()
+            count[i] = len(test)
+
+        kfold.append({
+            "year_group": year_group,
+            "accurate_0": accurate[0],
+            "accurate_1": accurate[1],
+            "accurate_2": accurate[2],
+            "dummy_accurate_0": dummy_accurate[0],
+            "dummy_accurate_1": dummy_accurate[1],
+            "dummy_accurate_2": dummy_accurate[2],
+            "truth_0": truth[0],
+            "truth_1": truth[1],
+            "truth_2": truth[2],
+            "count_0": count[0],
+            "count_1": count[1],
+            "count_2": count[2],
+        })
+
+    pd.DataFrame(kfold).to_csv(opj(args.location, "accuracy_per_period_kfold.csv"))
 
     results = pd.DataFrame(results)
     results["drop"] = False

@@ -19,7 +19,7 @@ matplotlib.rcParams.update(
 cats = ["Experiment", "Phenomenology", "Theory"]
 colors = ['#4daf4a', '#ff7f00', '#377eb8']
 
-accuracy = pd.read_csv("output/category_prediction/accuracy_per_period.csv").sort_values("year_group")
+accuracy = pd.read_csv("output/category_prediction/accuracy_per_period_kfold.csv").sort_values("year_group")
 accuracy = accuracy[accuracy["year_group"]<8]
 
 fig, ax = plt.subplots(1,1)
@@ -30,7 +30,7 @@ for i in range(3):
         ci[0].append(low/row[f"count_{i}"])
         ci[1].append(high/row[f"count_{i}"])
 
-    ax.scatter(accuracy["year_group"], accuracy[f"accurate_{i}"], color=colors[i], label=cats[i])
+    ax.scatter(accuracy["year_group"], accuracy[f"accurate_{i}"], color=colors[i], label=cats[i], s=15)
     ax.errorbar(accuracy["year_group"], accuracy[f"accurate_{i}"], yerr=(ci[0]-accuracy[f"accurate_{i}"], accuracy[f"accurate_{i}"]-ci[1]), color=colors[i], ls="none")
 
     ax.plot(accuracy["year_group"], accuracy[f"dummy_accurate_{i}"], color=colors[i], ls="dashed")

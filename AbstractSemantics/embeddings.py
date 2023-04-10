@@ -15,7 +15,7 @@ class Embeddings(ABC):
         self.tokens = tokens
 
     @abstractmethod
-    def train(self):
+    def model(self):
         pass
 
     @abstractmethod
@@ -27,12 +27,12 @@ class GensimWord2Vec(Embeddings):
     def __init__(self, tokens, **kwargs):
         super().__init__(tokens)
 
-    def train(
+    def model(
         self,
         vector_size: int = 128,
         window: int = 20,
         min_count: int = 10,
-        threads: int = 4,
+        workers: int = 4,
         **kwargs
     ):
         from gensim.models import word2vec
@@ -42,18 +42,19 @@ class GensimWord2Vec(Embeddings):
             vector_size=vector_size,
             window=window,
             min_count=min_count,
-            workers=threads,
+            workers=workers,
             **kwargs
         )
         return model
 
     def recover(self, model):
-        tokens = self.get_tokens(threads=threads)
-        tokens = set(itertools.chain.from_iterable(tokens))
+        return model
+        # tokens = self.get_tokens(threads=threads)
+        # tokens = set(itertools.chain.from_iterable(tokens))
 
-        embeddings = []
+        # embeddings = []
 
-        for text in tokens:
-            embeddings.append([model.wv[token] for token in text if token in model.wv])
+        # for text in tokens:
+        #     embeddings.append([model.wv[token] for token in text if token in model.wv])
 
-        return embeddings
+        # return embeddings

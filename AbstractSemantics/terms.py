@@ -28,12 +28,20 @@ class TermExtractor:
     def add_patterns(self, patterns: List[str]):
         self.patterns += patterns
 
-    def tokens(self, split_sentences: bool = False, threads: int = 0) -> Union[List[List[str]],List[List[List[str]]]]:
+    def tokens(self, lemmatize: bool = False, split_sentences: bool = False, threads: int = 0) -> Union[List[List[str]],List[List[List[str]]]]:
         if threads == 1:
-            return list(map(self.tokens_from_text, self.abstracts))
+            tokns = list(map(self.tokens_from_text, self.abstracts))
         else:
             pool = mp.Pool(processes=mp.cpu_count() if threads <= 0 else threads)
-            return pool.map(partial(self.tokens_from_text, split_sentences), self.abstracts)
+            tokns = pool.map(partial(self.tokens_from_text, split_sentences), self.abstracts)
+
+        if lemmatize:
+            lemmatizer = nltk.stem.WordNetLemmatizer()
+
+            for i, doc in enumerate(tokns):
+                tokns[i] = [list(map(lemmatizer.lemmatize, sentence)) for sentence in doc]
+
+        return tokns
 
     def tokens_from_text(self, split_sentences: bool, text: str) -> Union[List[str], List[List[str]]]:
         stop_words = nltk.corpus.stopwords.words("english")

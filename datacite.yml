@@ -35,7 +35,8 @@ keywords:
 # License information for this resource. Please provide the license name and/or a link to the license.
 # Please add also a corresponding LICENSE file to the repository.
 license:
-  name: "MIT License (software only)"
+  name: "MIT License"
+  url: "https://opensource.org/license/mit/"
 
 
 

@@ -17,6 +17,8 @@ plt.rcParams["text.latex.preamble"].join([
         r"\setmainfont{amssymb}",
 ])
 
+from scipy.sparse import csr_matrix
+
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -50,11 +52,11 @@ ngrams["drop"] = False
 n_items = bow.shape[0]
 n_words = bow.shape[1]
 
-num = np.outer(bow[:2000].sum(axis=0),bow[:2000].sum(axis=0))/(2000**2)
-den = np.tensordot(bow[:2000,:], bow[:2000,:], axes=([0],[0]))/2000
+num = np.outer(bow.sum(axis=0)/n_items,bow.sum(axis=0)/n_items)
+den = (csr_matrix(bow.T).dot(csr_matrix(bow))/n_items).todense()
 npmi = np.log(num)/np.log(den)-1
 
-x, y = np.where(npmi-np.identity(n_words)>0.9)
+x, y = np.where(npmi-np.identity(n_words)>0.5)
 for k,_ in enumerate(x):
     i = x[k]
     j = y[k]
@@ -102,7 +104,7 @@ for i, ngram in ngrams[ngrams["ngram"].str.contains("super")].tail(5).to_dict(or
 
 for i in range(2):
     axes[i].set_xlim(2001,2019)
-    axes[i].set_ylim(0.003,0.3)
+    # axes[i].set_ylim(0.003)
     axes[i].set_yscale("log")
     axes[i].legend(loc=("best" if i < 2 else "lower right"), prop={'size': 6})
 

@@ -22,9 +22,7 @@ title: "Code and data for `How research programs come apart: the example of supe
 
 # Additional information about the resource, e.g., a brief abstract.
 description: |
-  Example description
-  that can contain linebreaks
-  but has to maintain indentation.
+  This repository contains the code and data necessary to reproduce the figures and tables in "How research programs come apart: the case of supersymmetry and the disunity of physics"
 
 # Lit of keywords the resource should be associated with.
 # Give as many keywords as possible, to make the resource findable.
@@ -37,8 +35,7 @@ keywords:
 # License information for this resource. Please provide the license name and/or a link to the license.
 # Please add also a corresponding LICENSE file to the repository.
 license:
-  name: "Creative Commons CC0 1.0 Public Domain Dedication"
-  url: "https://creativecommons.org/publicdomain/zero/1.0/"
+  name: "MIT License (software only)"
 
 
 

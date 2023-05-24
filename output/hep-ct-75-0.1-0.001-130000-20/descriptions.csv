@@ -30,7 +30,7 @@ topic,description,description_fr
 28,Lepton/Meson decay,Désintégrations fortes et faibles
 29,High-energy source fluxes,Flux de sources à haute-énergie
 30,CP violating processes,Processus de violation CP
-31,Amplitude of processes in colliders,Amplitude d'événements dans des collisionneurs
+31,Amplitude of scattering processes,Amplitude d'événements dans des collisionneurs
 32,Early-universe and other cosmological data,Univers primordial et observations cosmologiques
 33,Dark matter (particles and direct searches),Matière noire (particules et recherche directe)
 34,Higgs boson,Boson de Higgs
@@ -56,7 +56,7 @@ topic,description,description_fr
 54,Measurements and analysis of colliders data,Données issues des collisionneurs
 55,Thermodynamics,Thermodynamique
 56,Double-beta decay,Double désintégration bêta
-57,Symétrie chirale,Symétrie chirale
+57,Chiral symmetry,Symétrie chirale
 58,Gauge symmetry breaking/GUTs,Brisure de symétrie et Grande Unification
 59,Cross-sections in colliders,Sections efficaces dans des collisionneurs
 60,Sigma models (?), Sigma models (?)

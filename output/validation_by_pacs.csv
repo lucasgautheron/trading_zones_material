@@ -8,7 +8,7 @@ pacs,topic,value,description
 11.55.Bq,Supersymmetric theories,0.7525734481834567,Analytic properties of S matrix
 11.55.Bq,Meson phenomenology,0.7038050114880617,Analytic properties of S matrix
 11.55.Bq,Gauge Theory,0.7013248216215823,Analytic properties of S matrix
-11.55.Bq,Amplitude of processes in colliders,0.6716201541691098,Analytic properties of S matrix
+11.55.Bq,Amplitude of scattering processes,0.6716201541691098,Analytic properties of S matrix
 12.15.Ji,Lepton/Meson decay,0.9529543789089804,Applications of electroweak models to specific processes
 12.15.Ji,Experimental investigation of the leptonic sector,0.9207928581582164,Applications of electroweak models to specific processes
 12.15.Ji,Events in colliders (kinematics?),0.8937429036758754,Applications of electroweak models to specific processes
@@ -35,13 +35,13 @@ pacs,topic,value,description
 13.60.Rj,Annihilation and scattering cross-sections,0.9876299465447044,Baryon production
 13.60.Rj,Form factors,0.98035075875802,Baryon production
 14.20.Gk,Meson phenomenology,1.2196145483201393,Baryon resonances (S=C=B=0)
-14.20.Gk,Amplitude of processes in colliders,1.1259202263870016,Baryon resonances (S=C=B=0)
+14.20.Gk,Amplitude of scattering processes,1.1259202263870016,Baryon resonances (S=C=B=0)
 14.20.Gk,Form factors,1.0657408117111282,Baryon resonances (S=C=B=0)
 14.20.Gk,Annihilation and scattering cross-sections,0.9433058128598248,Baryon resonances (S=C=B=0)
 14.20.Gk,Hadronic zoo,0.8813367175853973,Baryon resonances (S=C=B=0)
 14.20.-c,Double-beta decay,1.2026478244041812,Baryons
 14.20.-c,Meson phenomenology,0.9791558098017726,Baryons
-14.20.-c,Symétrie chirale,0.8151283303094815,Baryons
+14.20.-c,Chiral symmetry,0.8151283303094815,Baryons
 14.20.-c,Form factors,0.7195581346870493,Baryons
 14.20.-c,Heavy quarks and ions,0.7142083970237293,Baryons
 97.60.Lf,Black holes,2.63604060073028,Black holes
@@ -65,9 +65,9 @@ pacs,topic,value,description
 14.65.Fy,Events in colliders (signatures?),0.8450679308861532,Bottom quarks
 14.65.Fy,Decay measurements,0.7949219322808351,Bottom quarks
 11.10.St,Meson phenomenology,1.1673791016158417,Bound and unstable states; Bethe-Salpeter equations
-11.10.St,Symétrie chirale,0.5864792531722512,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,Chiral symmetry,0.5864792531722512,Bound and unstable states; Bethe-Salpeter equations
 11.10.St,Form factors,0.5586385772321565,Bound and unstable states; Bethe-Salpeter equations
-11.10.St,Amplitude of processes in colliders,0.5409018174871003,Bound and unstable states; Bethe-Salpeter equations
+11.10.St,Amplitude of scattering processes,0.5409018174871003,Bound and unstable states; Bethe-Salpeter equations
 11.10.St,QCD calculation techniques,0.5255121664605458,Bound and unstable states; Bethe-Salpeter equations
 04.20.Fy,Quantum Systems and Equations of motion,1.230066311385018,"Canonical formalism, Lagrangians, and variational principles"
 04.20.Fy,Gauge Theory,1.098178429450226,"Canonical formalism, Lagrangians, and variational principles"
@@ -94,12 +94,12 @@ pacs,topic,value,description
 14.40.Lb,Lepton/Meson decay,1.4241755446544764,"Charmed mesons (|C|>0, B=0)"
 14.40.Lb,Meson phenomenology,1.1196759942698695,"Charmed mesons (|C|>0, B=0)"
 14.40.Lb,Heavy quarks and ions,0.7058276431987778,"Charmed mesons (|C|>0, B=0)"
-12.39.Fe,Symétrie chirale,1.5529918458843923,Chiral Lagrangians
+12.39.Fe,Chiral symmetry,1.5529918458843923,Chiral Lagrangians
 12.39.Fe,Meson phenomenology,0.939793840090171,Chiral Lagrangians
 12.39.Fe,Form factors,0.5768452456944594,Chiral Lagrangians
-12.39.Fe,Amplitude of processes in colliders,0.4726252910699208,Chiral Lagrangians
+12.39.Fe,Amplitude of scattering processes,0.4726252910699208,Chiral Lagrangians
 12.39.Fe,Matter in Yang-Mills theories,0.422567086428154,Chiral Lagrangians
-11.30.Rd,Symétrie chirale,1.5404550514590976,Chiral symmetries
+11.30.Rd,Chiral symmetry,1.5404550514590976,Chiral symmetries
 11.30.Rd,Thermodynamics,1.0039101204542538,Chiral symmetries
 11.30.Rd,Matter in Yang-Mills theories,0.8315271367164317,Chiral symmetries
 11.30.Rd,States of matter,0.6562761317409582,Chiral symmetries
@@ -211,7 +211,7 @@ pacs,topic,value,description
 12.15.Hh,Flavor mixing,1.095352197759044,Determination of Cabibbo-Kobayashi & Maskawa (CKM) matrix elements
 11.55.Fv,Form factors,1.1710892684252827,Dispersion relations
 11.55.Fv,Amplitudes and Feynman Diagram,1.0362844322835558,Dispersion relations
-11.55.Fv,Amplitude of processes in colliders,0.9161402771764012,Dispersion relations
+11.55.Fv,Amplitude of scattering processes,0.9161402771764012,Dispersion relations
 11.55.Fv,Meson phenomenology,0.817625997288751,Dispersion relations
 11.55.Fv,Scattering of composite particles,0.6937527105283028,Dispersion relations
 04.40.Nr,Black holes,2.076114538104277,"Einstein-Maxwell spacetimes, spacetimes with fluids, radiation or classical fields"
@@ -231,7 +231,7 @@ pacs,topic,value,description
 13.40.Em,Quantum Chromodynamics (QCD),0.5960630250391195,Electric and magnetic moments
 13.40.Ks,Loops and higher order expansions in Feynman Diagrams,1.3190006854290006,Electromagnetic corrections to strong- and weak-interaction processes
 13.40.Ks,Annihilation and scattering cross-sections,0.9006508562543406,Electromagnetic corrections to strong- and weak-interaction processes
-13.40.Ks,Amplitude of processes in colliders,0.7876175151509526,Electromagnetic corrections to strong- and weak-interaction processes
+13.40.Ks,Amplitude of scattering processes,0.7876175151509526,Electromagnetic corrections to strong- and weak-interaction processes
 13.40.Ks,Lepton/Meson decay,0.6725505763263755,Electromagnetic corrections to strong- and weak-interaction processes
 13.40.Ks,Experimental investigation of the leptonic sector,0.6262607901799986,Electromagnetic corrections to strong- and weak-interaction processes
 13.40.Hq,Hadronic zoo,1.3625250517558898,Electromagnetic decays
@@ -243,7 +243,7 @@ pacs,topic,value,description
 13.40.Gp,Scattering of composite particles,1.036705981269573,Electromagnetic form factors
 13.40.Gp,Spin/angular momentum/polarization,0.84260542264919,Electromagnetic form factors
 13.40.Gp,Annihilation and scattering cross-sections,0.7589397985684223,Electromagnetic form factors
-13.40.Gp,Amplitude of processes in colliders,0.6197803097555615,Electromagnetic form factors
+13.40.Gp,Amplitude of scattering processes,0.6197803097555615,Electromagnetic form factors
 13.40.-f,Spin/angular momentum/polarization,1.102336581548203,Electromagnetic processes and properties
 13.40.-f,Experiments on light,1.089496053487541,Electromagnetic processes and properties
 13.40.-f,Annihilation and scattering cross-sections,1.0337723541629324,Electromagnetic processes and properties
@@ -277,11 +277,11 @@ pacs,topic,value,description
 14.40.Rt,Hadronic zoo,1.7065114908249517,Exotic mesons
 14.40.Rt,Decay measurements,1.6141859427591574,Exotic mesons
 14.40.Rt,Meson phenomenology,1.2401053620526414,Exotic mesons
-14.40.Rt,Amplitude of processes in colliders,0.8332804839149119,Exotic mesons
+14.40.Rt,Amplitude of scattering processes,0.8332804839149119,Exotic mesons
 14.40.Rt,Heavy quarks and ions,0.7239478943013072,Exotic mesons
 11.15.Pg,Supersymmetric theories,0.8167920357454668,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
 11.15.Pg,Amplitudes and Feynman Diagram,0.7104778537800036,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
-11.15.Pg,Symétrie chirale,0.6985613249976581,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
+11.15.Pg,Chiral symmetry,0.6985613249976581,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
 11.15.Pg,QCD calculation techniques,0.6715694288915341,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
 11.15.Pg,Lattice calculation techniques,0.6496816035370329,"Expansions for large numbers of components (e.g., 1/Nc expansions)"
 12.38.Qk,Events in colliders (kinematics?),1.3142711650153427,Experimental tests
@@ -326,7 +326,7 @@ pacs,topic,value,description
 11.10.-z,Amplitudes and Feynman Diagram,0.6377523769066937,Field theory
 11.10.Wx,Thermodynamics,1.5690355283007866,Finite-temperature field theory
 11.10.Wx,States of matter,1.082991698562677,Finite-temperature field theory
-11.10.Wx,Symétrie chirale,0.898357658847597,Finite-temperature field theory
+11.10.Wx,Chiral symmetry,0.898357658847597,Finite-temperature field theory
 11.10.Wx,QCD calculation techniques,0.8601762412857648,Finite-temperature field theory
 11.10.Wx,Quantum systems and thermodynamics,0.7221909296349746,Finite-temperature field theory
 11.30.Hv,Flavor mixing,1.2971041100334864,Flavor symmetries
@@ -359,7 +359,7 @@ pacs,topic,value,description
 11.25.Tq,Supersymmetric theories,0.9918655417427168,Gauge/string duality
 11.25.Tq,Space-time geometry and gravity,0.8571566756686112,Gauge/string duality
 11.25.Tq,Black holes,0.807435540854748,Gauge/string duality
-12.38.Aw,Symétrie chirale,1.0784265781356042,"General properties of QCD (dynamics, confinement, etc.)"
+12.38.Aw,Chiral symmetry,1.0784265781356042,"General properties of QCD (dynamics, confinement, etc.)"
 12.38.Aw,QCD calculation techniques,0.944257800025453,"General properties of QCD (dynamics, confinement, etc.)"
 12.38.Aw,Thermodynamics,0.8788701559933952,"General properties of QCD (dynamics, confinement, etc.)"
 12.38.Aw,Lattice calculation techniques,0.6731014270560628,"General properties of QCD (dynamics, confinement, etc.)"
@@ -387,7 +387,7 @@ pacs,topic,value,description
 14.70.Dj,QCD calculation techniques,1.2893030329585178,Gluons
 14.70.Dj,Partons distributions,0.9627925170933508,Gluons
 14.70.Dj,Renormalization,0.7342261999284617,Gluons
-14.70.Dj,Symétrie chirale,0.5730931172503535,Gluons
+14.70.Dj,Chiral symmetry,0.5730931172503535,Gluons
 14.70.Dj,Scattering of composite particles,0.5706626953966304,Gluons
 04.50.+h,Black holes,1.4758243970680731,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
 04.50.+h,Gravitons and extra-dimensions,1.3890802062648295,"Gravity in more than four dimensions, Kaluza-Klein theory, unified field theories; alternative theories of gravity"
@@ -397,7 +397,7 @@ pacs,topic,value,description
 12.40.Yx,Meson phenomenology,1.4802154334487851,Hadron mass models and calculations
 12.40.Yx,Hadronic zoo,1.103190764491878,Hadron mass models and calculations
 12.40.Yx,Double-beta decay,0.9697350984683036,Hadron mass models and calculations
-12.40.Yx,Symétrie chirale,0.8340166846622628,Hadron mass models and calculations
+12.40.Yx,Chiral symmetry,0.8340166846622628,Hadron mass models and calculations
 12.40.Yx,Decay measurements,0.7475177525659658,Hadron mass models and calculations
 13.66.Bc,Hadronic zoo,1.4280194056369124,Hadron production in e−e+ interactions
 13.66.Bc,Annihilation and scattering cross-sections,1.234890256397206,Hadron production in e−e+ interactions
@@ -413,7 +413,7 @@ pacs,topic,value,description
 13.30.Eg,Lepton/Meson decay,1.2143442146300754,Hadronic decays
 13.30.Eg,Hadronic zoo,1.111216512752511,Hadronic decays
 13.30.Eg,Meson phenomenology,1.0363968678421676,Hadronic decays
-13.30.Eg,Amplitude of processes in colliders,0.896342686866093,Hadronic decays
+13.30.Eg,Amplitude of scattering processes,0.896342686866093,Hadronic decays
 12.39.Hg,Quantum Chromodynamics (QCD),1.1580079909598904,Heavy quark effective theory
 12.39.Hg,Lepton/Meson decay,1.0520695779287466,Heavy quark effective theory
 12.39.Hg,Heavy quarks and ions,0.9794114624550284,Heavy quark effective theory
@@ -441,8 +441,8 @@ pacs,topic,value,description
 24.10.Nz,Quantum Chromodynamics (QCD),0.8897917970785537,Hydrodynamic models
 14.20.Jn,Form factors,1.1809168298292076,Hyperons
 14.20.Jn,Spin/angular momentum/polarization,1.0668392360564858,Hyperons
-14.20.Jn,Amplitude of processes in colliders,0.8514241539678676,Hyperons
-14.20.Jn,Symétrie chirale,0.820171401352408,Hyperons
+14.20.Jn,Amplitude of scattering processes,0.8514241539678676,Hyperons
+14.20.Jn,Chiral symmetry,0.820171401352408,Hyperons
 14.20.Jn,Hadronic zoo,0.8182492891018627,Hyperons
 13.85.Ni,Cross-sections in colliders,1.4273480104113687,Inclusive production with identified hadrons
 13.85.Ni,Spin/angular momentum/polarization,1.3534676343096566,Inclusive production with identified hadrons
@@ -474,13 +474,13 @@ pacs,topic,value,description
 11.10.Ef,Non-abelian theories,0.8803072862786192,Lagrangian and Hamiltonian approach
 11.10.Ef,Lie algebra,0.8284228563077666,Lagrangian and Hamiltonian approach
 11.10.Ef,Quantum Field Theory,0.8178053887253738,Lagrangian and Hamiltonian approach
-12.38.Gc,Symétrie chirale,1.4792905841508954,Lattice QCD calculations
+12.38.Gc,Chiral symmetry,1.4792905841508954,Lattice QCD calculations
 12.38.Gc,Lattice calculation techniques,1.378639403726741,Lattice QCD calculations
 12.38.Gc,Algorithms and calculation techniques,1.118304519670649,Lattice QCD calculations
 12.38.Gc,QCD calculation techniques,0.8017341060134007,Lattice QCD calculations
 12.38.Gc,Thermodynamics,0.5986598741257425,Lattice QCD calculations
 11.15.Ha,Lattice calculation techniques,1.356280814909157,Lattice gauge theory
-11.15.Ha,Symétrie chirale,1.2061797628780435,Lattice gauge theory
+11.15.Ha,Chiral symmetry,1.2061797628780435,Lattice gauge theory
 11.15.Ha,Algorithms and calculation techniques,1.1654029534081836,Lattice gauge theory
 11.15.Ha,QCD calculation techniques,0.8928780977336734,Lattice gauge theory
 11.15.Ha,Matter in Yang-Mills theories,0.7498306697752868,Lattice gauge theory
@@ -503,8 +503,8 @@ pacs,topic,value,description
 14.40.Be,Hadronic zoo,1.2104542147865875,Light mesons (S=C=B=0)
 14.40.Be,Decay measurements,1.1564083619716707,Light mesons (S=C=B=0)
 14.40.Be,Form factors,1.0889028629263195,Light mesons (S=C=B=0)
-14.40.Be,Amplitude of processes in colliders,0.7676911895964748,Light mesons (S=C=B=0)
-14.65.Bt,Symétrie chirale,1.2970496805133198,Light quarks
+14.40.Be,Amplitude of scattering processes,0.7676911895964748,Light mesons (S=C=B=0)
+14.65.Bt,Chiral symmetry,1.2970496805133198,Light quarks
 14.65.Bt,Scattering of composite particles,0.9651987023572528,Light quarks
 14.65.Bt,Heavy quarks and ions,0.8886902482057878,Light quarks
 14.65.Bt,Form factors,0.8223138777513418,Light quarks
@@ -552,10 +552,10 @@ pacs,topic,value,description
 13.75.Lb,Meson phenomenology,1.4451579992314243,Meson-meson interactions
 13.75.Lb,Hadronic zoo,1.2857777483014,Meson-meson interactions
 13.75.Lb,Decay measurements,1.1301347632174652,Meson-meson interactions
-13.75.Lb,Amplitude of processes in colliders,1.0345747752312782,Meson-meson interactions
-13.75.Lb,Symétrie chirale,0.8490091537609031,Meson-meson interactions
+13.75.Lb,Amplitude of scattering processes,1.0345747752312782,Meson-meson interactions
+13.75.Lb,Chiral symmetry,0.8490091537609031,Meson-meson interactions
 14.40.-n,Meson phenomenology,1.4056340079755096,Mesons
-14.40.-n,Symétrie chirale,0.8080586000545199,Mesons
+14.40.-n,Chiral symmetry,0.8080586000545199,Mesons
 14.40.-n,Hadronic zoo,0.7876926116477044,Mesons
 14.40.-n,Form factors,0.6601822432161677,Mesons
 14.40.-n,Quantum Chromodynamics (QCD),0.6391038034504319,Mesons
@@ -647,10 +647,10 @@ pacs,topic,value,description
 12.39.Jh,Meson phenomenology,1.2263895155831208,Nonrelativistic quark model
 12.39.Jh,Hadronic zoo,1.130681188678616,Nonrelativistic quark model
 12.39.Jh,Heavy quarks and ions,0.8925062844128803,Nonrelativistic quark model
-12.39.Jh,Symétrie chirale,0.7343708052674512,Nonrelativistic quark model
+12.39.Jh,Chiral symmetry,0.7343708052674512,Nonrelativistic quark model
 12.39.Jh,Top quark,0.7221781415427199,Nonrelativistic quark model
 13.75.Cs,Annihilation and scattering cross-sections,1.0173905466077429,Nucleon-nucleon interactions
-13.75.Cs,Amplitude of processes in colliders,0.9293418366560476,Nucleon-nucleon interactions
+13.75.Cs,Amplitude of scattering processes,0.9293418366560476,Nucleon-nucleon interactions
 13.75.Cs,Cross-sections in colliders,0.8993876537772507,Nucleon-nucleon interactions
 13.75.Cs,Spin/angular momentum/polarization,0.8783244995835814,Nucleon-nucleon interactions
 13.75.Cs,Scattering of composite particles,0.8258037431786911,Nucleon-nucleon interactions
@@ -683,9 +683,9 @@ pacs,topic,value,description
 14.40.Cs,Decay measurements,1.206612641837741,"Other mesons with S=C=0, mass < 2.5 GeV"
 14.40.Cs,Hadronic zoo,1.033062118060542,"Other mesons with S=C=0, mass < 2.5 GeV"
 14.40.Cs,Lepton/Meson decay,0.9845918701949422,"Other mesons with S=C=0, mass < 2.5 GeV"
-14.40.Cs,Amplitude of processes in colliders,0.8329765402009638,"Other mesons with S=C=0, mass < 2.5 GeV"
+14.40.Cs,Amplitude of scattering processes,0.8329765402009638,"Other mesons with S=C=0, mass < 2.5 GeV"
 12.40.-y,Thermodynamics,1.1099521136351185,Other models for strong interactions
-12.40.-y,Symétrie chirale,0.957479703873958,Other models for strong interactions
+12.40.-y,Chiral symmetry,0.957479703873958,Other models for strong interactions
 12.40.-y,Form factors,0.8783748251646115,Other models for strong interactions
 12.40.-y,Meson phenomenology,0.8163993277927416,Other models for strong interactions
 12.40.-y,Heavy quarks and ions,0.5175475545529372,Other models for strong interactions
@@ -695,7 +695,7 @@ pacs,topic,value,description
 14.80.Ec,Events in colliders (signatures?),0.9132999551700722,Other neutral Higgs bosons
 14.80.Ec,Experimental investigation of the leptonic sector,0.7622017123181908,Other neutral Higgs bosons
 12.38.Lg,Quantum Chromodynamics (QCD),1.418083513100272,Other nonperturbative calculations
-12.38.Lg,Symétrie chirale,0.8773628483134446,Other nonperturbative calculations
+12.38.Lg,Chiral symmetry,0.8773628483134446,Other nonperturbative calculations
 12.38.Lg,QCD calculation techniques,0.765055100471188,Other nonperturbative calculations
 12.38.Lg,Form factors,0.6785740490496532,Other nonperturbative calculations
 12.38.Lg,Meson phenomenology,0.6772763917187135,Other nonperturbative calculations
@@ -730,7 +730,7 @@ pacs,topic,value,description
 12.38.Bx,Cross-sections in colliders,0.8406645248025212,Perturbative calculations
 12.38.Bx,Scattering of composite particles,0.7149385906074884,Perturbative calculations
 12.39.-x,Meson phenomenology,0.986634394135354,Phenomenological quark models
-12.39.-x,Symétrie chirale,0.911218343716118,Phenomenological quark models
+12.39.-x,Chiral symmetry,0.911218343716118,Phenomenological quark models
 12.39.-x,Thermodynamics,0.6869968298951636,Phenomenological quark models
 12.39.-x,Quantum Chromodynamics (QCD),0.653886825747965,Phenomenological quark models
 12.39.-x,Hadronic zoo,0.6289715679481924,Phenomenological quark models
@@ -755,8 +755,8 @@ pacs,topic,value,description
 04.70.-s,Holographic Principle and dualities,0.8087842069256418,Physics of black holes
 04.70.-s,Gravitons and extra-dimensions,0.7375480466162582,Physics of black holes
 13.75.Gx,Meson phenomenology,1.3087937543600126,Pion-baryon interactions
-13.75.Gx,Amplitude of processes in colliders,1.1008743457188075,Pion-baryon interactions
-13.75.Gx,Symétrie chirale,0.9028250707857672,Pion-baryon interactions
+13.75.Gx,Amplitude of scattering processes,1.1008743457188075,Pion-baryon interactions
+13.75.Gx,Chiral symmetry,0.9028250707857672,Pion-baryon interactions
 13.75.Gx,Annihilation and scattering cross-sections,0.8803951749491254,Pion-baryon interactions
 13.75.Gx,Analyses and measurements from colliders,0.7869838318163477,Pion-baryon interactions
 13.88.+e,Spin/angular momentum/polarization,1.804701694772293,Polarization in interactions and scattering
@@ -768,7 +768,7 @@ pacs,topic,value,description
 12.39.Pn,Hadronic zoo,1.1095234941014869,Potential models
 12.39.Pn,Decay measurements,0.7642147649576964,Potential models
 12.39.Pn,Heavy quarks and ions,0.7526055573162266,Potential models
-12.39.Pn,Symétrie chirale,0.7139797026437672,Potential models
+12.39.Pn,Chiral symmetry,0.7139797026437672,Potential models
 13.87.Ce,Events in colliders (kinematics?),1.6028962567430245,Production
 13.87.Ce,Partons distributions,1.456028761262327,Production
 13.87.Ce,Events in colliders (signatures?),1.4452751772372756,Production
@@ -782,7 +782,7 @@ pacs,topic,value,description
 14.20.Dh,Form factors,1.332816284825329,Protons and neutrons
 14.20.Dh,Scattering of composite particles,1.2931873327417067,Protons and neutrons
 14.20.Dh,Spin/angular momentum/polarization,1.1479001169138532,Protons and neutrons
-14.20.Dh,Symétrie chirale,0.7232165984427764,Protons and neutrons
+14.20.Dh,Chiral symmetry,0.7232165984427764,Protons and neutrons
 14.20.Dh,Heavy quarks and ions,0.6889599352956953,Protons and neutrons
 04.70.Dy,Black holes,2.587449472897095,"Quantum aspects of black holes, evaporation, thermodynamics"
 04.70.Dy,Space-time geometry and gravity,1.1128240318901974,"Quantum aspects of black holes, evaporation, thermodynamics"
@@ -828,17 +828,17 @@ pacs,topic,value,description
 25.75.Nq,States of matter,1.087643925372108,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
 25.75.Nq,Heavy quarks and ions,1.070170410839339,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
 25.75.Nq,Astrophysics,1.0563765448541482,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
-25.75.Nq,Symétrie chirale,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+25.75.Nq,Chiral symmetry,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
 21.65.Qr,Thermodynamics,1.6143996016903095,Quark matter
 21.65.Qr,Astrophysics,1.1781253927565838,Quark matter
-21.65.Qr,Symétrie chirale,1.05308969536435,Quark matter
+21.65.Qr,Chiral symmetry,1.05308969536435,Quark matter
 21.65.Qr,States of matter,0.8422326067743195,Quark matter
 21.65.Qr,Electromagnetism,0.7310477012902373,Quark matter
 12.38.Mh,Thermodynamics,1.3541977233522569,Quark-gluon plasma
 12.38.Mh,Electromagnetism,1.1026903227697782,Quark-gluon plasma
 12.38.Mh,Heavy quarks and ions,0.9780218219816528,Quark-gluon plasma
 12.38.Mh,Astrophysics,0.9427298281909036,Quark-gluon plasma
-12.38.Mh,Symétrie chirale,0.7861303155069107,Quark-gluon plasma
+12.38.Mh,Chiral symmetry,0.7861303155069107,Quark-gluon plasma
 24.85.+p,Heavy quarks and ions,1.1242421159461229,"Quarks, gluons, and QCD in nuclear reactions"
 24.85.+p,Cross-sections in colliders,1.1166693360141176,"Quarks, gluons, and QCD in nuclear reactions"
 24.85.+p,Astrophysics,0.998655661046091,"Quarks, gluons, and QCD in nuclear reactions"
@@ -856,7 +856,7 @@ pacs,topic,value,description
 25.75.-q,Events in colliders (kinematics?),0.8651297868047478,Relativistic heavy-ion collisions
 12.39.Ki,Form factors,1.3434172052094957,Relativistic quark model
 12.39.Ki,Meson phenomenology,1.0940759736318044,Relativistic quark model
-12.39.Ki,Symétrie chirale,0.97723070286199,Relativistic quark model
+12.39.Ki,Chiral symmetry,0.97723070286199,Relativistic quark model
 12.39.Ki,Heavy quarks and ions,0.9097989437380656,Relativistic quark model
 12.39.Ki,Top quark,0.5693510131445393,Relativistic quark model
 03.65.Pm,Electromagnetism,1.1117339784873452,Relativistic wave equations
@@ -897,7 +897,7 @@ pacs,topic,value,description
 11.30.Qc,Gauge symmetry breaking/GUTs,0.9569828161947812,Spontaneous and radiative symmetry breaking
 11.30.Qc,Matter in Yang-Mills theories,0.8743052294561252,Spontaneous and radiative symmetry breaking
 11.30.Qc,Thermodynamics,0.7776025156646534,Spontaneous and radiative symmetry breaking
-11.30.Qc,Symétrie chirale,0.6902539426128061,Spontaneous and radiative symmetry breaking
+11.30.Qc,Chiral symmetry,0.6902539426128061,Spontaneous and radiative symmetry breaking
 11.30.Qc,States of matter,0.5344372781552661,Spontaneous and radiative symmetry breaking
 11.15.Ex,Gauge symmetry breaking/GUTs,1.152353352150704,Spontaneous breaking of gauge symmetries
 11.15.Ex,Matter in Yang-Mills theories,0.8826740422369435,Spontaneous breaking of gauge symmetries
@@ -923,7 +923,7 @@ pacs,topic,value,description
 11.55.Hx,Form factors,1.175552240191172,Sum rules
 11.55.Hx,Meson phenomenology,0.8704631302044182,Sum rules
 11.55.Hx,Hadronic zoo,0.8633356373720705,Sum rules
-11.55.Hx,Symétrie chirale,0.6625943996479818,Sum rules
+11.55.Hx,Chiral symmetry,0.6625943996479818,Sum rules
 12.38.Cy,Partons distributions,1.6210422913310412,Summation of perturbation theory
 12.38.Cy,Perturbative QCD,1.0955927339642595,Summation of perturbation theory
 12.38.Cy,Loops and higher order expansions in Feynman Diagrams,0.9993843300541873,Summation of perturbation theory
@@ -1012,5 +1012,5 @@ pacs,topic,value,description
 14.40.Aq,Form factors,1.090826937379271,"pi, K, and eta mesons"
 14.40.Aq,Decay measurements,0.9705928986149236,"pi, K, and eta mesons"
 14.40.Aq,Meson phenomenology,0.9615806552308434,"pi, K, and eta mesons"
-14.40.Aq,Symétrie chirale,0.841476211325386,"pi, K, and eta mesons"
+14.40.Aq,Chiral symmetry,0.841476211325386,"pi, K, and eta mesons"
 14.40.Aq,Lepton/Meson decay,0.7229854061674152,"pi, K, and eta mesons"

@@ -9,16 +9,16 @@ Algorithms and calculation techniques,13.87.-a,0.5660655828391733,Jets in large-
 Algorithms and calculation techniques,13.87.Fh,0.5198446684002312,Fragmentation into hadrons
 Algorithms and calculation techniques,14.65.Bt,0.4588834329343335,Light quarks
 Algorithms and calculation techniques,14.70.Dj,0.4273785835219072,Gluons
-Amplitude of processes in colliders,14.20.Gk,1.1259202263870016,Baryon resonances (S=C=B=0)
-Amplitude of processes in colliders,13.75.Gx,1.1008743457188075,Pion-baryon interactions
-Amplitude of processes in colliders,13.75.Lb,1.0345747752312782,Meson-meson interactions
-Amplitude of processes in colliders,13.75.Cs,0.9293418366560476,Nucleon-nucleon interactions
-Amplitude of processes in colliders,11.55.Fv,0.9161402771764012,Dispersion relations
-Amplitude of processes in colliders,13.30.Eg,0.896342686866093,Hadronic decays
-Amplitude of processes in colliders,13.25.Jx,0.8763377112991282,Decays of other mesons
-Amplitude of processes in colliders,13.60.Le,0.8719727483105988,Meson production
-Amplitude of processes in colliders,14.20.Jn,0.8514241539678676,Hyperons
-Amplitude of processes in colliders,14.40.Rt,0.8332804839149119,Exotic mesons
+Amplitude of scattering processes,14.20.Gk,1.1259202263870016,Baryon resonances (S=C=B=0)
+Amplitude of scattering processes,13.75.Gx,1.1008743457188075,Pion-baryon interactions
+Amplitude of scattering processes,13.75.Lb,1.0345747752312782,Meson-meson interactions
+Amplitude of scattering processes,13.75.Cs,0.9293418366560476,Nucleon-nucleon interactions
+Amplitude of scattering processes,11.55.Fv,0.9161402771764012,Dispersion relations
+Amplitude of scattering processes,13.30.Eg,0.896342686866093,Hadronic decays
+Amplitude of scattering processes,13.25.Jx,0.8763377112991282,Decays of other mesons
+Amplitude of scattering processes,13.60.Le,0.8719727483105988,Meson production
+Amplitude of scattering processes,14.20.Jn,0.8514241539678676,Hyperons
+Amplitude of scattering processes,14.40.Rt,0.8332804839149119,Exotic mesons
 Amplitudes and Feynman Diagram,11.55.Bq,1.6610247217783891,Analytic properties of S matrix
 Amplitudes and Feynman Diagram,11.25.Db,1.5678040441425294,Properties of perturbation theory
 Amplitudes and Feynman Diagram,11.15.Bt,1.393594206827405,General properties of perturbation theory
@@ -89,6 +89,16 @@ CP violating processes,11.30.Hv,1.042812565277523,Flavor symmetries
 CP violating processes,13.25.Ft,1.0025766721981102,Decays of charmed mesons
 CP violating processes,14.60.Lm,0.9921551375415708,Ordinary neutrinos
 CP violating processes,12.15.Mm,0.9212810332081468,Neutral currents
+Chiral symmetry,12.39.Fe,1.5529918458843923,Chiral Lagrangians
+Chiral symmetry,11.30.Rd,1.5404550514590976,Chiral symmetries
+Chiral symmetry,12.38.Gc,1.4792905841508954,Lattice QCD calculations
+Chiral symmetry,14.65.Bt,1.2970496805133198,Light quarks
+Chiral symmetry,11.15.Ha,1.2061797628780435,Lattice gauge theory
+Chiral symmetry,12.38.Aw,1.0784265781356042,"General properties of QCD (dynamics, confinement, etc.)"
+Chiral symmetry,21.65.Qr,1.05308969536435,Quark matter
+Chiral symmetry,25.75.Nq,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
+Chiral symmetry,12.39.Ki,0.97723070286199,Relativistic quark model
+Chiral symmetry,12.40.-y,0.957479703873958,Other models for strong interactions
 Conformal Field Theory,11.25.Hf,1.7185425416934934,"Conformal field theory, algebraic structures"
 Conformal Field Theory,03.65.Fd,1.3351438707339582,Algebraic methods
 Conformal Field Theory,11.25.Sq,1.1944055637364908,Nonperturbative techniques; string field theory
@@ -699,16 +709,6 @@ Supersymmetric theories,11.25.Tq,0.9918655417427168,Gauge/string duality
 Supersymmetric theories,11.25.-w,0.9700910043283067,Strings and branes
 Supersymmetric theories,11.25.Db,0.9344257699013064,Properties of perturbation theory
 Supersymmetric theories,11.25.Mj,0.9116291681435164,Compactification and four-dimensional models
-Symétrie chirale,12.39.Fe,1.5529918458843923,Chiral Lagrangians
-Symétrie chirale,11.30.Rd,1.5404550514590976,Chiral symmetries
-Symétrie chirale,12.38.Gc,1.4792905841508954,Lattice QCD calculations
-Symétrie chirale,14.65.Bt,1.2970496805133198,Light quarks
-Symétrie chirale,11.15.Ha,1.2061797628780435,Lattice gauge theory
-Symétrie chirale,12.38.Aw,1.0784265781356042,"General properties of QCD (dynamics, confinement, etc.)"
-Symétrie chirale,21.65.Qr,1.05308969536435,Quark matter
-Symétrie chirale,25.75.Nq,0.9823152180597674,"Quark deconfinement, quark-gluon plasma production, and phase transitions"
-Symétrie chirale,12.39.Ki,0.97723070286199,Relativistic quark model
-Symétrie chirale,12.40.-y,0.957479703873958,Other models for strong interactions
 Theoretical jargon,02.30.Ik,0.360761286699655,Integrable systems
 Theoretical jargon,03.65.-w,0.3600149544038245,Quantum mechanics
 Theoretical jargon,03.65.Ta,0.3299208824870314,Foundations of quantum mechanics; measurement theory

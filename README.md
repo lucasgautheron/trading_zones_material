@@ -25,7 +25,7 @@ Once DataLad is installed on your system, we recommend creating an account on th
 The dataset can be installed by doing:
 
 ```bash
-datalad install -r git@gin.g-node.org:/lucasgautheron/trading_zones_material.git
+datalad install -r git@github.com:lucasgautheron/trading_zones_material.git
 ```
 
 Data can be retrieved by executing the following command:
